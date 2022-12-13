@@ -1,17 +1,100 @@
 import React, {Component} from 'react'
-import {View, Text, StyleSheet,TouchableOpacity, StatusBar, Button} from 'react-native'
+import {View, Text, StyleSheet,TouchableOpacity, StatusBar, Image} from 'react-native'
+import { NavigationContainer } from '@react-navigation/native';
+import { createNativeStackNavigator } from '@react-navigation/native-stack';
+import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 
+import profileIcon from '../../assets/Icon/Profile.png'
+import ChangeInfo from './ChangInfo'
 StatusBar.setHidden(true)
+
 export default class Account extends Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            isLogin: true,
+        };
+    }
+
+    ChangeInfo() {
+        const {navigation} = this.props;
+        navigation.navigate('ChangeInfo');
+    }
+
+
     render()
-    {
-        return (
-            <View style={{ flex: 1, backgroundColor: '#222348' }}>
-                <Text>Account</Text>
-                <Button title="Goto Storage" onPress={() => { this.props.navigation.navigate('Storage') }} />
-                 <Button title="Goto HomeScreen" onPress={() => { this.props.navigation.navigate('Home') }} />
-            </View>
+    {   const {container, profileStyle, btnStyle, btnText, btnStyle1} = styles
+        const logoutJSX = (
+          <View>
+            <TouchableOpacity style={btnStyle}>
+              <Text style={btnText}>Sign in</Text>
+            </TouchableOpacity>
+          </View>
+        );
+        const loginJSX = (
+        <View style={{ flex: 1, justifyContent:'space-between', alignItems:'center' }}>
+        <Text style={{color: '#FFF', fontFamily:'Avenir', fontSize: 20, paddingTop: 20}}>Lê Văn Khoa</Text>
+        <View>
+        <TouchableOpacity style={btnStyle1} onPress={this.ChangeInfo.bind(this)}>
+            <Text style={btnText}>Change Info</Text>
+        </TouchableOpacity>
+
+        <TouchableOpacity style={btnStyle1}>
+            <Text style={btnText}>Sign Out</Text>
+        </TouchableOpacity>
+        </View>
+
+        <View/>
+    </View>
         )
+        const mainJSX = this.state.isLogin ? loginJSX : logoutJSX;
+        return (
+          <View style={container}>
+            <Image source={profileIcon} style={profileStyle}></Image>
+           {mainJSX}
+          </View>
+        );
     }
 }
+
+const styles = StyleSheet.create({
+    container: { 
+        flex: 1, 
+        backgroundColor: '#222348',
+        alignItems: 'center',
+     },
+
+    profileStyle: {
+        width: 150,
+        height: 150,
+    },
+
+    btnStyle: {
+        backgroundColor: '#fff',
+        width: 100,
+        height: 50,
+        marginTop: 20,
+        borderRadius: 10,
+        justifyContent: 'center',
+        alignItems: 'center',
+    },
+
+    btnStyle1: {
+        backgroundColor: '#fff',
+        height: 60,
+        marginTop: 10,
+        borderRadius: 10,
+        paddingHorizontal: 100,
+        justifyContent: 'center',
+        alignItems: 'center',
+    },
+
+    btnText: {
+        color: '#222348',
+        fontFamily: 'Avenir',
+        fontSize: 20,
+    },
+
+})
+
 
