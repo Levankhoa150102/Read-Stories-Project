@@ -2,7 +2,7 @@ import React, {Component} from 'react'
 import {View, Text, StyleSheet,TouchableOpacity, StatusBar,Image, Dimensions} from 'react-native'
 import Swiper from 'react-native-swiper'
 
-import img1 from '../../assets/Image_Story/7.jpg'
+import img1 from '../../assets/Image_Story/7.jpg' 
 import img2 from '../../assets/Image_Story/6.jpg'
 import img3 from '../../assets/Image_Story/5.jpg'
 import img4 from '../../assets/Image_Story/2.jpg'

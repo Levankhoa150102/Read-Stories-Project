@@ -9,15 +9,13 @@ export default class HomeScreen extends Component {
     render()
     {
         return (
-            <ScrollView style={{ flex: 1, backgroundColor: '#222348' }}>
+          <ScrollView style={{ flex: 1, backgroundColor: "#222348" }}>
             <NewStory />
             <TopStory />
 
             <Recommend />
-            
-            </ScrollView>
-            
-        )
+          </ScrollView>
+        );
     }
 }
 
