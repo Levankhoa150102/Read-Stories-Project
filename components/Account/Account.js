@@ -18,9 +18,8 @@ export default class Account extends Component {
 
     ChangeInfo() {
         const {navigation} = this.props;
-        navigation.push('ChangeInfo');
+        navigation.navigate('ChangeInfo');
     }
-
 
     render()
     {   const {container, profileStyle, btnStyle, btnText, btnStyle1} = styles
@@ -31,6 +30,7 @@ export default class Account extends Component {
             </TouchableOpacity>
           </View>
         );
+        
         const loginJSX = (
         <View style={{ flex: 1, justifyContent:'space-between', alignItems:'center' }}>
         <Text style={{color: '#FFF', fontFamily:'Avenir', fontSize: 20, paddingTop: 20}}>Lê Văn Khoa</Text>

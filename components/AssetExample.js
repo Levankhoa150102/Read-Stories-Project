@@ -9,6 +9,7 @@ import HomeScreen from './HomeScreen/HomeScreen'
 import Storage from './Storage/Storage'
 import Account from './Account/Account'
 import Header from './HEADERR'
+import ChangeInfo from './Account/ChangInfo'
 
 
 StatusBar.setHidden(true)
@@ -84,9 +85,14 @@ export default class AssetExample extends Component {
           </Tab.Screen>
           <Tab.Screen name="Account">
             {() => (
-              <HomeStack.Navigator>
+              <HomeStack.Navigator initialRouteName={'Account'}>
                 <HomeStack.Screen name="Account"
                   component={Account}
+                  options={{ headerShown: false }}
+                />
+
+              <HomeStack.Screen name="ChangeInfo"
+                  component={ChangeInfo}
                   options={{ headerShown: false }}
                 />
               </HomeStack.Navigator>

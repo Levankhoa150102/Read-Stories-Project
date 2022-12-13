@@ -7,8 +7,7 @@ export default class ChangeInfo extends Component {
     {
         return (
           <View style={{flex: 1, backgroundColor: "#222348" }}>
-            <Text>Change Info</Text>
-            <Button title="Goto Account" onPress={() => { this.props.navigation.navigate('Account') }} />
+            
           </View>
 
         )
