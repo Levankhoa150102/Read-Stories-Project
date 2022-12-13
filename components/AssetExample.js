@@ -20,7 +20,7 @@ export default class AssetExample extends Component {
   render() {
     return (
       <View style ={{flex:1}}>
-      <Header />
+
       <NavigationContainer>
         <Tab.Navigator
           initialRouteName={'Home'}
@@ -92,6 +92,8 @@ export default class AssetExample extends Component {
               </HomeStack.Navigator>
             )}
           </Tab.Screen>
+
+        
         </Tab.Navigator>
       </NavigationContainer>
       </View>

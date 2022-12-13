@@ -12,13 +12,13 @@ export default class Account extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            isLogin: true,
+            isLogin: true
         };
     }
 
     ChangeInfo() {
         const {navigation} = this.props;
-        navigation.navigate('ChangeInfo');
+        navigation.push('ChangeInfo');
     }
 
 
@@ -65,6 +65,7 @@ const styles = StyleSheet.create({
      },
 
     profileStyle: {
+        marginTop: 100,
         width: 150,
         height: 150,
     },
@@ -73,7 +74,7 @@ const styles = StyleSheet.create({
         backgroundColor: '#fff',
         width: 100,
         height: 50,
-        marginTop: 20,
+        marginTop: 30,
         borderRadius: 10,
         justifyContent: 'center',
         alignItems: 'center',

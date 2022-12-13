@@ -4,12 +4,15 @@ import {View, ScrollView, Text, StyleSheet,TouchableOpacity, StatusBar, Button} 
 import Recommend from './Recommend'
 import NewStory from './NewStory'
 import TopStory from './TopStory'
+import Header from '../HEADERR'
 StatusBar.setHidden(true)
 export default class HomeScreen extends Component {
     render()
     {
         return (
+          
           <ScrollView style={{ flex: 1, backgroundColor: "#222348" }}>
+            <Header />
             <NewStory />
             <TopStory />
 
