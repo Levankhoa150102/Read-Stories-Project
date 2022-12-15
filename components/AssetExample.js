@@ -10,8 +10,9 @@ import Storage from './Storage/Storage'
 import Account from './Account/Account'
 import Header from './HEADERR'
 import ChangeInfo from './Account/ChangInfo'
-
-
+import SignIn from './Account/SignIn'
+import Header_Account from './Account/Header_Account';
+import Search from './Search';
 StatusBar.setHidden(true)
 const Tab = createBottomTabNavigator();
 const SettingsStack = createNativeStackNavigator();
@@ -80,17 +81,26 @@ export default class AssetExample extends Component {
                   component={HomeScreen}
                   options={{ headerShown: false }}
                 />
+
               </SettingsStack.Navigator>
             )}
           </Tab.Screen>
           <Tab.Screen name="Account">
             {() => (
-              <HomeStack.Navigator initialRouteName={'Account'}>
+              <HomeStack.Navigator>
                 <HomeStack.Screen name="Account"
                   component={Account}
                   options={{ headerShown: false }}
                 />
-
+              
+              <HomeStack.Screen name="SignIn"
+                  component={SignIn}
+                  options={{ headerShown: false }}
+                />
+                <HomeStack.Screen name="Header_Account"
+                  component={Header_Account}
+                  options={{ headerShown: false }}
+                />
               <HomeStack.Screen name="ChangeInfo"
                   component={ChangeInfo}
                   options={{ headerShown: false }}

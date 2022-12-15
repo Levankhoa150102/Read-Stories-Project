@@ -6,13 +6,14 @@ import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 
 import profileIcon from '../../assets/Icon/Profile.png'
 import ChangeInfo from './ChangInfo'
+import SignIn from './SignIn';
 StatusBar.setHidden(true)
 
 export default class Account extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            isLogin: true
+            isLogin: false
         };
     }
 
@@ -20,13 +21,17 @@ export default class Account extends Component {
         const {navigation} = this.props;
         navigation.navigate('ChangeInfo');
     }
+    SignIn(){
+        const {navigation} = this.props;
+        navigation.navigate('SignIn');
+    }
 
     render()
     {   const {container, profileStyle, btnStyle, btnText, btnStyle1} = styles
         const logoutJSX = (
           <View>
             <TouchableOpacity style={btnStyle}>
-              <Text style={btnText}>Sign in</Text>
+              <Text style={btnText}  onPress={this.SignIn.bind(this)}>Sign in</Text>
             </TouchableOpacity>
           </View>
         );
