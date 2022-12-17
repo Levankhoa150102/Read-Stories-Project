@@ -14,11 +14,15 @@ export default class HomeScreen extends Component {
           <ScrollView style={{ flex: 1, backgroundColor: "#222348" }}>
             <Header />
             <NewStory />
-            <TopStory />
-
             <Recommend />
+            <TopStory />
+            
+
           </ScrollView>
         );
     }
 }
+/*<NewStory />
+            <TopStory />
 
+            <Recommend />*/
