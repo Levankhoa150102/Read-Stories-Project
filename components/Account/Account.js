@@ -13,7 +13,7 @@ export default class Account extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            isLogin: false
+            isLogin: true
         };
     }
 
@@ -30,8 +30,8 @@ export default class Account extends Component {
     {   const {container, profileStyle, btnStyle, btnText, btnStyle1} = styles
         const logoutJSX = (
           <View>
-            <TouchableOpacity style={btnStyle}>
-              <Text style={btnText}  onPress={this.SignIn.bind(this)}>Sign in</Text>
+            <TouchableOpacity style={btnStyle} onPress={this.SignIn.bind(this)}>
+              <Text style={btnText}  >Sign in</Text>
             </TouchableOpacity>
           </View>
         );

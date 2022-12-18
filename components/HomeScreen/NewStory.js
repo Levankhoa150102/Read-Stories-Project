@@ -8,19 +8,27 @@ import img2 from '../../assets/Banner/banner2.jpg'
 import img3 from '../../assets/Banner/banner3.jpg'
 import img4 from '../../assets/Banner/banner4.jpg'
 
+import StoryDetail from '../StoryDetail/StoryDetail';
 export default class NewStory extends Component {
+
   render() {
     const {wrapper, title, imageStyle} = styles;
     return(
       <View style={wrapper}>
-        <View style={{ flex: 1 }}>
+        <View style={{ flex: 1, flexDirection:'row', justifyContent: 'space-between' }}>
           <Text style={title}>NEW STORY</Text>
+          <View>
+          <Text style={{color: '#FFF', paddingRight: 20, paddingTop: 20}} >Xem tất cả</Text>
+          </View>
         </View>
+
+        
       <View style ={{flex: 4, justifyContent:'center',  paddingLeft: 18}}>
         <Swiper 
         loop={true} 
         autoplay={{delay: 300,disableOnInteraction: false}}
-         paginationStyle={{ bottom: -15 }}>
+         paginationStyle={{ bottom: -15 }}
+         dotColor="#FFF">
           <Image source={img1} style={imageStyle} />
           <Image source={img2} style={imageStyle} />
           <Image source={img3} style={imageStyle} />

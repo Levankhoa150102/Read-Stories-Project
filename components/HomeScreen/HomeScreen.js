@@ -12,8 +12,14 @@ export default class HomeScreen extends Component {
         return (
           
           <ScrollView style={{ flex: 1, backgroundColor: "#222348" }}>
+
             <Header />
-            <NewStory />
+            <TouchableOpacity onPress={() => { this.props.navigation.navigate('StoryList') }}>
+                <NewStory/>
+            </TouchableOpacity>
+
+            
+
             <Recommend />
             <TopStory />
             
@@ -22,7 +28,3 @@ export default class HomeScreen extends Component {
         );
     }
 }
-/*<NewStory />
-            <TopStory />
-
-            <Recommend />*/

@@ -23,7 +23,7 @@ export default class Recommend extends Component {
           
         </View>
         <View style={{flex:4}}>
-        <Swiper>
+        <Swiper paginationStyle={{ bottom: -15 }} dotColor="#FFF">
           <View style={slideImage}>
           <Image source={img1} style={imageStyle} />
           <Image source={img2} style={imageStyle} />

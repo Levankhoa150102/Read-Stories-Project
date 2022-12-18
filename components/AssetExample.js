@@ -13,6 +13,9 @@ import ChangeInfo from './Account/ChangInfo'
 import SignIn from './Account/SignIn'
 import Header_Account from './Account/Header_Account';
 import Search from './Search';
+import StoryDetail from './StoryDetail/StoryDetail';
+import NewStory from './HomeScreen/NewStory';
+import StoryList from './StoryList/StoryList';
 StatusBar.setHidden(true)
 const Tab = createBottomTabNavigator();
 const SettingsStack = createNativeStackNavigator();
@@ -75,19 +78,38 @@ export default class AssetExample extends Component {
 
           <Tab.Screen name="Home">
             {() => (
-              <SettingsStack.Navigator>
-                <SettingsStack.Screen
-                  name="Home"
+              <HomeStack.Navigator initialRouteName='Home'>
+                <HomeStack.Screen name="Home"
                   component={HomeScreen}
                   options={{ headerShown: false }}
                 />
 
-              </SettingsStack.Navigator>
+               <HomeStack.Screen name="NewStory"
+                  component={NewStory}
+                  options={{ headerShown: false }}
+                />
+
+              <HomeStack.Screen name="StoryDetail"
+                  component={StoryDetail}
+                  options={{ headerShown: false }}
+                />
+
+              <HomeStack.Screen name="StoryList"
+                  component={StoryList}
+                  options={{ headerShown: false }}
+                />
+   
+             
+
+              
+                
+              </HomeStack.Navigator>
             )}
           </Tab.Screen>
+
           <Tab.Screen name="Account">
             {() => (
-              <HomeStack.Navigator>
+              <HomeStack.Navigator initialRouteName='Account'>
                 <HomeStack.Screen name="Account"
                   component={Account}
                   options={{ headerShown: false }}
