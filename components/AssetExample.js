@@ -16,6 +16,9 @@ import Search from './Search';
 import StoryDetail from './StoryDetail/StoryDetail';
 import NewStory from './HomeScreen/NewStory';
 import StoryList from './StoryList/StoryList';
+
+import StoryDetail2 from './StoryDetail/StoryDetail2';
+import StoryList2   from './StoryList/StoryList2';
 StatusBar.setHidden(true)
 const Tab = createBottomTabNavigator();
 const SettingsStack = createNativeStackNavigator();
@@ -58,7 +61,7 @@ export default class AssetExample extends Component {
                 );
               }
             },
-            tabBarInactiveTintColor: 'gray',
+            tabBarInactiveTintColor: 'grey',
             tabBarActiveTintColor: '#656BA4',
             headerShown: false
           })}
@@ -96,6 +99,16 @@ export default class AssetExample extends Component {
 
               <HomeStack.Screen name="StoryList"
                   component={StoryList}
+                  options={{ headerShown: false }}
+                />
+
+                <HomeStack.Screen name="StoryDetail2"
+                  component={StoryDetail2}
+                  options={{ headerShown: false }}
+                />
+
+              <HomeStack.Screen name="StoryList2"
+                  component={StoryList2}
                   options={{ headerShown: false }}
                 />
    

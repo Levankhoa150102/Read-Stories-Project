@@ -17,9 +17,9 @@ export default class Recommend extends Component {
         <View style={{ flex: 1, flexDirection:'row', justifyContent: 'space-between' }}>
           <Text style={title}>RECOMMEND</Text>
 
-          <TouchableOpacity>
+          <View>
           <Text style={{color: '#FFF', paddingRight: 20, paddingTop: 20}}>Xem tất cả</Text>
-          </TouchableOpacity>
+          </View>
           
         </View>
         <View style={{flex:4}}>

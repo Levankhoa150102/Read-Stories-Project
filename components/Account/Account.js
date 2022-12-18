@@ -13,7 +13,7 @@ export default class Account extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            isLogin: true
+            isLogin: false
         };
     }
 

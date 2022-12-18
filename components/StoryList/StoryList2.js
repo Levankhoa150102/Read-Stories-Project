@@ -15,7 +15,7 @@ import img8 from '../../assets/Image_Story/10.jpg'
 import img9 from '../../assets/Image_Story/11.jpg'
 import img10 from '../../assets/Image_Story/12.jpg'
 const {height} = Dimensions.get('window')
-export default class StoryDetail extends Component {
+export default class StoryDetail2 extends Component {
   goBack() {
     const {navigation} = this.props;
     navigation.goBack();
@@ -36,8 +36,8 @@ export default class StoryDetail extends Component {
                 name="arrow-back-outline"
               />
             </TouchableOpacity>
-            <Text style={title}>NEW STORY</Text>
-            <TouchableOpacity>
+            <Text style={title}>RECOMMEND</Text>
+            <TouchableOpacity onPress={this.gotoDetail.bind(this)}>
               <Ionicons
                 style={{ color: "#FFFFFF", fontSize: 30, paddingRight: 20 }}
                 name="funnel-outline"
@@ -51,7 +51,7 @@ export default class StoryDetail extends Component {
         </View>
 
         <ScrollView  style ={header}>
-        <TouchableOpacity style={image} onPress={this.gotoDetail.bind(this)}>
+        <TouchableOpacity style={image}>
               <Image source={img1} style={imageStyle} />
               <View>
                 <Text style={storyName}>Tổng tài, Anh nhận nhầm người rồi</Text>

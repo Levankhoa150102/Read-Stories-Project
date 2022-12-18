@@ -19,8 +19,9 @@ export default class HomeScreen extends Component {
             </TouchableOpacity>
 
             
-
-            <Recommend />
+            <TouchableOpacity onPress={() => { this.props.navigation.navigate('StoryList2') }}>
+                <Recommend />
+            </TouchableOpacity>
             <TopStory />
             
 
