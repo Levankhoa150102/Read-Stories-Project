@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-import {View, Text, StyleSheet,TouchableOpacity, StatusBar,Image, Dimensions} from 'react-native'
+import {View, Text, StyleSheet,TouchableOpacity, StatusBar,Image, Dimensions, ScrollView} from 'react-native'
 import Swiper from 'react-native-swiper'
 
 import img1 from '../../assets/Image_Story/7.jpg' 
@@ -15,84 +15,102 @@ import img10 from '../../assets/Image_Story/12.jpg'
 const {width, height } = Dimensions.get('window');
 export default class Recommend extends Component {
   render() {
-    const {wrapper, title, imageStyle, slideImage, storyName, storyTop} = styles;
-    return(
+    const {wrapper, title, imageStyle, slideImage, image, storyName, storyTop} = styles;
+    return (
       <View style={wrapper}>
-        <View style={{ flex: 1 }}>
+        <View style={{ height: height * 0.05 }}>
           <Text style={title}>TOP 10 STORIES</Text>
         </View>
-        <View style={{ flex: 4 }}>
-          <Swiper paginationStyle={{ bottom: -15 }}>
-            <View style={slideImage}>
+        <ScrollView>
+          <View style={slideImage}>
+            <TouchableOpacity style={image}>
+              <Image source={img1} style={imageStyle} />
               <View>
-                <Image source={img1} style={imageStyle} />
-                <Text style={storyTop}>Top 1</Text>
-                <Text style={storyName}>Name</Text>
+                <Text style={storyTop}>TOP 1</Text>
+                <Text style={storyName}>Tổng tài, Anh nhận nhầm người rồi</Text>
               </View>
-              <View>
-                <Image source={img2} style={imageStyle} />
-                <Text style={storyTop}>Top 2</Text>
-                <Text style={storyName}>Name</Text>
-              </View>
-              <View>
-                <Image source={img3} style={imageStyle} />
-                <Text style={storyTop}>Top 3</Text>
-                <Text style={storyName}>Name</Text>
-              </View>
-            </View>
+            </TouchableOpacity>
 
-            <View style={slideImage}>
+            <TouchableOpacity style={image}>
+              <Image source={img2} style={imageStyle} />
               <View>
-                <Image source={img4} style={imageStyle} />
-                <Text style={storyTop}>Top 4</Text>
-                <Text style={storyName}>Name</Text>
+                <Text style={storyTop}>TOP 2</Text>
+                <Text style={storyName}>Sau này của chúng ta</Text>
               </View>
-              <View>
-                <Image source={img5} style={imageStyle} />
-                <Text style={storyTop}>Top 5</Text>
-                <Text style={storyName}>Name</Text>
-              </View>
-              <View>
-                <Image source={img6} style={imageStyle} />
-                <Text style={storyTop}>Top 6</Text>
-                <Text style={storyName}>Name</Text>
-              </View>
+            </TouchableOpacity>
 
-            </View>
-            <View style={slideImage}>
+            <TouchableOpacity style={image}>
+              <Image source={img3} style={imageStyle} />
               <View>
-                <Image source={img7} style={imageStyle} />
-                <Text style={storyTop}>Top 7</Text>
-                <Text style={storyName}>Name</Text>
+                <Text style={storyTop}>TOP 3</Text>
+                <Text style={storyName}>Mê vợ, không lối về</Text>
               </View>
-              <View>
-                <Image source={img8} style={imageStyle} />
-                <Text style={storyTop}>Top 8</Text>
-                <Text style={storyName}>Name</Text>
-              </View>
-              <View>
-                <Image source={img9} style={imageStyle} />
-                <Text style={storyTop}>Top 9</Text>
-                <Text style={storyName}>Name</Text>
-              </View>
-            </View>
+            </TouchableOpacity>
 
-            <View style={slideImage}>
+            <TouchableOpacity style={image}>
+              <Image source={img4} style={imageStyle} />
               <View>
-                <Image source={img10} style={imageStyle} />
-                <Text style={storyTop}>Top 10</Text>
-                <Text style={storyName}>Name</Text>
+                <Text style={storyTop}>TOP 4</Text>
+                <Text style={storyName}>Cô dâu bị đánh tráo của tổng tài</Text>
               </View>
-  
-            </View>
-          </Swiper>
-        </View>
+            </TouchableOpacity>
+
+            <TouchableOpacity style={image}>
+              <Image source={img5} style={imageStyle} />
+              <View>
+                <Text style={storyTop}>TOP 5</Text>
+                <Text style={storyName}>Hôm nay thích hợp để yêu hơn</Text>
+              </View>
+            </TouchableOpacity>
+
+            <TouchableOpacity style={image}>
+              <Image source={img6} style={imageStyle} />
+              <View>
+                <Text style={storyTop}>TOP 6</Text>
+                <Text style={storyName}>Làm vợ thầy em nhé!</Text>
+              </View>
+            </TouchableOpacity>
+
+            <TouchableOpacity style={image}>
+              <Image source={img7} style={imageStyle} />
+              <View>
+                <Text style={storyTop}>TOP 7</Text>
+                <Text style={storyName}>Đại ca học đường</Text>
+              </View>
+            </TouchableOpacity>
+
+            <TouchableOpacity style={image}>
+              <Image source={img8} style={imageStyle} />
+              <View>
+                <Text style={storyTop}>TOP 8</Text>
+                <Text style={storyName}>Chị đại học đường</Text>
+              </View>
+            </TouchableOpacity>
+
+            <TouchableOpacity style={image}>
+              <Image source={img9} style={imageStyle} />
+              <View>
+                <Text style={storyTop}>TOP 9</Text>
+                <Text style={storyName}>Mê muội vì em</Text>
+              </View>
+            </TouchableOpacity>
+
+            <TouchableOpacity style={image}>
+              <Image source={img10} style={imageStyle} />
+              <View>
+                <Text style={storyTop}>TOP 10</Text>
+                <Text style={storyName}>Tình yêu học đường 2015</Text>
+              </View>
+            </TouchableOpacity>
+
+          </View>
+        </ScrollView>
       </View>
-    )
+    );
   }
 }
 const styles = StyleSheet.create({
-  wrapper: {height: height*0.32, 
+  wrapper: {height: height*0.5, 
   backgroundColor: '#162639',
    margin: 10,
    borderRadius: 30,
@@ -108,9 +126,12 @@ const styles = StyleSheet.create({
    },
 
   slideImage:{
-   flexDirection: 'row',
-   padding: 10, 
-   justifyContent: 'space-between'
+   flexDirection: 'column',
+  },
+
+  image:{
+    flexDirection: 'row',
+    padding: 10,
   },
 
    imageStyle: {
@@ -127,7 +148,7 @@ const styles = StyleSheet.create({
   },
   storyTop:{
   paddingLeft: 10,
-  fontSize: 20,
+  fontSize: 25,
   fontWeight: '500',
   fontFamily: 'serif',
   color: '#F6DE00'

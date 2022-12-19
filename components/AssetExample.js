@@ -15,6 +15,13 @@ import Header_Account from './Account/Header_Account';
 import Search from './Search';
 import Filter from './filter'
 
+
+import StoryDetail from './StoryDetail/StoryDetail';
+import NewStory from './HomeScreen/NewStory';
+import StoryList from './StoryList/StoryList';
+
+import StoryDetail2 from './StoryDetail/StoryDetail2';
+import StoryList2   from './StoryList/StoryList2';
 StatusBar.setHidden(true)
 const Tab = createBottomTabNavigator();
 const SettingsStack = createNativeStackNavigator();
@@ -66,7 +73,7 @@ export default class AssetExample extends Component {
                 );
               }
             },
-            tabBarInactiveTintColor: 'gray',
+            tabBarInactiveTintColor: 'grey',
             tabBarActiveTintColor: '#656BA4',
             headerShown: false
           })}
@@ -95,23 +102,45 @@ export default class AssetExample extends Component {
           </Tab.Screen>
           <Tab.Screen name="Home">
             {() => (
-              <SettingsStack.Navigator>
-                <SettingsStack.Screen
-                  name="Home"
+              <HomeStack.Navigator initialRouteName='Home'>
+                <HomeStack.Screen name="Home"
                   component={HomeScreen}
                   options={{ headerShown: false }}
                 />
-                <SettingsStack.Screen
-                  name="Filter"
-                  component={Filter}
+
+               <HomeStack.Screen name="NewStory"
+                  component={NewStory}
                   options={{ headerShown: false }}
                 />
-              </SettingsStack.Navigator>
+
+              <HomeStack.Screen name="StoryDetail"
+                  component={StoryDetail}
+                  options={{ headerShown: false }}
+                />
+
+              <HomeStack.Screen name="StoryList"
+                  component={StoryList}
+                  options={{ headerShown: false }}
+                />
+
+                <HomeStack.Screen name="StoryDetail2"
+                  component={StoryDetail2}
+                  options={{ headerShown: false }}
+                />
+
+              <HomeStack.Screen name="StoryList2"
+                  component={StoryList2}
+                  options={{ headerShown: false }}
+                />
+   
+  
+              </HomeStack.Navigator>
             )}
           </Tab.Screen>
+
           <Tab.Screen name="Account">
             {() => (
-              <HomeStack.Navigator>
+              <HomeStack.Navigator initialRouteName='Account'>
                 <HomeStack.Screen name="Account"
                   component={Account}
                   options={{ headerShown: false }}
