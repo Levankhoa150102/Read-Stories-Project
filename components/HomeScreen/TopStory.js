@@ -102,7 +102,7 @@ const styles = StyleSheet.create({
 
    title: {
      color: '#FFF',
-     fontFamily: 'Avenir',
+     fontFamily: 'serif',
      fontSize: 20,
      padding: 15,
    },
@@ -121,7 +121,7 @@ const styles = StyleSheet.create({
 
   storyName:{
     paddingLeft: 10,
-    fontFamily: 'Avenir',
+    fontFamily: 'serif',
     color: '#FFFFFF',
     fontWeight: '500'
   },
@@ -129,7 +129,7 @@ const styles = StyleSheet.create({
   paddingLeft: 10,
   fontSize: 20,
   fontWeight: '500',
-  fontFamily: 'Avenir',
+  fontFamily: 'serif',
   color: '#F6DE00'
   }
 })

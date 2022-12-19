@@ -23,7 +23,7 @@ export default class Header_Account extends Component {
 const styles = StyleSheet.create({
   wrapper: {height: height / 10, padding: 10, backgroundColor: '#222348'},
   row : {flexDirection: 'row', paddingTop: 30},
-  textInput: {fontFamily: 'Avenir', color:'#FFF', fontSize: 25, fontWeight: '500', marginLeft: 100}
+  textInput: {fontFamily: 'serif', color:'#FFF', fontSize: 25, fontWeight: '500', marginLeft: 100}
 })
 
 /*<TouchableOpacity>

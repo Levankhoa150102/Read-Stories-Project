@@ -93,7 +93,7 @@ const styles = StyleSheet.create({
     title:{
         color: '#FFF',
         fontWeight: '500',
-        fontFamily: 'Avenir',
+        fontFamily: 'serif',
         fontSize: 30,
         textAlign: 'center',
         marginBottom: 20
@@ -123,11 +123,11 @@ const styles = StyleSheet.create({
     },
     TextSISU: {
         color: '#FFF',
-        fontFamily: 'Avenir'
+        fontFamily: 'normal'
     },
     TextSISU1: {
         color: '#FFF',
-        fontFamily: 'Avenir',
+        fontFamily: 'normal',
         textDecorationLine: 'underline'
     }
 

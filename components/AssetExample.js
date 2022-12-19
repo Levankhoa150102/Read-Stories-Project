@@ -13,6 +13,8 @@ import ChangeInfo from './Account/ChangInfo'
 import SignIn from './Account/SignIn'
 import Header_Account from './Account/Header_Account';
 import Search from './Search';
+import Filter from './filter'
+
 StatusBar.setHidden(true)
 const Tab = createBottomTabNavigator();
 const SettingsStack = createNativeStackNavigator();
@@ -54,6 +56,15 @@ export default class AssetExample extends Component {
                   />
                 );
               }
+              else if (route.name === 'Search') {
+                return (
+                  <Ionicons
+                    name="search"
+                    size={size}
+                    color={color}
+                  />
+                );
+              }
             },
             tabBarInactiveTintColor: 'gray',
             tabBarActiveTintColor: '#656BA4',
@@ -72,7 +83,16 @@ export default class AssetExample extends Component {
               </SettingsStack.Navigator>
             )}
           </Tab.Screen>
-
+          <Tab.Screen name="Search">
+            {() => (
+              <HomeStack.Navigator>
+                <HomeStack.Screen name="Filter"
+                  component={Filter}
+                  options={{ headerShown: false }}
+                />
+              </HomeStack.Navigator>
+            )}
+          </Tab.Screen>
           <Tab.Screen name="Home">
             {() => (
               <SettingsStack.Navigator>
@@ -81,7 +101,11 @@ export default class AssetExample extends Component {
                   component={HomeScreen}
                   options={{ headerShown: false }}
                 />
-
+                <SettingsStack.Screen
+                  name="Filter"
+                  component={Filter}
+                  options={{ headerShown: false }}
+                />
               </SettingsStack.Navigator>
             )}
           </Tab.Screen>

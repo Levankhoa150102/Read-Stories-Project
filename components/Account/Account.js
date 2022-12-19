@@ -13,7 +13,7 @@ export default class Account extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            isLogin: false
+            isLogin: true
         };
     }
 
@@ -38,7 +38,7 @@ export default class Account extends Component {
         
         const loginJSX = (
         <View style={{ flex: 1, justifyContent:'space-between', alignItems:'center' }}>
-        <Text style={{color: '#FFF', fontFamily:'Avenir', fontSize: 20, paddingTop: 20}}>Lê Văn Khoa</Text>
+        <Text style={{color: '#FFF', fontFamily:'serif', fontSize: 20, paddingTop: 20}}>Lê Văn Khoa</Text>
         <View>
         <TouchableOpacity style={btnStyle1} onPress={this.ChangeInfo.bind(this)}>
             <Text style={btnText}>Change Info</Text>
@@ -97,7 +97,7 @@ const styles = StyleSheet.create({
 
     btnText: {
         color: '#222348',
-        fontFamily: 'Avenir',
+        fontFamily: 'serif',
         fontSize: 20,
     },
 

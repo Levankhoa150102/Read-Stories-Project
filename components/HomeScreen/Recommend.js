@@ -53,9 +53,9 @@ const styles = StyleSheet.create({
 
    title: {
      color: '#FFF',
-     fontFamily: 'Avenir',
+     fontFamily: 'serif',
      fontSize: 20,
-     padding: 15,
+     padding: 10,
    },
 
   slideImage:{
