@@ -79,7 +79,7 @@ export default class AssetExample extends Component {
           })}
 
         >
-          <Tab.Screen name="Storage" options={{ tabBarBadge: 5 }} >
+          <Tab.Screen name="Storage" options={{ tabBarBadge: 3 }} >
             {() => (
               <SettingsStack.Navigator>
                 <SettingsStack.Screen
