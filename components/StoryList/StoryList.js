@@ -156,7 +156,7 @@ const styles = StyleSheet.create({
   title: {
     color: "#FFF",
     fontWeight: "500",
-    fontFamily: "Avenir",
+    fontFamily: "serif",
     fontSize: 25,
     textAlign: "center",
   },
@@ -196,7 +196,7 @@ const styles = StyleSheet.create({
   storyName:{
     paddingLeft: 10,
     fontSize: 15 ,
-    //fontFamily: 'Avenir',
+    fontFamily: 'serif',
     color: 'yellow',
     fontWeight: '500'
   },

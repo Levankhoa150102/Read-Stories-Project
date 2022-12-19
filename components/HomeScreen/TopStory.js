@@ -122,10 +122,11 @@ const styles = StyleSheet.create({
      color: '#FFF',
      fontFamily: 'serif',
      fontSize: 20,
-     padding: 15,
+     padding: ,
    },
 
   slideImage:{
+    //padding: 15,
    flexDirection: 'column',
   },
 
