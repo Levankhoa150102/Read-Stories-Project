@@ -23,6 +23,8 @@ export default class Recommend extends Component {
         </View>
         <ScrollView>
           <View style={slideImage}>
+            <Swiper paginationStyle={{ bottom: -15 }} dotColor="#FFF">
+              <View>
             <TouchableOpacity style={image}>
               <Image source={img1} style={imageStyle} />
               <View>
@@ -38,6 +40,7 @@ export default class Recommend extends Component {
                 <Text style={storyName}>Sau này của chúng ta</Text>
               </View>
             </TouchableOpacity>
+            
 
             <TouchableOpacity style={image}>
               <Image source={img3} style={imageStyle} />
@@ -47,6 +50,10 @@ export default class Recommend extends Component {
               </View>
             </TouchableOpacity>
 
+            
+            
+
+            
             <TouchableOpacity style={image}>
               <Image source={img4} style={imageStyle} />
               <View>
@@ -63,6 +70,9 @@ export default class Recommend extends Component {
               </View>
             </TouchableOpacity>
 
+            </View>
+
+            <View>
             <TouchableOpacity style={image}>
               <Image source={img6} style={imageStyle} />
               <View>
@@ -70,7 +80,9 @@ export default class Recommend extends Component {
                 <Text style={storyName}>Làm vợ thầy em nhé!</Text>
               </View>
             </TouchableOpacity>
+            
 
+            
             <TouchableOpacity style={image}>
               <Image source={img7} style={imageStyle} />
               <View>
@@ -94,7 +106,7 @@ export default class Recommend extends Component {
                 <Text style={storyName}>Mê muội vì em</Text>
               </View>
             </TouchableOpacity>
-
+            
             <TouchableOpacity style={image}>
               <Image source={img10} style={imageStyle} />
               <View>
@@ -102,6 +114,8 @@ export default class Recommend extends Component {
                 <Text style={storyName}>Tình yêu học đường 2015</Text>
               </View>
             </TouchableOpacity>
+            </View>
+            </Swiper>
 
           </View>
         </ScrollView>
@@ -120,9 +134,9 @@ const styles = StyleSheet.create({
 
    title: {
      color: '#FFF',
-     fontFamily: 'serif',
+    fontFamily: 'serif',
      fontSize: 20,
-     padding: ,
+     padding: 10,
    },
 
   slideImage:{
@@ -131,6 +145,8 @@ const styles = StyleSheet.create({
   },
 
   image:{
+    width: width*0.9,
+    height: height*0.2,
     flexDirection: 'row',
     padding: 10,
   },
@@ -149,9 +165,8 @@ const styles = StyleSheet.create({
   },
   storyTop:{
   paddingLeft: 10,
-  fontSize: 25,
+  fontSize: 15,
   fontWeight: '500',
-  fontFamily: 'serif',
   color: '#F6DE00'
   }
 })
