@@ -13,7 +13,7 @@ const {height} = Dimensions.get('window')
 export default class HomeScreen extends Component {
   render()
   {
-      return (
+      return (  
         
         <ScrollView style={{ flex: 1, backgroundColor: "#222348" }}>
           <Header />

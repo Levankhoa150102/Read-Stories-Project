@@ -27,7 +27,6 @@ export default class Header extends Component {
                 style={textInput} 
                 placeholder="Tìm kiếm truyện..." 
                 placeholderTextColor={'#494F86'}  
-                inlineImageLeft='search'
             />
         </View>
        </View>

@@ -122,11 +122,11 @@ const styles = StyleSheet.create({
      color: '#FFF',
      fontFamily: 'serif',
      fontSize: 20,
-     padding: ,
+     padding: 10,
    },
 
   slideImage:{
-    //padding: 15,
+    padding: 1,
    flexDirection: 'column',
   },
 
@@ -143,7 +143,8 @@ const styles = StyleSheet.create({
 
   storyName:{
     paddingLeft: 10,
-    fontFamily: 'serif',
+    fontSize: 15 ,
+    //fontFamily: 'Avenir',
     color: '#FFFFFF',
     fontWeight: '500'
   },
