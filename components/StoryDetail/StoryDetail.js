@@ -2,6 +2,7 @@ import React, {Component} from 'react'
 import { View, Text, StyleSheet, TouchableOpacity, StatusBar, TextInput, Dimensions, Image, ScrollView, Button } from 'react-native'
 import { Ionicons } from '@expo/vector-icons';
 
+import Recommend from '../HomeScreen/Recommend';
 import Header from '../HEADERR'
 const {height} = Dimensions.get('window')
 import img1 from '../../assets/Image_Story/7.jpg' 
@@ -94,6 +95,7 @@ Tạ Tiểu Ngọc giới thiệu Nghiêm Dặc với người đàn ông đối
 
           </Text>
         </ScrollView>
+              <Recommend />
       </ScrollView>
     );
   }

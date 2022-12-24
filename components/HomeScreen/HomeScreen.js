@@ -11,23 +11,58 @@ import Header from '../HEADERR'
 StatusBar.setHidden(true)
 const {height} = Dimensions.get('window')
 export default class HomeScreen extends Component {
-  render()
-  {
-      return (  
-        
-        <ScrollView style={{ flex: 1, backgroundColor: "#222348" }}>
-          <Header />
-          <TouchableOpacity onPress={() => { this.props.navigation.navigate('StoryList') }}>
-              <NewStory/>
-          </TouchableOpacity>
-
-          <TouchableOpacity onPress={() => { this.props.navigation.navigate('StoryList2') }}>
+    goFilter(){
+      const {navigation} = this.props;
+      navigation.navigate('Filter');
+    }
+    render()
+    {
+        const {wrapper, row, textInput} = styles;      
+        return (
           
-          </TouchableOpacity>
-          <TopStory />
-          <Recommend />
+          
+          <ScrollView style={{ flex: 1, backgroundColor: "#222348" }}>
+            <View style={wrapper}>
+              <View style={row}>
+                <TextInput 
+                  style={textInput} 
+                  placeholder="Tìm kiếm truyện..." 
+                  placeholderTextColor={'#494F86'}  
+                  inlineImageLeft='search'
+                  onPressIn={this.goFilter.bind(this)}
+                />
+              </View>
+            </View>
+            <TouchableOpacity onPress={() => { this.props.navigation.navigate('StoryList') }}>
+                <NewStory/>
+            </TouchableOpacity>
+            <TouchableOpacity onPress={() => { this.props.navigation.navigate('StoryList2') }}>
+                <Recommend />
+            </TouchableOpacity>
 
-        </ScrollView>
+            <TopStory />
+
+            
+          </ScrollView>
       );
   }
 }
+const styles = StyleSheet.create({
+  wrapper: {
+    height: height / 10, 
+    padding: 20, 
+    backgroundColor: '#222348'
+  },
+  row : {
+    flexDirection: 'row', 
+    justifyContent:'space-between', 
+    paddingTop: 15
+  },
+  textInput: {
+    height: height / 20, 
+    width: '100%', 
+    backgroundColor:'#FFFFFF', 
+    borderRadius: 20, 
+    paddingLeft: 10
+  }
+})

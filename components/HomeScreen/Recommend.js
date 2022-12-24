@@ -23,7 +23,11 @@ export default class Recommend extends Component {
           
         </View>
         <View style={{flex:4}}>
-        <Swiper paginationStyle={{ bottom: -15 }} dotColor="#FFF">
+        <Swiper 
+        paginationStyle={{ bottom: -15 }}
+        dotColor="#FFF"
+        loop={true} 
+        autoplay={{delay: 500,disableOnInteraction: false}}>
           <View style={slideImage}>
           <Image source={img1} style={imageStyle} />
           <Image source={img2} style={imageStyle} />
