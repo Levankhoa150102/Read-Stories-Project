@@ -19,11 +19,11 @@ export default class Recommend extends Component {
     return (
       <View style={wrapper}>
         <View style={{ height: height * 0.05 }}>
-          <Text style={title}>TOP 10 STORIES</Text>
+          <Text style={title}>Kim Thánh Bảng</Text>
         </View>
         <ScrollView>
           <View style={slideImage}>
-            <Swiper paginationStyle={{ bottom: -15 }} dotColor="#FFF">
+            <Swiper paginationStyle={{ bottom: -15 }} dotColor="#FFF" loop={false} >
               <View>
             <TouchableOpacity style={image}>
               <Image source={img1} style={imageStyle} />

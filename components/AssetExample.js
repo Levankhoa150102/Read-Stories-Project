@@ -79,7 +79,7 @@ export default class AssetExample extends Component {
           })}
 
         >
-          <Tab.Screen name="Storage" options={{ tabBarBadge: 3 }} >
+          <Tab.Screen name="Kho Truyện" options={{ tabBarBadge: 3 }} >
             {() => (
               <SettingsStack.Navigator>
                 <SettingsStack.Screen
@@ -90,7 +90,7 @@ export default class AssetExample extends Component {
               </SettingsStack.Navigator>
             )}
           </Tab.Screen>
-          <Tab.Screen name="Search">
+          <Tab.Screen name="Tìm Kiếm">
             {() => (
               <HomeStack.Navigator>
                 <HomeStack.Screen name="Filter"
@@ -100,7 +100,7 @@ export default class AssetExample extends Component {
               </HomeStack.Navigator>
             )}
           </Tab.Screen>
-          <Tab.Screen name="Home">
+          <Tab.Screen name="Trang Chủ">
             {() => (
               <HomeStack.Navigator initialRouteName='Home'>
                 <HomeStack.Screen name="Home"
@@ -132,13 +132,12 @@ export default class AssetExample extends Component {
                   component={StoryList2}
                   options={{ headerShown: false }}
                 />
-   
   
               </HomeStack.Navigator>
             )}
           </Tab.Screen>
 
-          <Tab.Screen name="Account">
+          <Tab.Screen name="Hồ Sơ">
             {() => (
               <HomeStack.Navigator initialRouteName='Account'>
                 <HomeStack.Screen name="Account"

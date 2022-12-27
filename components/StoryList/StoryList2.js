@@ -36,7 +36,7 @@ export default class StoryDetail2 extends Component {
                 name="arrow-back-outline"
               />
             </TouchableOpacity>
-            <Text style={title}>RECOMMEND</Text>
+            <Text style={title}>Đề Xuất</Text>
             <TouchableOpacity onPress={this.gotoDetail.bind(this)}>
               <Ionicons
                 style={{ color: "#FFFFFF", fontSize: 30, paddingRight: 20 }}

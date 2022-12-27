@@ -2,8 +2,19 @@ import React, {Component} from 'react'
 import {View, Text, TextInput, StyleSheet,TouchableOpacity, StatusBar, Button} from 'react-native'
 import Header_Account from './Header_Account'
 import { Ionicons } from '@expo/vector-icons';
+import SQLite from 'react-native-sqlite-storage';
 StatusBar.setHidden(true)
 
+const db = SQLite.openDatabase(
+    {
+        name: 'data.db',
+        createFromLocation: '~data.db',
+    },
+    () => { },
+    error => {
+        console.log(error);
+    }
+);
 export default class SignIn extends Component {
     constructor(props){
         super(props);
@@ -20,25 +31,34 @@ export default class SignIn extends Component {
         const {navigation} = this.props;
         navigation.goBack();
     }
+
+    
     render()
     {
+        const createTable = () => {
+            db.transaction(tx => {
+                tx.executeSql(
+                    'CREATE TABLE IF NOT EXISTS user (id INTEGER PRIMARY KEY AUTOINCREMENT, name TEXT, email TEXT, password TEXT);'
+                );
+            });
+        }
         const {container, row, title, ControlSISU, TextSISU, TextSISU1, InputStyle,BtnSI} = styles
         
         const SignInJSX = (
             <View>
             
               <View style ={{justifyContent: 'center', marginLeft: 20, marginRight: 20}}>
-                <Text style ={title}>LOGIN</Text>
-                <TextInput style={InputStyle} placeholder='Enter your email...'></TextInput>
-                <TextInput style={InputStyle} secureTextEntry={true} placeholder='Enter your password...'></TextInput>
+                <Text style ={title}>ĐĂNG NHẬP</Text>
+                <TextInput style={InputStyle} placeholder='Nhập email...'></TextInput>
+                <TextInput style={InputStyle} secureTextEntry={true} placeholder='Nhập mật khẩu...'></TextInput>
                 <TouchableOpacity  style={BtnSI}>
-                        <Text>SIGN IN</Text>
+                        <Text>Đăng Nhập</Text>
                 </TouchableOpacity>
               </View>
             <View style ={ControlSISU}>
-                <Text style = {TextSISU}>Not a member?</Text>
+                <Text style = {TextSISU}>Bạn không phải là thành viên ?</Text>
                 <TouchableOpacity onPress={this.signUp.bind(this)}>
-                    <Text style={TextSISU1}> Sign up now</Text>
+                    <Text style={TextSISU1}> Đăng kí ngay</Text>
                 </TouchableOpacity>
             </View>
          </View>

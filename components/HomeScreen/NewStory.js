@@ -16,7 +16,7 @@ export default class NewStory extends Component {
     return(
       <View style={wrapper}>
         <View style={{ flex: 1, flexDirection:'row', justifyContent: 'space-between' }}>
-          <Text style={title}>NEW STORY</Text>
+          <Text style={title}>Truyện Mới</Text>
           <View>
           <Text style={{color: '#FFF', paddingRight: 20, paddingTop: 20}} >Xem tất cả</Text>
           </View>

@@ -21,14 +21,14 @@ export default class ChangeInfo extends Component {
                 </View>
             <View style ={{marginLeft: 20, marginRight: 20}}>
 
-               <Text style={title}>Change Information</Text>
-               <TextInput style={InputStyle} placeholder='Enter your name...'></TextInput>
-               <TextInput style={InputStyle} placeholder='Enter your email...'></TextInput>
-               <TextInput style={InputStyle} secureTextEntry={true} placeholder='Enter your password...'></TextInput>
-               <TextInput style={InputStyle} secureTextEntry={true} placeholder='Re-enter your password...'></TextInput>
+               <Text style={title}>Thay Đổi Thông Tin</Text>
+               <TextInput style={InputStyle} placeholder='Nhập tên...'></TextInput>
+               <TextInput style={InputStyle} placeholder='Nhập email...'></TextInput>
+               <TextInput style={InputStyle} secureTextEntry={true} placeholder='Nhập mật khẩu...'></TextInput>
+               <TextInput style={InputStyle} secureTextEntry={true} placeholder='Nhập lại mật khẩu...'></TextInput>
 
               <TouchableOpacity  style={BtnSI}>
-                        <Text>Change</Text>
+                        <Text>Xác nhận</Text>
               </TouchableOpacity>
            </View>
            <View/>
@@ -47,7 +47,7 @@ const styles = StyleSheet.create({
   title: {
     color: "#FFF",
     fontWeight: "500",
-    fontFamily: "Avenir",
+    //fontFamily: "Avenir",
     fontSize: 30,
     textAlign: "center",
     marginBottom: 20,
