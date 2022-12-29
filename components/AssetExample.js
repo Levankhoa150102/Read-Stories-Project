@@ -22,6 +22,9 @@ import StoryList from './StoryList/StoryList';
 
 import StoryDetail2 from './StoryDetail/StoryDetail2';
 import StoryList2   from './StoryList/StoryList2';
+
+import StoryRead from './StoryRead/Story';
+import  StoryChapters from './StoryRead/StoryChapters';
 StatusBar.setHidden(true)
 const Tab = createBottomTabNavigator();
 const SettingsStack = createNativeStackNavigator();
@@ -117,6 +120,18 @@ export default class AssetExample extends Component {
                   component={StoryDetail}
                   options={{ headerShown: false }}
                 />
+              
+              <HomeStack.Screen name="StoryRead"
+                  component={StoryRead}
+                  options={{ headerShown: false }}
+                />
+
+              <HomeStack.Screen name="StoryChapters"
+                  component={StoryChapters}
+                  options={{ headerShown: false }}
+                />
+              
+             
 
               <HomeStack.Screen name="StoryList"
                   component={StoryList}

@@ -2,19 +2,8 @@ import React, {Component} from 'react'
 import {View, Text, TextInput, StyleSheet,TouchableOpacity, StatusBar, Button} from 'react-native'
 import Header_Account from './Header_Account'
 import { Ionicons } from '@expo/vector-icons';
-import SQLite from 'react-native-sqlite-storage';
 StatusBar.setHidden(true)
 
-const db = SQLite.openDatabase(
-    {
-        name: 'data.db',
-        createFromLocation: '~data.db',
-    },
-    () => { },
-    error => {
-        console.log(error);
-    }
-);
 export default class SignIn extends Component {
     constructor(props){
         super(props);
@@ -35,13 +24,7 @@ export default class SignIn extends Component {
     
     render()
     {
-        const createTable = () => {
-            db.transaction(tx => {
-                tx.executeSql(
-                    'CREATE TABLE IF NOT EXISTS user (id INTEGER PRIMARY KEY AUTOINCREMENT, name TEXT, email TEXT, password TEXT);'
-                );
-            });
-        }
+        
         const {container, row, title, ControlSISU, TextSISU, TextSISU1, InputStyle,BtnSI} = styles
         
         const SignInJSX = (

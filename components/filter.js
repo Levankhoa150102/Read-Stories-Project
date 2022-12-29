@@ -59,10 +59,11 @@ export default class Filter extends Component {
                 </View>
                 
                 <View style={container}>
-                    <TouchableOpacity>
+                    
                         <Text style={heading}>
                             Thể loại
                         </Text>
+                    <TouchableOpacity>
                         <Text style= {textStyle}>Chọn thể loại </Text>
                     </TouchableOpacity>
                 </View>

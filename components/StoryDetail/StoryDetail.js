@@ -20,6 +20,11 @@ export default class StoryDetail extends Component {
     const {navigation} = this.props;
     navigation.goBack();
 }
+
+gotoRead() {
+  const {navigation} = this.props;
+  navigation.navigate('StoryRead');
+}
   render() {
     const {SInfo, row, container, imageStyle,storyName,Kindtxt, storyNameside, BtnKind, ReadNow, wrapper, intro} = styles;
     return (
@@ -59,7 +64,7 @@ export default class StoryDetail extends Component {
 
             <View
               style={{ flexDirection: "row", justifyContent: "space-evenly" }}>
-              <TouchableOpacity style={ReadNow}>
+              <TouchableOpacity style={ReadNow} onPress={this.gotoRead.bind(this)}>
                 <Text style={{ color: "#fff" }}>Đọc Ngay</Text>
                 <Ionicons
                   name="chevron-forward-outline"
