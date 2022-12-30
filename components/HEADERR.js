@@ -1,7 +1,7 @@
 import React, {Component} from 'react'
 import { View, Text, StyleSheet, TouchableOpacity, StatusBar, TextInput, Dimensions, Image, Button } from 'react-native'
 import { Ionicons } from '@expo/vector-icons';
-import Filter from './filter'
+import Filter from './Filter/filter'
 import Search from './Search';
 const {height} = Dimensions.get('window')
 

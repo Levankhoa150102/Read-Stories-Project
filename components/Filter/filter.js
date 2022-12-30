@@ -4,6 +4,8 @@ import { View, Text, StyleSheet, TouchableOpacity,
 import SelectMultiple from 'react-native-select-multiple'
 import { Ionicons } from '@expo/vector-icons';
 
+
+
 StatusBar.setHidden(true)
 const {height} = Dimensions.get('window')
 const State = ['Tất cả', 'Đang ra', 'Đã hoàn thành']
@@ -15,7 +17,7 @@ const renderLabel = (label, style) => {
         </View>
       </View>
     )
-  }
+}
 export default class Filter extends Component {
     state = { selectedFruits: [] }
         onSelectionsChange = (selectedFruits) => {
@@ -59,7 +61,7 @@ export default class Filter extends Component {
                 </View>
                 
                 <View style={container}>
-                    <TouchableOpacity>
+                    <TouchableOpacity onPress={() => { this.props.navigation.navigate('TheLoai') }}>
                         <Text style={heading}>
                             Thể loại
                         </Text>
