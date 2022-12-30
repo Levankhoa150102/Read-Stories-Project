@@ -16,7 +16,7 @@ export default class NewStory extends Component {
     return(
       <View style={wrapper}>
         <View style={{ flex: 1, flexDirection:'row', justifyContent: 'space-between' }}>
-          <Text style={title}>NEW STORY</Text>
+          <Text style={title}>Truyện Mới</Text>
           <View>
           <Text style={{color: '#FFF', paddingRight: 20, paddingTop: 20}} >Xem tất cả</Text>
           </View>
@@ -42,13 +42,15 @@ export default class NewStory extends Component {
 
 //1:13:32: Cài Swiper
 const styles = StyleSheet.create({
-  wrapper: {height: height*0.3, 
-  backgroundColor: '#162639',
-   margin: 10,
-   borderRadius: 30,
-   shadowColor: '#656BA4',
-   shadowOffset: {width:3, height:5},
-   shadowOpacity: 0.3},
+  wrapper: {
+    height: height*0.3, 
+    backgroundColor: '#162639',
+    margin: 10,
+    borderRadius: 30,
+    shadowColor: '#656BA4',
+    shadowOffset: {width:3, height:5},
+    shadowOpacity: 0.3
+  },
 
    title: {
      color: '#FFF',

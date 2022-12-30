@@ -18,6 +18,8 @@ const renderLabel = (label, style) => {
       </View>
     )
 }
+
+
 export default class Filter extends Component {
     state = { selectedFruits: [] }
         onSelectionsChange = (selectedFruits) => {
@@ -62,13 +64,15 @@ export default class Filter extends Component {
                 
                 <View style={container}>
                     <TouchableOpacity onPress={() => { this.props.navigation.navigate('TheLoai') }}>
+                    
                         <Text style={heading}>
                             Thể loại
                         </Text>
+                    
                         <Text style= {textStyle}>Chọn thể loại </Text>
                     </TouchableOpacity>
                 </View>
-                <View style={container}>
+                <View style={container}>    
                     <Text style={heading}>
                         Số chương
                     </Text>

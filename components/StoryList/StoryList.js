@@ -36,7 +36,7 @@ export default class StoryDetail extends Component {
                 name="arrow-back-outline"
               />
             </TouchableOpacity>
-            <Text style={title}>NEW STORY</Text>
+            <Text style={title}>Truyện Mới</Text>
             <TouchableOpacity>
               <Ionicons
                 style={{ color: "#FFFFFF", fontSize: 30, paddingRight: 20 }}

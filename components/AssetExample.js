@@ -22,23 +22,148 @@ import StoryList from './StoryList/StoryList';
 
 import StoryDetail2 from './StoryDetail/StoryDetail2';
 import StoryList2   from './StoryList/StoryList2';
-const {height} = Dimensions.get('window')
+
+
+import StoryRead from './StoryRead/Story';
+import  StoryChapters from './StoryRead/StoryChapters';
+import { getFocusedRouteNameFromRoute } from '@react-navigation/native';
+
+
 StatusBar.setHidden(true)
+const {height} = Dimensions.get('window')
 const Tab = createBottomTabNavigator();
 const SettingsStack = createNativeStackNavigator();
 const HomeStack = createNativeStackNavigator();
 
-export default class AssetExample extends Component {
-  render() {
-    const {container, title, wrapper, 
-      row, textInput, checkbox, box, textStyle,
-      status, heading, sortButton, button} = styles
-    return (
-      <View style ={{flex:1}}>
 
-      <NavigationContainer>
-        <Tab.Navigator
-          initialRouteName={'Home'}
+function getHeaderTitle(route) {
+  // If the focused route is not found, we need to assume it's the initial screen
+  // This can happen during if there hasn't been any navigation inside the screen
+  // In our case, it's "Feed" as that's the first screen inside the navigator
+  const routeName = getFocusedRouteNameFromRoute(route) ?? 'Trang Chủ';
+
+  switch (routeName) {
+    case 'Trang Chủ':
+      return 'Home Page';
+    case 'Kho Truyện':
+        return 'Kho truyen';
+    case 'Hồ Sơ':
+      return 'My account';
+    case 'Tìm Kiếm':
+      return 'Tim kiem'
+  }
+}
+
+function HomePage() {
+  return(
+    <HomeStack.Navigator initialRouteName='Home'>
+            <HomeStack.Screen 
+                name="Home"
+                component={HomeScreen}
+                options={{ headerShown: false }}
+            />
+
+            {/* <HomeStack.Screen 
+                name="NewStory"
+                component={NewStory}
+                options={{ headerShown: false }}
+            /> */}
+
+            <HomeStack.Screen 
+                name="StoryDetail"
+                component={StoryDetail}
+                options={{ headerShown: false }}
+            />
+  
+            <HomeStack.Screen 
+                name="StoryRead"
+                component={StoryRead}
+                options={{ headerShown: false }}
+            />
+
+            <HomeStack.Screen 
+                name="StoryChapters"
+                component={StoryChapters}
+                options={{ headerShown: false }}
+            />
+            <HomeStack.Screen 
+                name="StoryList"
+                component={StoryList}
+                options={{ headerShown: false }}
+            />
+            <HomeStack.Screen 
+                name="StoryDetail2"
+                component={StoryDetail2}
+                options={{ headerShown: false }}
+            />
+
+            <HomeStack.Screen 
+                name="StoryList2"
+                component={StoryList2}
+                options={{ headerShown: false }}
+            />
+
+  </HomeStack.Navigator>
+  )
+}
+function MainStorage(){
+  return(
+    <SettingsStack.Navigator>
+                <SettingsStack.Screen
+                  name="Storage"
+                  component={Storage}
+                  options={{ headerShown: false }}
+                />
+    </SettingsStack.Navigator>
+  )
+}
+function MainFilter({descriptors,state}){
+  return(         
+          <HomeStack.Navigator>
+            <HomeStack.Screen 
+                name="Filter"
+                component={Filter}
+                options={{ headerShown: false }}
+            />
+            <HomeStack.Screen 
+                name="TheLoai"
+                component={TheLoai}
+                options={{ headerShown: false}}
+            />
+          </HomeStack.Navigator>
+  )
+}
+function Profile(){
+  return(
+        <HomeStack.Navigator initialRouteName='Account'>
+            <HomeStack.Screen 
+                name="Account"
+                component={Account}
+                options={{ headerShown: false }}
+            />
+            <HomeStack.Screen 
+                name="SignIn"
+                component={SignIn}
+                options={{ headerShown: false }}
+            />
+            <HomeStack.Screen 
+                name="Header_Account"
+                component={Header_Account}
+                options={{ headerShown: false }}
+            />
+            <HomeStack.Screen 
+                name="ChangeInfo"
+                component={ChangeInfo}
+                options={{ headerShown: false }}
+            />
+                
+        </HomeStack.Navigator>
+  )
+}
+function TabControl(){
+    return(
+      <Tab.Navigator
+          initialRouteName={'Trang Chủ'}
           screenOptions={({ route }) => ({
             tabBarIcon: ({ color, size }) => {
               if (route.name === 'Storage') {
@@ -74,6 +199,7 @@ export default class AssetExample extends Component {
                     size={size}
                     color={color}
                   />
+                  
                 );
               }
             },
@@ -81,104 +207,46 @@ export default class AssetExample extends Component {
             tabBarActiveTintColor: '#656BA4',
             headerShown: false
           })}
-
-        >
-          <Tab.Screen name="Storage" options={{ tabBarBadge: 3 }} >
-            {() => (
-              <SettingsStack.Navigator>
-                <SettingsStack.Screen
-                  name="Storage"
-                  component={Storage}
-                  options={{ headerShown: false }}
-                />
-              </SettingsStack.Navigator>
-            )}
-          </Tab.Screen>
-          <Tab.Screen name="Search">
-            {() => (
-              
-              <HomeStack.Navigator screenOptions={{headerShow: false}}>
-                
-                <HomeStack.Screen name="Filter"
-                  component={Filter}
-                  options={{ headerShown: false }}
-                />
-                <HomeStack.Group>
-                <HomeStack.Screen name="TheLoai"
-                  component={TheLoai}
-                  options={{ title: 'Chọn thể loại',}}
-                 
-                  
-                  />
-                  </HomeStack.Group>
-              </HomeStack.Navigator>
-            )}
-          </Tab.Screen>
-          <Tab.Screen name="Home">
-            {() => (
-              <HomeStack.Navigator initialRouteName='Home'>
-                <HomeStack.Screen name="Home"
-                  component={HomeScreen}
-                  options={{ headerShown: false }}
-                />
-
-               <HomeStack.Screen name="NewStory"
-                  component={NewStory}
-                  options={{ headerShown: false }}
-                />
-
-              <HomeStack.Screen name="StoryDetail"
-                  component={StoryDetail}
-                  options={{ headerShown: false }}
-                />
-
-              <HomeStack.Screen name="StoryList"
-                  component={StoryList}
-                  options={{ headerShown: false }}
-                />
-
-                <HomeStack.Screen name="StoryDetail2"
-                  component={StoryDetail2}
-                  options={{ headerShown: false }}
-                />
-
-              <HomeStack.Screen name="StoryList2"
-                  component={StoryList2}
-                  options={{ headerShown: false }}
-                />
-   
-  
-              </HomeStack.Navigator>
-            )}
-          </Tab.Screen>
-
-          <Tab.Screen name="Account">
-            {() => (
-              <HomeStack.Navigator initialRouteName='Account'>
-                <HomeStack.Screen name="Account"
-                  component={Account}
-                  options={{ headerShown: false }}
-                />
-              
-              <HomeStack.Screen name="SignIn"
-                  component={SignIn}
-                  options={{ headerShown: false }}
-                />
-                <HomeStack.Screen name="Header_Account"
-                  component={Header_Account}
-                  options={{ headerShown: false }}
-                />
-              <HomeStack.Screen name="ChangeInfo"
-                  component={ChangeInfo}
-                  options={{ headerShown: false }}
-                />
-                
-              </HomeStack.Navigator>
-            )}
-          </Tab.Screen>
-
+      >
+          <Tab.Screen name="Kho Truyện" component={MainStorage}/>
+          <Tab.Screen name="Tìm Kiếm" component={Filter}/>
+          <Tab.Screen name="Trang Chủ" component={HomeScreen}/>
+          <Tab.Screen name="Hồ Sơ" component={Profile}/>
         
         </Tab.Navigator>
+    )
+}
+const hideTabBar = () => {
+  navigation.setOptions({
+    tabBarStyle: { display: 'none' },
+  });
+};
+export default class AssetExample extends Component {
+  render() {
+    return (
+      <View style ={{flex:1}}>
+
+      <NavigationContainer>
+        { <HomeStack.Navigator screenOptions={{headerShown: false}}>
+          <HomeStack.Screen 
+            name="TabControl"
+            component={TabControl}
+            />
+            {/*HomeScreen Navigate*/}
+            {/*Truyen moi */}
+            <HomeStack.Screen name="StoryList" component={StoryList}/>
+            <HomeStack.Screen name="StoryDetail" component={StoryDetail}/>
+            <HomeStack.Screen name="StoryRead" component={StoryRead}/>
+            <HomeStack.Screen name="StoryChapters" component={StoryChapters}/>
+
+            {/*De Xuat*/}
+            <HomeStack.Screen name="StoryList2" component={StoryList2}/>
+
+            {/*Search Navigate*/}
+            {/*The Loai*/}
+            <HomeStack.Screen name="TheLoai" component={TheLoai}/>
+            
+        </HomeStack.Navigator>}
       </NavigationContainer>
       </View>
     )

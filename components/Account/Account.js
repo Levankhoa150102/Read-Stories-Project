@@ -31,7 +31,7 @@ export default class Account extends Component {
         const logoutJSX = (
           <View>
             <TouchableOpacity style={btnStyle} onPress={this.SignIn.bind(this)}>
-              <Text style={btnText}  >Sign in</Text>
+              <Text style={btnText} >Đăng Nhập</Text>
             </TouchableOpacity>
           </View>
         );
@@ -41,11 +41,11 @@ export default class Account extends Component {
         <Text style={{color: '#FFF', fontFamily:'serif', fontSize: 20, paddingTop: 20}}>Lê Văn Khoa</Text>
         <View>
         <TouchableOpacity style={btnStyle1} onPress={this.ChangeInfo.bind(this)}>
-            <Text style={btnText}>Change Info</Text>
+            <Text style={btnText}>Thay Đổi Thông Tin</Text>
         </TouchableOpacity>
 
         <TouchableOpacity style={btnStyle1}>
-            <Text style={btnText}>Sign Out</Text>
+            <Text style={btnText}>Đăng Xuất</Text>
         </TouchableOpacity>
         </View>
 

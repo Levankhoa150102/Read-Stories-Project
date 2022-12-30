@@ -37,6 +37,7 @@ export default class TheLoai extends Component{
             status, heading, sortButton, button} = styles
         return(
             <View style={container}>
+                
                 {/* <Text style={heading}>Thể loại: </Text> */}
                         <SelectMultiple
                             items={State}

@@ -15,7 +15,7 @@ export default class Recommend extends Component {
     return(
       <View style={wrapper}>
         <View style={{ flex: 1, flexDirection:'row', justifyContent: 'space-between' }}>
-          <Text style={title}>RECOMMEND</Text>
+          <Text style={title}>Đề Xuất</Text>
 
           <View>
           <Text style={{color: '#FFF', paddingRight: 20, paddingTop: 20}}>Xem tất cả</Text>

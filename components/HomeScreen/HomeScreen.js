@@ -8,6 +8,7 @@ import Recommend from './Recommend'
 import NewStory from './NewStory'
 import TopStory from './TopStory'
 import Header from '../HEADERR'
+import Filter from '../Filter/filter';
 StatusBar.setHidden(true)
 const {height} = Dimensions.get('window')
 export default class HomeScreen extends Component {
@@ -39,8 +40,10 @@ export default class HomeScreen extends Component {
             <TouchableOpacity onPress={() => { this.props.navigation.navigate('StoryList2') }}>
                 <Recommend />
             </TouchableOpacity>
-
+          
             <TopStory />
+
+            
 
             
           </ScrollView>
