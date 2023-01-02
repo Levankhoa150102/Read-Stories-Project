@@ -8,10 +8,13 @@ export default class StoryChapters extends Component {
       const {navigation} = this.props;
       navigation.goBack();
   }
+    otherSort() {
+        return {}
+    }
     render() {
-        const {container, row, listText, scrollView, buttonContainer, sortButtonContainer, buttonIconSeparatorStyle} = styles
+        const {container, row, listText, scrollView, buttonContainer, sortButtonContainer} = styles
         return (
-            <ScrollView style={{ flex: 1, backgroundColor: "#D9D9D9" }}>
+            <ScrollView style={{ flex: 1, backgroundColor: "#000000" }}>
                 <View style = {container}>
                     <View style = {row}>
                         <TouchableOpacity onPress={this.goBack.bind(this)}>
@@ -21,12 +24,12 @@ export default class StoryChapters extends Component {
                             />
                         </TouchableOpacity>
                         <View>
-                            <Text style = {listText}>'Danh sách chương'</Text>
+                            <Text style = {listText}>Danh sách chương</Text>
                         </View>
                     </View>
                         
                 <View style = {row}>
-                    <TouchableOpacity style = {sortButtonContainer} title = "Danh sach chuong">
+                    <TouchableOpacity style = {sortButtonContainer}>
                       <View style = {row}>
                         <Ionicons style={{ color: "#FFFFFF", fontSize: 20}}
                             name = "arrow-up"
@@ -37,15 +40,29 @@ export default class StoryChapters extends Component {
                       </View>
                     </TouchableOpacity>
                     <TouchableOpacity style = {buttonContainer}  >
-                        <Text>0-100</Text>
+                        <Text style = {{color: "white"}}>0-100</Text>
                     </TouchableOpacity>
                     <TouchableOpacity style = {buttonContainer}>
-                        <Text>100-200</Text>
+                        <Text style = {{color: "white"}}>100-200</Text>
                     </TouchableOpacity>
                 </View>
                 <View style = {row}>
                     <ScrollView style = {scrollView}>
-                        {/* List chương */}
+                        <TouchableOpacity>
+                          <Text style = {listText}>A</Text>
+                        </TouchableOpacity>
+                        <TouchableOpacity>
+                          <Text style = {listText}>A</Text>
+                        </TouchableOpacity>
+                        <TouchableOpacity>
+                          <Text style = {listText}>A</Text>
+                        </TouchableOpacity>
+                        <TouchableOpacity>
+                          <Text style = {listText}>A</Text>
+                        </TouchableOpacity>
+                        <TouchableOpacity>
+                          <Text style = {listText}>A</Text>
+                        </TouchableOpacity>
                     </ScrollView>
                 </View>
                 </View>
@@ -65,10 +82,12 @@ const styles = StyleSheet.create({
       },
     listText: {
         flexDirection: 'row',
-        justifyContent: 'center'
+        justifyContent: 'center',
+        color: "#FFFFFF",
+        fontSize: 25
     },
     scrollView: {
-        marginHorizontal: 20,
+        backgroundColor: "gray"
     },
     buttonContainer: {
         backgroundColor: '#4D4040',
@@ -84,9 +103,4 @@ const styles = StyleSheet.create({
         height: 36,
         borderRadius: 10
     },
-    buttonIconSeparatorStyle: {
-        backgroundColor: '#fff',
-        width: 1,
-        height: 40,
-      },
 })
