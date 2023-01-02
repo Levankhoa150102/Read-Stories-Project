@@ -9,7 +9,7 @@ export default class StoryChapters extends Component {
       navigation.goBack();
   }
     otherSort() {
-        return {}
+                    // đổi icon nút sort
     }
     render() {
         const {container, row, listText, scrollView, buttonContainer, sortButtonContainer} = styles
