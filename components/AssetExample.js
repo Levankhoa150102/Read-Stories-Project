@@ -3,7 +3,10 @@ import { View, Text, StyleSheet, TouchableOpacity, StatusBar, Button, Dimensions
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
+import { getFocusedRouteNameFromRoute } from '@react-navigation/native';
+import { createMaterialBottomTabNavigator } from '@react-navigation/material-bottom-tabs';
 import { Ionicons } from '@expo/vector-icons';
+
 
 import HomeScreen from './HomeScreen/HomeScreen'
 import Storage from './Storage/Storage'
@@ -26,15 +29,15 @@ import StoryList2   from './StoryList/StoryList2';
 
 import StoryRead from './StoryRead/Story';
 import  StoryChapters from './StoryRead/StoryChapters';
-import { getFocusedRouteNameFromRoute } from '@react-navigation/native';
+
 
 
 StatusBar.setHidden(true)
 const {height} = Dimensions.get('window')
-const Tab = createBottomTabNavigator();
+//const Tab = createBottomTabNavigator();
 const SettingsStack = createNativeStackNavigator();
 const HomeStack = createNativeStackNavigator();
-
+const Tab = createMaterialBottomTabNavigator();
 
 function getHeaderTitle(route) {
   // If the focused route is not found, we need to assume it's the initial screen
@@ -63,46 +66,11 @@ function HomePage() {
                 options={{ headerShown: false }}
             />
 
-            {/* <HomeStack.Screen 
-                name="NewStory"
-                component={NewStory}
-                options={{ headerShown: false }}
-            /> */}
-
             <HomeStack.Screen 
-                name="StoryDetail"
-                component={StoryDetail}
+                name="Filter"
+                component={Filter}
                 options={{ headerShown: false }}
             />
-  
-            <HomeStack.Screen 
-                name="StoryRead"
-                component={StoryRead}
-                options={{ headerShown: false }}
-            />
-
-            <HomeStack.Screen 
-                name="StoryChapters"
-                component={StoryChapters}
-                options={{ headerShown: false }}
-            />
-            <HomeStack.Screen 
-                name="StoryList"
-                component={StoryList}
-                options={{ headerShown: false }}
-            />
-            <HomeStack.Screen 
-                name="StoryDetail2"
-                component={StoryDetail2}
-                options={{ headerShown: false }}
-            />
-
-            <HomeStack.Screen 
-                name="StoryList2"
-                component={StoryList2}
-                options={{ headerShown: false }}
-            />
-
   </HomeStack.Navigator>
   )
 }
@@ -185,7 +153,7 @@ function TabControl(){
                 );
               } else if (route.name === 'Account') {
                 return (
-                  <Ionicons
+                  <Ionicons 
                     name="people-outline"
                     size={size}
                     color={color}
@@ -210,10 +178,10 @@ function TabControl(){
       >
           <Tab.Screen name="Kho Truyện" component={MainStorage}/>
           <Tab.Screen name="Tìm Kiếm" component={Filter}/>
-          <Tab.Screen name="Trang Chủ" component={HomeScreen}/>
+          <Tab.Screen name="Trang Chủ" component={HomePage}/>
           <Tab.Screen name="Hồ Sơ" component={Profile}/>
         
-        </Tab.Navigator>
+      </Tab.Navigator>
     )
 }
 const hideTabBar = () => {

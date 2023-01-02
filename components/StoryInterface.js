@@ -12,7 +12,7 @@ export default class StoryInterface extends Component {
   render() {
     return (
     <View style ={{flex: 1}}>
-        <NavigationContainer>
+        
             <Tab.Navigator
             initialRouteName={'Home'}
             screenOptions={({ route }) => ({
@@ -95,7 +95,6 @@ export default class StoryInterface extends Component {
         )}
         </Tab.Screen>
       </Tab.Navigator>
-      </NavigationContainer>
     </View>
     )
   }
