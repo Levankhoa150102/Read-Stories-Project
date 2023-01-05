@@ -30,6 +30,7 @@ import StoryList2   from './StoryList/StoryList2';
 import StoryRead from './StoryRead/Story';
 import  StoryChapters from './StoryRead/StoryChapters';
 
+import { AuthProvider } from '../context/AuthContext';
 
 
 StatusBar.setHidden(true)
@@ -59,6 +60,7 @@ function getHeaderTitle(route) {
 
 function HomePage() {
   return(
+    
     <HomeStack.Navigator initialRouteName='Home'>
             <HomeStack.Screen 
                 name="Home"
@@ -192,8 +194,9 @@ const hideTabBar = () => {
 export default class AssetExample extends Component {
   render() {
     return (
+      
       <View style ={{flex:1}}>
-
+      <AuthProvider>
       <NavigationContainer>
         { <HomeStack.Navigator screenOptions={{headerShown: false}}>
           <HomeStack.Screen 
@@ -216,6 +219,7 @@ export default class AssetExample extends Component {
             
         </HomeStack.Navigator>}
       </NavigationContainer>
+      </AuthProvider>
       </View>
     )
   }

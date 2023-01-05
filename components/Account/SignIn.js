@@ -1,7 +1,9 @@
-import React, {Component} from 'react'
+import React, {Component, useContext, useState} from 'react'
 import {View, Text, TextInput, StyleSheet,TouchableOpacity, StatusBar, Button} from 'react-native'
 import Header_Account from './Header_Account'
 import { Ionicons } from '@expo/vector-icons';
+
+import { AuthContext } from '../../context/AuthContext';
 StatusBar.setHidden(true)
 
 export default class SignIn extends Component {
@@ -24,6 +26,8 @@ export default class SignIn extends Component {
     
     render()
     {
+        const {login} = useContext(AuthContext)
+
         
         const {container, row, title, ControlSISU, TextSISU, TextSISU1, InputStyle,BtnSI} = styles
         
@@ -37,6 +41,7 @@ export default class SignIn extends Component {
                 <TouchableOpacity  style={BtnSI}>
                         <Text>Đăng Nhập</Text>
                 </TouchableOpacity>
+
               </View>
             <View style ={ControlSISU}>
                 <Text style = {TextSISU}>Bạn không phải là thành viên ?</Text>
