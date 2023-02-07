@@ -138,8 +138,7 @@ function TabControl(){
                 return (
                   <Ionicons
                     name="book-outline"
-                    size={size}
-                    color={color}
+                    style={styles.icon}
                   />
                 );
               }
@@ -147,8 +146,7 @@ function TabControl(){
                 return (
                   <Ionicons
                     name="home-outline"
-                    size={size}
-                    color={color}
+                    style={styles.icon}
                   />
                 );
               } else if (route.name === 'Account') {
@@ -214,6 +212,8 @@ export default class AssetExample extends Component {
             {/*The Loai*/}
             <HomeStack.Screen name="TheLoai" component={TheLoai}/>
             
+            {/*Storage*/}
+            <HomeStack.Screen name="Storage" component={Storage}/>
         </HomeStack.Navigator>}
       </NavigationContainer>
       </View>
@@ -314,5 +314,9 @@ const styles = StyleSheet.create({
       borderRadius: 30,
       justifyContent: 'center',
       alignItems: 'center',
+  },
+  icon: {
+    fontSize: 15,
+    paddingLeft: 10,
   }
 })

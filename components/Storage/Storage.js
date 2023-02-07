@@ -1,6 +1,6 @@
-import React, {Component} from 'react'
+import React, {Component, useState} from 'react'
 import { View, Text, StyleSheet, TouchableOpacity, FlatList, SafeAreaView,
-  StatusBar, TextInput, Dimensions, Image, Button } from 'react-native'
+  StatusBar, TextInput, Dimensions, Image, Button, TouchableWithoutFeedback } from 'react-native'
 import Header from '../HEADERR'
 StatusBar.setHidden(true)
 import { NavigationContainer } from '@react-navigation/native';
@@ -8,6 +8,7 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { createMaterialTopTabNavigator } from '@react-navigation/material-top-tabs';
 import { Ionicons } from '@expo/vector-icons';
+
 import story from 'E:/Javascript/Read-Stories-Project/story.json'
 //console.log(story.list_story[0].story_name)
 import img1 from '../../assets/Image_Story/7.jpg' 
@@ -62,70 +63,81 @@ const Library = [
     img: img5,
   }
 ]
-console.log(list[0])
-const offline = [
-  {
-    id: 1,
-    title: "Tổng tài, Anh nhận nhầm người rồi",
-    author: 'LVL',
-    Category: 'aa, bb, cc',
-    img: img1,
-  },
-  {
-    id: 3,
-    title: "Mê vợ, không lối về",
-    author: 'LVL',
-    Category: 'aa, bb, cc',
-    img: img3,
-  },
-  {
-    id: 4,
-    title: "Cô dâu bị đánh tráo của tổng tài",
-    author: 'LVL',
-    Category: 'aa, bb, cc',
-    img: img4,
-  },
-  {
-    id: 'None',
-    title: "",
-    author: '',
-    Category: 'aa, bb, cc',
-    img: '',
-  },
-  {
-    id: 'None',
-    title: "",
-    author: '',
-    Category: 'aa, bb, cc',
-    img: '',
-  },
-] 
-const Item = ({ story_name, source_img, author, tag }) => (
-  <View style={styles.container}>
-    <TouchableOpacity style={styles.image}>
-      <Image source={source_img} style={styles.imageStyle} />
+//console.log(list[0].author)
+
+//console.log()style={styles.image}
+//
+/*
+<View style={styles.container}>
+      <TouchableOpacity style={styles.image} activeOpacity={1}>
+      <Image source={{uri: source_img}} style={styles.imageStyle} />
       <View>
         <Text style={styles.storyName}>{story_name}</Text>
-        <Text style={styles.storyNameside}>Tác giả: {author}</Text>
-        <Text style={styles.storyNameside}>Thể loại: {tag}</Text>
+        <Text style={styles.storyNameside}>{author}</Text>
+        {/* <Text style={styles.storyNameside}>Thể loại: {tag}</Text>}
+        <TouchableOpacity
+            style={styles.intoChapter}
+            activeOpacity={0}
+        >
+          <Text style={{color: "#FFFFFF"}}>Chương {"123"}</Text>
+        </TouchableOpacity> 
       </View>
+      
     </TouchableOpacity>
+    
+  </View>
+ */
+const TS = ({ story_name, source_img, author, tag }) => (
+  <View style={styles.container}>
+    <TouchableWithoutFeedback>
+      <Image source={{uri: source_img}} style={styles.imageStyle} />
+    </TouchableWithoutFeedback>
+    <TouchableWithoutFeedback>
+      <View>
+        <Text style={styles.storyName}>{story_name}</Text>
+        <Text style={styles.storyNameside}>{author}</Text>
+        
+      </View>
+    </TouchableWithoutFeedback>
   </View>
 );
 
+const Off = ({ story_name, source_img, author, Press_to_Detail, Press_to_read }) => {
+  return (
+    <View style={styles.container}>
+      <TouchableOpacity 
+          style={styles.image} 
+          activeOpacity={1} 
+          onPress={Press_to_Detail}>
+      <Image source={{uri: source_img}} style={styles.imageStyle} />
+      <View>
+        <Text style={styles.storyName}>{story_name}</Text>
+        <Text style={styles.storyNameside}>{author}</Text>
+        {/* <Text style={styles.storyNameside}>Thể loại: {tag}</Text>*/}
+        <TouchableOpacity
+            style={styles.intoChapter}
+            activeOpacity={0}
+            onPress={Press_to_read}
+        >
+          <Text style={{color: "#FFFFFF"}}>Chương {"123"}</Text>
+        </TouchableOpacity> 
+      </View>
+    </TouchableOpacity>
+  </View>
+  );
+};
+
 function TuSach(){
   const renderItem = ({ item }) => (
-    <Item 
-      title={item.story_name} 
+    <TS
+      story_name={item.story_name} 
       source_img={item.source_img} 
       author={item.author} 
-      tag={item.tag.join(", ")}
+      //tag={item.tag.join(", ")}
       />
-      
   );
   
   return (
-    
     <View style={{backgroundColor: "#222348", paddingBottom: 30,
     }}>
       <SafeAreaView style={styles.container}>
@@ -138,16 +150,33 @@ function TuSach(){
     </View>
   );  
 }
-function Offline(){
+
+
+function Offline({navigation}){
+  const [count, setCount] = useState(0);
+
+  const Press_to_Detail = () => {
+    navigation.navigate('StoryDetail')
+  };
+  const Press_to_read = () => {
+    navigation.navigate('StoryRead')
+  };
   const renderItem = ({ item }) => (
-    <Item title={item.title} img={item.img}/>
+    <Off  
+        story_name={item.story_name} 
+        source_img={item.source_img} 
+        author={item.author} 
+        //tag={item.tag.join(", ")}
+        Press_to_Detail={Press_to_Detail}
+        Press_to_read={Press_to_read}
+        />
   );
   return (
     <View style={{backgroundColor: "#222348", paddingBottom: 30,
     }}>
       <SafeAreaView style={styles.container}>
       <FlatList
-        data={offline}
+        data={list}
         renderItem={renderItem}
         keyExtractor={item => item.id}
       />
@@ -155,6 +184,7 @@ function Offline(){
     </View>
   );
 }
+
 export default class Storage extends Component {
     render()
     {
@@ -175,9 +205,27 @@ const styles = StyleSheet.create({
     //height: height / 10, 
     padding: 4, 
     backgroundColor: "#222348",
+    //flex: 0,
+    flexDirection: 'row',
+    //backgroundColor: 'red',
+    //flexWrap: "wrap",
+    //alignItems: 'center',
     //marginBottom: '6%',
-    //borderBottomColor: '#FFFFFF',
-    //borderBottomWidth: 1,
+    borderBottomColor: '#FFFFFF',
+    borderBottomWidth: 1,
+  },
+  container1: { 
+    //height: height / 10, 
+    padding: 4, 
+    backgroundColor: "#222348",
+    //flex: 0,
+    //flexDirection: 'row',
+    //backgroundColor: 'red',
+    //flexWrap: "wrap",
+    //alignItems: 'center',
+    //marginBottom: '6%',
+    borderBottomColor: '#FFFFFF',
+    borderBottomWidth: 1,
   },
   item: {
     backgroundColor: '#f9c2ff',
@@ -209,12 +257,23 @@ const styles = StyleSheet.create({
     width:  90,
     height: 130,
     borderRadius: 10,
+    
   },
   storyName:{
     paddingLeft: 10,
     fontSize: 15 ,
     //fontFamily: 'Avenir',
-    color: '#FFFFFF',
-    fontWeight: '500'
+    color: '#FFFFFF'
+    //fontWeight: '500'
   },
+  intoChapter: {
+    alignItems: "center",
+    backgroundColor: "#2196F3",
+    padding: 13,
+    height: height*5/100,
+    width: width*35/100,
+    borderRadius: 5, 
+    //marginTop: 45,
+    marginRight: '40%',
+  }
 });

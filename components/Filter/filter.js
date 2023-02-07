@@ -1,4 +1,4 @@
-import React, {Component} from 'react'
+import React, {Component, useState} from 'react'
 import { View, Text, StyleSheet, TouchableOpacity,
         StatusBar, TextInput, Dimensions, Image, Button } from 'react-native'
 import SelectMultiple from 'react-native-select-multiple'
@@ -178,7 +178,7 @@ const styles = StyleSheet.create({
         paddingHorizontal: 8,
         paddingTop: '1%',
         paddingBottom: '80%',
-        //borderRadius: 4,
+        
     },
     button:{
         backgroundColor: '#1A1C6A',
