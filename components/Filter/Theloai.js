@@ -1,56 +1,109 @@
-import React, {Component} from 'react'
+import React, {Component,  useState, useEffect} from 'react'
 import { View, Text, StyleSheet, TouchableOpacity,
-        StatusBar, TextInput, Dimensions, Image, Button } from 'react-native'
-import SelectMultiple from 'react-native-select-multiple'
+        StatusBar, TextInput, Dimensions, Image, Button, SafeAreaView } from 'react-native'
+//import SelectMultiple from 'react-native-select-multiple'
 import { Ionicons } from '@expo/vector-icons';
+//import MultiSelect from 'react-native-multiple-select';
 
-
-
+// ['Huyền huyễn', 'Kiếm hiệp', 'Lịch sử', 
+//                 'Ngôn tình', 'Tiên hiệp', 'Dị giới', 
+//                 'Đô thị', 'Huyền ảo', 'Trinh thám',
+//                 ' Cổ đại', 'Hệ thống', 'Khoa huyễn', 
+//                 'Quân sự', 'Võng du', 'Xuyên không',
+//                 'Đam mỹ', 'Quan trường', 'Dị năng',
+//                 'Xuyên nhanh', 'Trọng sinh', 'Linh dị',
+//                 'Ngược', 'Sủng', 'Cung đấu', 'Nữ cường',
+//                 'Gia đấu', 'Đông Phương', 'Bách hợp', 
+//                 'Hài hước', 'Điền văn', 'Mạt thế', 'Truyện teen',
+//                 'Phương Tây', 'Nữ phụ', 'Light Novel',
+//                 'Đoản Văn', 'Khác']
 StatusBar.setHidden(true)
-const {height} = Dimensions.get('window')
-const State = ['Huyền huyễn', 'Kiếm hiệp', 'Lịch sử', 
-                'Ngôn tình', 'Tiên hiệp', 'Dị giới', 
-                'Đô thị', 'Huyền ảo', 'Trinh thám',
-                ' Cổ đại', 'Hệ thống', 'Khoa huyễn', 
-                'Quân sự', 'Võng du', 'Xuyên không',
-                'Đam mỹ', 'Quan trường', 'Dị năng',
-                'Xuyên nhanh', 'Trọng sinh', 'Linh dị',
-                'Ngược', 'Sủng', 'Cung đấu', 'Nữ cường',
-                'Gia đấu', 'Đông Phương', 'Bách hợp', 
-                'Hài hước', 'Điền văn', 'Mạt thế', 'Truyện teen',
-                'Phương Tây', 'Nữ phụ', 'Light Novel',
-                'Đoản Văn', 'Khác']
-
-export default class TheLoai extends Component{
-    state = { selectedFruits: [] }
-        onSelectionsChange = (selectedFruits) => {
-        // selectedFruits is array of { label, value }
-        this.setState({ selectedFruits })
-    }
-    GobacktoHomePage() {
-        const {navigation} = this.props;
-        navigation.goBack();
-    }
-    render(){
+const {width, height } = Dimensions.get('window');
+const Tags =  [
+    { id: 1, name: 'Kiếm hiệp' },
+    { id: 2, name: 'Lịch sử' },
+    { id: 3, name: 'Ngôn tình' },
+    { id: 4, name: 'Tiên hiệp' },
+    { id: 5, name: 'Dị giới' },
+    { id: 6, name: 'Đô thị' },
+    { id: 7, name: 'Huyền ảo' },
+    { id: 8, name: 'Trinh thám' },
+    { id: 9, name: 'Cổ đại' },
+    { id: 11, name: 'Hệ thống' },
+    { id: 12, name: 'Khoa huyễn' },
+    { id: 13, name: 'Quân sự' },
+    { id: 14, name: 'Võng du' },
+    { id: 15, name: 'Xuyên không' },
+    { id: 16, name: 'Đam mỹ' },
+    { id: 17, name: 'Quan trường' },
+    { id: 18, name: 'Dị năng' },
+    { id: 19, name: 'Xuyên nhanh' },
+    { id: 20, name: 'Trọng sinh' },
+    { id: 21, name: 'Linh dị' },
+    { id: 22, name: 'Ngược' },
+    { id: 23, name: 'Sủng' },
+    { id: 24, name: 'Cung đấu' },
+    { id: 25, name: 'Nữ cường' },
+    { id: 26, name: 'Gia đấu' },
+    { id: 27, name: 'Đông Phương' },
+    { id: 28, name: 'Bách hợp' },
+    { id: 29, name: 'Hài hước' },
+    { id: 30, name: 'Điền văn' },
+    { id: 31, name: 'Mạt thế' },
+    { id: 32, name: 'Truyện teen' },
+    { id: 33, name: 'Phương Tây' },
+    { id: 34, name: 'Nữ phụ' },
+    { id: 35, name: 'Light Novel' },
+    { id: 36, name: 'Đoản Văn' },
+  ];
+//
+export default function TheLoai (){
+    const [selectedItems, setSelectedItems] = useState([]);
+    const onSelectedItemsChange = (selectedItems) => {
+ 
+        setSelectedItems(selectedItems);
+ 
+        for (let i = 0; i < selectedItems.length; i++) {
+            var tempItem = Tags.find(item => item.id === selectedItems[i]);
+            console.log(tempItem);
+        }
+ 
+  };
         const {container, title, wrapper, 
             row, textInput, checkbox, box, textStyle,
-            status, heading, sortButton, button} = styles
+            status, heading, sortButton, button, intoChapter} = styles
         return(
-            <View style={container}>
-                
-                {/* <Text style={heading}>Thể loại: </Text> */}
-                        <SelectMultiple
-                            items={State}
-                            selectedItems={this.state.selectedFruits}
-                            onSelectionsChange={this.onSelectionsChange}
-                            rowStyle={status}
-                            checkboxStyle={checkbox}
-                            labelStyle={textStyle}  
-                            selectedCheckboxStyle={{color: '#239B56'}}
-                        />
-            </View>
+            //<SafeAreaView style={{ flex: 1 }}>
+ 
+      <View style={container}>
+ 
+        {/* <Text style={styles.text}> React Native Multiple Select </Text> */}
+ 
+        <MultiSelect
+          //hideTags
+          items={Tags}
+          uniqueKey="id"
+          onSelectedItemsChange={onSelectedItemsChange}
+          selectedItems={selectedItems}
+          selectText="Select Items"
+          searchInputPlaceholderText="Search Items Here..."
+          onChangeInput={(text) => console.log(text)}
+          tagRemoveIconColor="#CCC"
+          tagBorderColor="#CCC"
+          tagTextColor="#CCC"
+          selectedItemTextColor="#CCC"
+          selectedItemIconColor="#CCC"
+          itemTextColor="#000"
+          displayKey="name"
+          searchInputStyle={{ color: '#CCC' }}
+          submitButtonColor="#00BFA5"
+          submitButtonText="Submit"
+        />
+ 
+      </View>
+    //</SafeAreaView>
         )
-    }
+    
 }
 
 
@@ -58,10 +111,9 @@ export default class TheLoai extends Component{
 const styles = StyleSheet.create({
     container: { 
         //height: height / 10, 
-        padding: 15, 
-        backgroundColor: "#222348",
-        borderBottomColor: '#FFFFFF',
-        borderBottomWidth: 1,
+        flex: 1,
+        padding: 12,
+        backgroundColor: 'white'
     },
     title:{
         color: "#FFF",
@@ -95,12 +147,12 @@ const styles = StyleSheet.create({
         backgroundColor: "#222348",
     },
     status: {
-        flex: 1,
-        flexDirection: 'row',
+        //flex: 1,
+        //flexDirection: 'row',
         alignItems: 'center',
-        paddingLeft: 0,
-        paddingTop: 1,
-        //marginLeft:'-5%',
+        paddingLeft: 1,
+        paddingTop: -5,
+        //marginBottom:'-3%',
         //borderBottomWidth: 1,
         borderBottomColor: '#222348',
         backgroundColor: '#222348'
@@ -135,7 +187,7 @@ const styles = StyleSheet.create({
         alignSelf: "flex-start",
         paddingHorizontal: 8,
         paddingTop: '1%',
-        paddingBottom: '80%',
+        //paddingBottom: '80%',
         //borderRadius: 4,
     },
     button:{
@@ -148,5 +200,19 @@ const styles = StyleSheet.create({
         borderRadius: 30,
         justifyContent: 'center',
         alignItems: 'center',
-    }
+    },
+    intoChapter: {
+        alignItems: "center",
+        padding: 10,
+        height: 40,
+        backgroundColor: "#2196F3",
+        marginBottom: 30
+    },
+    text: {
+        padding: 12,
+        fontSize: 22,
+        textAlign: 'center',
+        fontWeight: 'bold',
+        color: 'black'
+      }
 })

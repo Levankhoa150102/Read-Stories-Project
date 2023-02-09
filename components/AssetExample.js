@@ -210,7 +210,7 @@ export default class AssetExample extends Component {
 
             {/*Search Navigate*/}
             {/*The Loai*/}
-            <HomeStack.Screen name="TheLoai" component={TheLoai}/>
+            {/* <HomeStack.Screen name="TheLoai" component={TheLoai}/> */}
             
             {/*Storage*/}
             <HomeStack.Screen name="Storage" component={Storage}/>

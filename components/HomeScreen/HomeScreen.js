@@ -1,5 +1,6 @@
 import React, {Component} from 'react'
-import { View, Text, StyleSheet, TouchableOpacity, StatusBar, TextInput, Dimensions, Image, Button, ScrollView } from 'react-native'
+import { View, Text, StyleSheet, TouchableOpacity, StatusBar, 
+    TextInput, Dimensions, Image, Button, ScrollView } from 'react-native'
 
 import {NavigationContainer} from '@react-navigation/native';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
@@ -39,13 +40,8 @@ export default class HomeScreen extends Component {
             </TouchableOpacity>
             <TouchableOpacity onPress={() => { this.props.navigation.navigate('StoryList2') }}>
                 <Recommend />
-            </TouchableOpacity>
-          
+            </TouchableOpacity>          
             <TopStory />
-
-            
-
-            
           </ScrollView>
       );
   }
