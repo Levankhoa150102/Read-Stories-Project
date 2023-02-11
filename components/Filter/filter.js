@@ -1,14 +1,64 @@
-import React, {Component} from 'react'
-import { View, Text, StyleSheet, TouchableOpacity,
-        StatusBar, TextInput, Dimensions, Image, Button } from 'react-native'
-import SelectMultiple from 'react-native-select-multiple'
+import React, {Component, useState} from 'react'
+import { View, Text, StyleSheet, TouchableOpacity, SafeAreaView,
+        StatusBar, TextInput, Dimensions, Image, Button, ScrollView } from 'react-native'
+//import SelectMultiple from 'react-native-select-multiple'
 import { Ionicons } from '@expo/vector-icons';
+import { xorBy } from 'lodash'
+import MultiSelect from 'react-native-multiple-select';
 
-
-
+import story from '../../story.json'
+const list = story.list_story
 StatusBar.setHidden(true)
-const {height} = Dimensions.get('window')
-const State = ['Tất cả', 'Đang ra', 'Đã hoàn thành']
+const {width, height } = Dimensions.get('window');
+const Tags =  [
+    { id: 1, name: 'Kiếm hiệp' },
+    { id: 2, name: 'Lịch sử' },
+    { id: 3, name: 'Ngôn tình' },
+    { id: 4, name: 'Tiên hiệp' },
+    { id: 5, name: 'Dị giới' },
+    { id: 6, name: 'Đô thị' },
+    { id: 7, name: 'Huyền ảo' },
+    { id: 8, name: 'Trinh thám' },
+    { id: 9, name: 'Cổ đại' },
+    { id: 11, name: 'Hệ thống' },
+    { id: 12, name: 'Khoa huyễn' },
+    { id: 13, name: 'Quân sự' },
+    { id: 14, name: 'Võng du' },
+    { id: 15, name: 'Xuyên không' },
+    { id: 16, name: 'Đam mỹ' },
+    { id: 17, name: 'Quan trường' },
+    { id: 18, name: 'Dị năng' },
+    { id: 19, name: 'Xuyên nhanh' },
+    { id: 20, name: 'Trọng sinh' },
+    { id: 21, name: 'Linh dị' },
+    { id: 22, name: 'Ngược' },
+    { id: 23, name: 'Sủng' },
+    { id: 24, name: 'Cung đấu' },
+    { id: 25, name: 'Nữ cường' },
+    { id: 26, name: 'Gia đấu' },
+    { id: 27, name: 'Đông Phương' },
+    { id: 28, name: 'Bách hợp' },
+    { id: 29, name: 'Hài hước' },
+    { id: 30, name: 'Điền văn' },
+    { id: 31, name: 'Mạt thế' },
+    { id: 32, name: 'Truyện teen' },
+    { id: 33, name: 'Phương Tây' },
+    { id: 34, name: 'Nữ phụ' },
+    { id: 35, name: 'Light Novel' },
+    { id: 36, name: 'Đoản Văn' },
+  ];
+const Status = [
+    { id: 1, item: 'Tất cả' },
+    { id: 2, item: 'Đang ra' },
+    { id: 3, item: 'Đã hoàn thành' },
+]
+
+const Chapter = [
+    { id: 1, item: '1 - 200' },
+    { id: 2, item: '201 - 500' },
+    { id: 3, item: '500 - 1000' },
+    { id: 4, item: 'Hơn 1000' },
+]
 const renderLabel = (label, style) => {
     return (
       <View style={{flexDirection: 'row', alignItems: 'center'}}>
@@ -21,22 +71,28 @@ const renderLabel = (label, style) => {
 
 
 export default class Filter extends Component {
-    state = { selectedFruits: [] }
-        onSelectionsChange = (selectedFruits) => {
-        // selectedFruits is array of { label, value }
-        this.setState({ selectedFruits })
-    }
-    GobacktoHomePage() {
-        const {navigation} = this.props;
-        navigation.goBack();
-    }
-    render(){
-        
+    state = {
+        selectedStatus : [],
+        selectedTags: [],
+        selectedChaper: [],
+    };
+    
+        onSelectedStatusChange = selectedStatus => {
+        this.setState({ selectedStatus });
+      };
+      onSelectedTagsChange = selectedTags => {
+        this.setState({ selectedTags });
+      };
+        onSelectedChaperChange = selectedChaper => {
+        this.setState({ selectedChaper });
+      };
+    render() {
+        const { selectedStatus, selectedTags, selectedChaper } = this.state;
         const {container, title, wrapper, 
                 row, textInput, checkbox, box, textStyle,
-                status, heading, sortButton, button} = styles
+                status, heading, sortButton, button, ApplyDirection} = styles
         return(  
-            <View>
+            <ScrollView style={container}>
                 <View style={container}>
                     <Text style={title}>Tìm kiếm</Text>
                     <View style={wrapper}>
@@ -50,59 +106,150 @@ export default class Filter extends Component {
                     </View>
                     <View style={box}>
                         <Text style={heading}>Trạng thái: </Text>
-                        <SelectMultiple
-                            items={State}
-                            selectedItems={this.state.selectedFruits}
-                            onSelectionsChange={this.onSelectionsChange}
-                            rowStyle={status}
-                            checkboxStyle={checkbox}
-                            labelStyle={textStyle}  
-                            selectedCheckboxStyle={{color: '#239B56'}}
-                        />
                     </View>
+                    
+                    <MultiSelect
+                        //hideTags
+                        items={Status}
+                        uniqueKey="id"
+                        ref={(component) => { this.multiSelect = component }}
+                        onSelectedItemsChange={this.onSelectedTagsChange}
+                        styleListContainer={{backgroundColor: '#222348'}}
+                        styleDropdownMenuSubsection={styles.box}
+                        styleTextDropdown={{color:'white', fontSize: 15}}
+                        selectedItems={selectedTags}
+                        selectText="Chọn trạng thái:"
+                        searchInputPlaceholderText="Search Items..."
+                        onChangeInput={ (text)=> console.log(text)}
+                        altFontFamily="ProximaNova-Light"
+                        tagRemoveIconColor="#CCC"
+                        tagBorderColor="#CCC"
+                        //tagTextColor="white"
+                        selectedItemTextColor="white"
+                        selectedItemIconColor="white"
+                        itemTextColor="#71E4F6"
+                        displayKey="item"
+                        searchInputStyle={{ color: '#CCC' }}
+                        submitButtonColor="#1A1C6A"
+                        submitButtonText="Áp dụng"
+                        styleTextTag={{color:'white', fontSize: 15}}
+                        styleSelectorContainer={{borderBottomLeftRadius: 1}}
+
+                        searchInputStyle={{fontSize: 20, padding: 7}}
+
+                        styleRowList={{ borderBottomColor: 'grey', borderBottomWidth: 1}}
+
+
+                    />
+
                 </View>
                 
                 <View style={container}>
-                    <TouchableOpacity onPress={() => { this.props.navigation.navigate('TheLoai') }}>
+                    <Text style={heading}>Thể Loại: </Text>
+                    <SafeAreaView>
+                   
+                    <MultiSelect
+                        //hideTags
+                        items={Tags}
+                        uniqueKey="id"
+                        ref={(component) => { this.multiSelect = component }}
+                        onSelectedItemsChange={this.onSelectedStatusChange}
+                        styleListContainer={{backgroundColor: '#222348'}}
+                        styleDropdownMenuSubsection={styles.box}
+                        styleTextDropdown={{color:'white', fontSize: 15}}
+                        selectedItems={selectedStatus}
+                        selectText="Chọn thể loại:"
+                        searchInputPlaceholderText="Search Items..."
+                        onChangeInput={ (text)=> console.log(text)}
+                        altFontFamily="ProximaNova-Light"
+                        tagRemoveIconColor="#CCC"
+                        tagBorderColor="#CCC"
+                        tagTextColor="white"
+                        selectedItemTextColor="white"
+                        selectedItemIconColor="white"
+                        itemTextColor="#71E4F6"
+                        displayKey="name"
+                        searchInputStyle={{ color: '#CCC' }}
+                        submitButtonColor="#1A1C6A"
+                        submitButtonText="Áp dụng"
+
+                        searchInputStyle={{fontSize: 20, padding: 7}}
+                        styleRowList={{ borderBottomColor: 'grey', borderBottomWidth: 1}}
+
+                    />
                     
-                        <Text style={heading}>
-                            Thể loại
-                        </Text>
-                    
-                        <Text style= {textStyle}>Chọn thể loại </Text>
-                    </TouchableOpacity>
-                </View>
-                <View style={container}>    
-                    <Text style={heading}>
-                        Số chương
-                    </Text>
-                    <View style={sortButton}>
-                        <TouchableOpacity style={button}>
-                            <Text style={{color: '#FFFFFF'}}>1 - 500</Text>
-                        </TouchableOpacity>
-                        <TouchableOpacity style={button}>
-                            <Text style={{color: '#FFFFFF'}}>501 - 1000</Text>
-                        </TouchableOpacity>
-                        <TouchableOpacity style={button}>
-                            <Text style={{color: '#FFFFFF'}}>1001 - 2000</Text>
-                        </TouchableOpacity>
-                        <TouchableOpacity style={button}>
-                            <Text style={{color: '#FFFFFF'}}>Hơn 2000</Text>
-                        </TouchableOpacity>
-                    </View>
-                    <Button title='Áp dụng'/>
+                    </SafeAreaView>
                 </View>
                 
-            </View>
+                <View style={container}>    
+                <Text style={heading}>Số chương: </Text>
+                    <SafeAreaView>
+                   
+                    <MultiSelect
+                        //hideTags
+                        items={Chapter}
+                        uniqueKey="id"
+                        ref={(component) => { this.multiSelect = component }}
+                        onSelectedItemsChange={this.onSelectedChaperChange}
+                        styleListContainer={{backgroundColor: '#222348'}}
+                        styleDropdownMenuSubsection={styles.box}
+                        styleTextDropdown={{color:'white', fontSize: 15}}
+                        selectedItems={selectedChaper}
+                        selectText="Chọn số chương:"
+                        searchInputPlaceholderText="Search Items..."
+                        onChangeInput={ (text)=> console.log(text)}
+                        altFontFamily="ProximaNova-Light"
+                        tagRemoveIconColor="#CCC"
+                        tagBorderColor="#CCC"
+                        //tagTextColor="white"
+                        selectedItemTextColor="white"
+                        selectedItemIconColor="white"
+                        itemTextColor="#71E4F6"
+                        displayKey="item"
+                        searchInputStyle={{ color: '#CCC' }}
+                        submitButtonColor="#1A1C6A"
+                        submitButtonText="Áp dụng"
+                        styleTextTag={{color:'white', fontSize: 15}}
+                        styleSelectorContainer={{borderBottomLeftRadius: 1}}
+
+                        searchInputStyle={{fontSize: 20, padding: 5}}
+                        styleRowList={{ borderBottomColor: 'grey', borderBottomWidth: 1}}
+
+
+                    />
+                    
+                    </SafeAreaView>
+
+                    
+                    
+                </View>
+                <View>
+                <TouchableOpacity style={ApplyDirection} >
+                        <Text style={button}>ÁP DỤNG</Text>
+                </TouchableOpacity>
+                </View>
+                
+            </ScrollView>
         )
     }
 }
+function onMultiChange() {
+    return (item) => setSelectedTeams(xorBy(selectedTeams, [item], 'id'))
+  }
+
+function onChange() {
+    return (val) => setSelectedTeam(val)
+}
+
+
 const styles = StyleSheet.create({
-    container: { 
-        //height: height / 10, 
-        padding: 15, 
+    container: {
+        flex: 0,
+        flexDirection: 'column', 
+        padding: 10,
+        paddingTop: 5, 
         backgroundColor: "#222348",
-        borderBottomColor: '#FFFFFF',
+        borderBottomColor: '#1A1C6A',
         borderBottomWidth: 1,
     },
     title:{
@@ -113,8 +260,6 @@ const styles = StyleSheet.create({
         textAlign: "center",
     },
     wrapper: {
-        //marginTop: "5%",
-        //height: height / 8, 
         padding: 15,
         paddingLeft: 3,
         paddingRight: 3,
@@ -133,8 +278,14 @@ const styles = StyleSheet.create({
         paddingLeft: 10
     },
     box: {
-        //padding: 15, 
+        //padding: 10,
         backgroundColor: "#222348",
+        borderBottomColor: '#FFFFFF',
+        borderBottomWidth: 0,
+        color: 'white',
+        borderRadius: 20,
+        height: 50,
+        //width: 20,
     },
     status: {
         flex: 1,
@@ -142,8 +293,6 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         paddingLeft: 0,
         paddingTop: 1,
-        //marginLeft:'-5%',
-        //borderBottomWidth: 1,
         borderBottomColor: '#222348',
         backgroundColor: '#222348'
     },
@@ -151,7 +300,6 @@ const styles = StyleSheet.create({
         backgroundColor: '#FFFFFF',
         width: 19,
         height: 19,
-        //marginRight: 5
     },
     textStyle: {
         fontSize: 15,
@@ -160,35 +308,33 @@ const styles = StyleSheet.create({
         fontFamily: "normal",
     },
     heading: {
-        color: "#BBC6CD",
-        //fontWeight: "bold",
+        color: "yellow",
         fontFamily: "normal",
-        fontSize: 17,
+        fontSize: 20,
+        fontWeight: "bold",
         paddingBottom: 15,
-        //textAlign: "center",
     },
     sortButton:{
         flex: 1,
         flexDirection: 'row',
         flexWrap: "wrap",
         alignItems: 'center',
-        //padding: 15, 
         backgroundColor: "#222348",
         alignSelf: "flex-start",
         paddingHorizontal: 8,
         paddingTop: '1%',
-        paddingBottom: '80%',
-        //borderRadius: 4,
+        paddingBottom: '30%',
+    },
+    ApplyDirection: {
+       backgroundColor:'blue',
+       alignItems: 'center',
+       padding: 10,
+       marginTop: 20,
+
     },
     button:{
-        backgroundColor: '#1A1C6A',
-        width: 100,
-        height: 40,
-        //marginTop: '1%',
-        marginLeft: '3%',
-        marginBottom: '3%',
-        borderRadius: 30,
-        justifyContent: 'center',
-        alignItems: 'center',
+        color: "#FFF",
+        fontWeight: "500",
+        fontSize: 20,
     }
 })
