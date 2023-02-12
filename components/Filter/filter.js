@@ -1,56 +1,59 @@
-import React, {Component, useState} from 'react'
+import React, {Component, useState, useEffect} from 'react'
 import { View, Text, StyleSheet, TouchableOpacity, SafeAreaView,
         StatusBar, TextInput, Dimensions, Image, Button, ScrollView } from 'react-native'
 //import SelectMultiple from 'react-native-select-multiple'
 import { Ionicons } from '@expo/vector-icons';
 import { xorBy } from 'lodash'
 import MultiSelect from 'react-native-multiple-select';
+import { useNavigation } from '@react-navigation/native';
 
 import story from 'E:/Javascript/Read-Stories-Project/story.json'
 const list = story.list_story
+
 StatusBar.setHidden(true)
 const {width, height } = Dimensions.get('window');
 const Tags =  [
-    { id: 1, name: 'Kiếm hiệp' },
-    { id: 2, name: 'Lịch sử' },
-    { id: 3, name: 'Ngôn tình' },
-    { id: 4, name: 'Tiên hiệp' },
-    { id: 5, name: 'Dị giới' },
-    { id: 6, name: 'Đô thị' },
-    { id: 7, name: 'Huyền ảo' },
-    { id: 8, name: 'Trinh thám' },
-    { id: 9, name: 'Cổ đại' },
-    { id: 11, name: 'Hệ thống' },
-    { id: 12, name: 'Khoa huyễn' },
-    { id: 13, name: 'Quân sự' },
-    { id: 14, name: 'Võng du' },
-    { id: 15, name: 'Xuyên không' },
-    { id: 16, name: 'Đam mỹ' },
-    { id: 17, name: 'Quan trường' },
-    { id: 18, name: 'Dị năng' },
-    { id: 19, name: 'Xuyên nhanh' },
-    { id: 20, name: 'Trọng sinh' },
-    { id: 21, name: 'Linh dị' },
-    { id: 22, name: 'Ngược' },
-    { id: 23, name: 'Sủng' },
-    { id: 24, name: 'Cung đấu' },
-    { id: 25, name: 'Nữ cường' },
-    { id: 26, name: 'Gia đấu' },
-    { id: 27, name: 'Đông Phương' },
-    { id: 28, name: 'Bách hợp' },
-    { id: 29, name: 'Hài hước' },
-    { id: 30, name: 'Điền văn' },
-    { id: 31, name: 'Mạt thế' },
-    { id: 32, name: 'Truyện teen' },
-    { id: 33, name: 'Phương Tây' },
-    { id: 34, name: 'Nữ phụ' },
-    { id: 35, name: 'Light Novel' },
-    { id: 36, name: 'Đoản Văn' },
+    { 'id': 1, 'item': 'Kiếm hiệp' },
+    { 'id': 2, 'item': 'Lịch sử' },
+    { 'id': 3, 'item': 'Ngôn tình' },
+    { 'id': 4, 'item': 'Tiên hiệp' },
+    { 'id': 5, 'item': 'Dị giới' },
+    { 'id': 6, 'item': 'Đô thị' },
+    { 'id': 7, 'item': 'Huyền ảo' },
+    { 'id': 8, 'item': 'Trinh thám' },
+    { 'id': 9, 'item': 'Cổ đại' },
+    { 'id': 10, 'item': 'Hệ thống' },
+    { 'id': 11, 'item': 'Khoa huyễn' },
+    { 'id': 12, 'item': 'Quân sự' },
+    { 'id': 13, 'item': 'Võng du' },
+    { 'id': 14, 'item': 'Xuyên không' },
+    { 'id': 15, 'item': 'Đam mỹ' },
+    { 'id': 16, 'item': 'Quan trường' },
+    { 'id': 17, 'item': 'Dị năng' },
+    { 'id': 18, 'item': 'Xuyên nhanh' },
+    { 'id': 19, 'item': 'Trọng sinh' },
+    { 'id': 20, 'item': 'Linh dị' },
+    { 'id': 21, 'item': 'Ngược' },
+    { 'id': 22, 'item': 'Sủng' },
+    { 'id': 23, 'item': 'Cung đấu' },
+    { 'id': 24, 'item': 'Nữ cường' },
+    { 'id': 25, 'item': 'Gia đấu' },
+    { 'id': 26, 'item': 'Đông Phương' },
+    { 'id': 27, 'item': 'Bách hợp' },
+    { 'id': 28, 'item': 'Hài hước' },
+    { 'id': 29, 'item': 'Điền văn' },
+    { 'id': 30, 'item': 'Mạt thế' },
+    { 'id': 31, 'item': 'Truyện teen' },
+    { 'id': 32, 'item': 'Phương Tây' },
+    { 'id': 33, 'item': 'Nữ phụ' },
+    { 'id': 34, 'item': 'Light Novel' },
+    { 'id': 35, 'item': 'Đoản Văn' },
+    { 'id': 36, 'item': 'Huyền Huyễn' },
   ];
 const Status = [
-    { id: 1, item: 'Tất cả' },
-    { id: 2, item: 'Đang ra' },
-    { id: 3, item: 'Đã hoàn thành' },
+    { 'id': 1, item: 'Tất cả' },
+    { 'id': 2, item: 'Đang ra' },
+    { 'id': 3, item: 'Đã hoàn thành' },
 ]
 const renderLabel = (label, style) => {
     return (
@@ -62,27 +65,42 @@ const renderLabel = (label, style) => {
     )
 }
 
+// state = {
+//     selectedStatus : [],
+//     selectedTags: [],
+// };
 
-export default class Filter extends Component {
-    state = {
-        selectedStatus : [],
-        selectedTags: []
-    };
-    
-      
-      onSelectedStatusChange = selectedStatus => {
-        this.setState({ selectedStatus });
-      };
-      onSelectedTagsChange = selectedTags => {
-        this.setState({ selectedTags });
-      };
-    render() {
-        const { selectedStatus, selectedTags } = this.state;
+  
+//   onSelectedStatusChange = selectedStatus => {
+//     this.setState({ selectedStatus });
+//   };
+//   onSelectedTagsChange = selectedTags => {
+//     this.setState({ selectedTags });
+//   };
+//   const { selectedStatus, selectedTags } = state;
+function Filter ({navigation}) {
+        const [selectedStatus, onSelectedStatusChange] = useState([]);
+        const [selectedTags, onSelectedTagsChange] = useState([]);
+        const [data, setData] = useState([]);
+        const [filterData, setFilterData] = useState([]);
+        useEffect(()=> {
+            fetchData("E:/Javascript/Read-Stories-Project/story_1.json");
+        }, []);
+        const fetchData = async (link) => {
+            try{
+                const response = await fetch(link);
+                const json = await response.json();
+                setData(json.results);
+                setFilterData(json.results);
+            } catch (error) {
+                console.error(error);
+            }
+        };
         const {container, title, wrapper, 
                 row, textInput, checkbox, box, textStyle,
                 status, heading, sortButton, button} = styles
         return(  
-            <View>
+            <ScrollView>
                 <View style={container}>
                     <Text style={title}>Tìm kiếm</Text>
                     <View style={wrapper}>
@@ -91,6 +109,7 @@ export default class Filter extends Component {
                             style={textInput} 
                             placeholder="Tìm kiếm truyện..." 
                             placeholderTextColor={'#494F86'}  
+                            inlineImageLeft='search_icon'
                         />
                         </View>
                     </View>
@@ -102,8 +121,8 @@ export default class Filter extends Component {
                         //hideTags
                         items={Status}
                         uniqueKey="id"
-                        ref={(component) => { this.multiSelect = component }}
-                        onSelectedItemsChange={this.onSelectedTagsChange}
+                        //ref={(component) => { multiSelect = component }}
+                        onSelectedItemsChange={onSelectedTagsChange}
                         styleListContainer={{backgroundColor: '#222348'}}
                         styleDropdownMenuSubsection={styles.box}
                         styleTextDropdown={{color:'white', fontSize: 15}}
@@ -111,7 +130,7 @@ export default class Filter extends Component {
                         selectText="Chọn trạng thái:"
                         searchInputPlaceholderText="Search Items..."
                         onChangeInput={ (text)=> console.log(text)}
-                        altFontFamily="ProximaNova-Light"
+                        //altFontFamily="ProximaNova-Light"
                         tagRemoveIconColor="#CCC"
                         tagBorderColor="#CCC"
                         //tagTextColor="white"
@@ -136,8 +155,8 @@ export default class Filter extends Component {
                         //hideTags
                         items={Tags}
                         uniqueKey="id"
-                        ref={(component) => { this.multiSelect = component }}
-                        onSelectedItemsChange={this.onSelectedStatusChange}
+                        //ref={(component) => { this.multiSelect = component }}
+                        onSelectedItemsChange={onSelectedStatusChange}
                         styleListContainer={{backgroundColor: '#222348'}}
                         styleDropdownMenuSubsection={styles.box}
                         styleTextDropdown={{color:'white', fontSize: 15}}
@@ -145,14 +164,14 @@ export default class Filter extends Component {
                         selectText="Chọn thể loại:"
                         searchInputPlaceholderText="Search Items..."
                         onChangeInput={ (text)=> console.log(text)}
-                        altFontFamily="ProximaNova-Light"
+                        //altFontFamily="ProximaNova-Light"
                         tagRemoveIconColor="#CCC"
                         tagBorderColor="#CCC"
                         tagTextColor="white"
                         selectedItemTextColor="white"
                         selectedItemIconColor="white"
                         itemTextColor="#71E4F6"
-                        displayKey="name"
+                        displayKey="item"
                         searchInputStyle={{ color: '#CCC' }}
                         submitButtonColor="#1A1C6A"
                         submitButtonText="Submit"
@@ -183,19 +202,19 @@ export default class Filter extends Component {
                     </View>
                 </View>
                 
-            </View>
+            </ScrollView>
         )
-    }
+    
 }
-function onMultiChange() {
-    return (item) => setSelectedTeams(xorBy(selectedTeams, [item], 'id'))
-  }
+// function onMultiChange() {
+//     return (item) => setSelectedTeams(xorBy(selectedTeams, [item], 'id'))
+//   }
 
-function onChange() {
-    return (val) => setSelectedTeam(val)
-}
+// function onChange() {
+//     return (val) => setSelectedTeam(val)
+// }
 
-
+export default Filter
 const styles = StyleSheet.create({
     container: {
         flex: 0,

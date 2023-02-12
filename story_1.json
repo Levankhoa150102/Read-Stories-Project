@@ -1,0 +1,8053 @@
+{
+ "list_story": [
+  {
+   "key": "0",
+   "story_name": "LẠN KHA KỲ DUYÊN",
+   "source_img": "https://static.8cache.com/cover/eJzLyTDWT7FMzTfy8Cqo8MjxSkuKN8k383QrSUpJsvQrSNctTvNxKjFPNHFMzk1J9QnJyDZILzMvdc4rTHLKL8yqCgoLKg7PTC8LNfMsynepdA3Kc8wtMim3LTcyNNXNMDYyAgBhbiED/lan-kha-ki-duyen.jpg",
+   "author": "Chân Phí Sự",
+   "tag": [
+    {
+     "id": 4,
+     "item": "Tiên Hiệp"
+    },
+    {
+     "id": 5,
+     "item": "Dị Giới"
+    },
+    {
+     "id": 36,
+     "item": "Huyền Huyễn"
+    },
+    {
+     "id": 9,
+     "item": "Cổ Đại"
+    }
+   ],
+   "source_by": "Bạch Ngọc Sách",
+   "status": {
+    "id": 2,
+    "item": "Đang ra"
+   },
+   "summary": [
+    "Lạn Kha ngồi bên ván cờ lá rụng, tại giữa trúc lâm không người đánh cờ.",
+    "Hưng sở trí Thiên Nguyên một cờ, lại xoay người sông núi thênh thang.",
+    "",
+    "...",
+    "",
+    "Thức giấc sau cơn mơ, Kế Duyên trở thành một tên hành khất gần như mù mắt trong một cái miếu sơn thần cũ nát.",
+    "",
+    "Thực lực không đủ thì dùng miệng lưỡi để kiếm ăn, chân nhân dùng kiếm, lừa đảo dùng mồm, Kế Duyên nhờ vào bản thân kiếm sống tại cái thế giới đáng sợ này.",
+    "",
+    "...",
+    "",
+    "Du Lạn Kha Sơn",
+    "Giản lai huề trượng thượng toàn ngoan,",
+    "Tứ nhập vân tiêu nhãn giới khoan.",
+    "Phong động viễn lâm thu sắt sắt,",
+    "Giản thông u cốc thuỷ sàn sàn.",
+    "Bình không tử lạc tiên kì tĩnh,",
+    "Vật hoán tinh di Phật cốt hàn.",
+    "Duyệt thế du du kim kỷ hử,",
+    "Không tồn di tích hậu nhân khan.",
+    "",
+    "Review Truyện:",
+    "",
+    "Tiên hiệp cổ điển rất khó viết. Một bộ tiên hiệp hay là một bộ truyện phải được viết sao cho thật dễ hiểu, thật thú vị, thật tiêu sái cũng như phải có cái hồn của tiên hiệp. Chỉ một điều kiện thôi đã khó, chứ đừng nói phải có đầy đủ các điều kiện trên. Có lẽ vì vậy mà tiên hiệp bắt đầu suy tàn.",
+    "",
+    "Kể từ sau Hoàng Đình, cũng thật lâu rồi mình mới thấy lại một bộ tiên hiệp cổ điển thuần túy như Lạn Kha Kỳ Duyên. Có yếu tố lãng mạn, thoải mái tiêu sái của tiên hiệp cổ điển trường phái phi thăng, chi tiết truyện vừa xuất sắc lại dân dã. Có yếu tố truyền thuyết phàm tục mang lại cảm giác của những câu chuyện thần thoại cổ xưa. Nam chính ở trong trò chơi hồng trần này, tuy rằng pháp lực tu vi không cao, nhưng cách xử sự làm người lại có trước có sau, thần bí khó lường, có ý cảnh, có tâm cảnh, thực sự đã mang lại cảm giác thần bí của tiên nhân. Đoạn mở đầu, khi nam chính nghèo túng cũng sợ chết như người thường, lời ăn tiếng nói cũng hơi tùy tiện. Trong truyện mỗi người đều rất lý tưởng, không dây dưa lợi ích quá nhiều, cũng không có quá nhiều cơ quan tính toán, nhiều khi đọc mà không nhịn được cười.",
+    "",
+    "Trước mắt thì thấy đây là một thể loại truyền kỳ du ký cổ đại, có giang hồ, có tu sĩ, có tiên thần, có võ lâm cao thủ, có người phàm. Bàn tay vàng rất có ý tứ, tựa như thay đổi vận mệnh nhân vật. Mỗi khi nam chính thúc đẩy vận mệnh một người, hoặc là dạy người hướng thiện, trên ván cờ sẽ ngưng tụ ra một quân cờ mới. Người đọc bị cuốn hút dần bởi những câu chuyện xung quanh Kế Duyên, muốn biết rốt cuộc quân cờ mà nam chính đã gieo sẽ trở thành những gì."
+   ],
+   "list_chapter": [
+    {
+     "id": 1,
+     "item": " Chương 1: Ván cờ"
+    },
+    {
+     "id": 2,
+     "item": " Chương 2: Tinh thần bị tàn phá"
+    },
+    {
+     "id": 3,
+     "item": " Chương 3: Vạn vật nở rộ"
+    },
+    {
+     "id": 4,
+     "item": " Chương 4: Chẳng lẽ, mình xuyên việt rồi?"
+    },
+    {
+     "id": 5,
+     "item": " Chương 5: Dị thường"
+    },
+    {
+     "id": 6,
+     "item": " Chương 6: Chớ đi cùng y!"
+    },
+    {
+     "id": 7,
+     "item": " Chương 7: Nửa mù"
+    },
+    {
+     "id": 8,
+     "item": " Chương 8: Tiếp tay cho giặc"
+    },
+    {
+     "id": 9,
+     "item": " Chương 9: Nước sông không phạm nước giếng"
+    },
+    {
+     "id": 10,
+     "item": " Chương 10: Cuối cùng cũng không bị dọa chết"
+    },
+    {
+     "id": 11,
+     "item": " Chương 11: Chưa từng chửi thề, nhưng không nhịn được"
+    },
+    {
+     "id": 12,
+     "item": " Chương 12: Hồng Hồ"
+    },
+    {
+     "id": 13,
+     "item": " Chương 13: Thiếu niên hành hiệp trượng nghĩa"
+    },
+    {
+     "id": 14,
+     "item": " Chương 14: Khuyên không được"
+    },
+    {
+     "id": 15,
+     "item": " Chương 15: Chênh lệch giữa yêu thú và phàm nhân"
+    },
+    {
+     "id": 16,
+     "item": " Chương 16: Kỳ nhân Kế tiên sinh"
+    },
+    {
+     "id": 17,
+     "item": " Chương 17: Ước hẹn hành hiệp trượng nghĩa"
+    },
+    {
+     "id": 18,
+     "item": " Chương 18: Tâm Kế Duyên mệt mỏi"
+    },
+    {
+     "id": 19,
+     "item": " Chương 19: Chân thực hoảng hốt"
+    },
+    {
+     "id": 20,
+     "item": " Chương 20: Căn nhà nhỏ tinh xảo"
+    },
+    {
+     "id": 21,
+     "item": " Chương 21: Thanh linh chi khí ở trên tay"
+    },
+    {
+     "id": 22,
+     "item": " Chương 22: Trời xui đất khiến"
+    },
+    {
+     "id": 23,
+     "item": " Chương 23: Cũng phải làm một bộ tương tự"
+    },
+    {
+     "id": 24,
+     "item": " Chương 24: Nhà mới Cư An Tiểu Các"
+    },
+    {
+     "id": 25,
+     "item": " Chương 25: Mẹ nó! Ta xui xẻo vậy"
+    },
+    {
+     "id": 26,
+     "item": " Chương 26: Khi đà điểu cùng đường"
+    },
+    {
+     "id": 27,
+     "item": " Chương 27: Trận chiến thật lớn"
+    },
+    {
+     "id": 28,
+     "item": " Chương 28: Quá mức kích thích"
+    },
+    {
+     "id": 29,
+     "item": " Chương 29: Tiểu Doãn Thanh"
+    },
+    {
+     "id": 30,
+     "item": " Chương 30: Thành Hoàng đại nhân có lời mời"
+    },
+    {
+     "id": 31,
+     "item": " Chương 31: Lão Thành Hoàng"
+    },
+    {
+     "id": 32,
+     "item": " Chương 32: Chân tướng"
+    },
+    {
+     "id": 33,
+     "item": " Chương 33: Tỉnh mộng mà không hay!"
+    },
+    {
+     "id": 34,
+     "item": " Chương 34: Thật là giống!"
+    },
+    {
+     "id": 35,
+     "item": " Chương 35: Quân cờ đen"
+    },
+    {
+     "id": 36,
+     "item": " Chương 36: Thiên Địa Hóa Sinh"
+    },
+    {
+     "id": 37,
+     "item": " Chương 37: Nhập đạo trước phải luyện võ"
+    },
+    {
+     "id": 38,
+     "item": " Chương 38: Nghề nghiệp cao quý"
+    },
+    {
+     "id": 39,
+     "item": " Chương 39: Sắp đạt thành tựu"
+    },
+    {
+     "id": 40,
+     "item": " Chương 40: Quà biếu kiểu mới"
+    },
+    {
+     "id": 41,
+     "item": " Chương 41: Chuyện lạ ở đầu đường"
+    },
+    {
+     "id": 42,
+     "item": " Chương 42: Cứu xích hồ, hiện du long"
+    },
+    {
+     "id": 43,
+     "item": " Chương 43: Thú vui nói chuyện phiếm trong huyện"
+    },
+    {
+     "id": 44,
+     "item": " Chương 44: Du long cuốn hoa"
+    },
+    {
+     "id": 45,
+     "item": " Chương 45: Hồ Ly nhớ nhà"
+    },
+    {
+     "id": 46,
+     "item": " Chương 46: Quân cờ thứ hai"
+    },
+    {
+     "id": 47,
+     "item": " Chương 47: Giang hồ Hiểm ác"
+    },
+    {
+     "id": 48,
+     "item": " Chương 48: Dấu tiên mờ mịt"
+    },
+    {
+     "id": 49,
+     "item": " Chương 49: Nam nhân đến chết vẫn trung"
+    },
+    {
+     "id": 50,
+     "item": " Chương 50: Xứng danh hai chữ “Cuồng đồ”"
+    },
+    {
+     "id": 51,
+     "item": " Chương 51: Tìm kiếm và hỏi thăm"
+    },
+    {
+     "id": 52,
+     "item": " Chương 52: Một lời nói rõ"
+    },
+    {
+     "id": 53,
+     "item": " Chương 53: Chợt như một đêm gió mùa thu"
+    },
+    {
+     "id": 54,
+     "item": " Chương 54: Chỉ có mình Doãn huynh mà thôi"
+    },
+    {
+     "id": 55,
+     "item": " Chương 55: Câu chuyện cười?"
+    },
+    {
+     "id": 56,
+     "item": " Chương 56: Nghỉ đêm ở thôn vắng"
+    },
+    {
+     "id": 57,
+     "item": " Chương 57: Kế Duyên hơi sợ"
+    },
+    {
+     "id": 58,
+     "item": " Chương 58: Đại xà làm bậy"
+    },
+    {
+     "id": 59,
+     "item": " Chương 59: Như lửa như rồng"
+    },
+    {
+     "id": 60,
+     "item": " Chương 60: Đền tội"
+    },
+    {
+     "id": 61,
+     "item": " Chương 61: Yên lặng chờ ở khu rừng phía trước"
+    },
+    {
+     "id": 62,
+     "item": " Chương 62: Thiên Lục tạp thư"
+    },
+    {
+     "id": 63,
+     "item": " Chương 63: Kỳ diệu thay một chữ Duyên"
+    },
+    {
+     "id": 64,
+     "item": " Chương 64: Bàn luận về sách"
+    },
+    {
+     "id": 65,
+     "item": " Chương 65: Mỹ tửu cõi tiên niềm ưa thích, Hoa Điêu trần tục thú đam mê"
+    },
+    {
+     "id": 66,
+     "item": " Chương 66: Thèm chết Kế Mỗ mà"
+    },
+    {
+     "id": 67,
+     "item": " Chương 67: Đoán vận mệnh"
+    },
+    {
+     "id": 68,
+     "item": " Chương 68: Xem một quẻ, nửa cái mạng"
+    },
+    {
+     "id": 69,
+     "item": " Chương 69: Bệnh về mắt"
+    },
+    {
+     "id": 70,
+     "item": " Chương 70: Thật là khó có được"
+    },
+    {
+     "id": 71,
+     "item": " Chương 71: Vô tình trùng hợp"
+    },
+    {
+     "id": 72,
+     "item": " Chương 72: Rồi con sẽ hâm mộ"
+    },
+    {
+     "id": 73,
+     "item": " Chương 73: Quân cờ trộm đan"
+    },
+    {
+     "id": 74,
+     "item": " Chương 74: Muôn hình vạn trạng"
+    },
+    {
+     "id": 75,
+     "item": " Chương 75: Nửa hũ rượu gạo xuống sông sâu"
+    },
+    {
+     "id": 76,
+     "item": " Chương 76: Hai tướng thành cảnh"
+    },
+    {
+     "id": 77,
+     "item": " Chương 77: Không uống nổi"
+    },
+    {
+     "id": 78,
+     "item": " Chương 78: Người cầu, rùa cũng cầu"
+    },
+    {
+     "id": 79,
+     "item": " Chương 79: Chỉ không biết phải làm sao"
+    },
+    {
+     "id": 80,
+     "item": " Chương 80: Đúng không? Quá đúng"
+    },
+    {
+     "id": 81,
+     "item": " Chương 81: Nguyện đánh nguyện chịu"
+    },
+    {
+     "id": 82,
+     "item": " Chương 82: Trượt rồi, trượt rồi"
+    },
+    {
+     "id": 83,
+     "item": " Chương 83: Cầu không được"
+    },
+    {
+     "id": 84,
+     "item": " Chương 84: Ngẫu nhiên gặp hung quang"
+    },
+    {
+     "id": 85,
+     "item": " Chương 85: Xem Kế mỗ là người chết sao?"
+    },
+    {
+     "id": 86,
+     "item": " Chương 86: Lại thấy cờ đen"
+    },
+    {
+     "id": 87,
+     "item": " Chương 87: Cuồn cuộn không ngớt"
+    },
+    {
+     "id": 88,
+     "item": " Chương 88: Thật sự thần kỳ như vậy"
+    },
+    {
+     "id": 89,
+     "item": " Chương 89: Vị khách trong sương khói mờ ảo"
+    },
+    {
+     "id": 90,
+     "item": " Chương 90: Di sản của Tả Ly"
+    },
+    {
+     "id": 91,
+     "item": " Chương 91: Hỉ khí tung bay"
+    },
+    {
+     "id": 92,
+     "item": " Chương 92: Sách giấy vàng"
+    },
+    {
+     "id": 93,
+     "item": " Chương 93: Rốt cuộc quân cờ sinh ra do đâu"
+    },
+    {
+     "id": 94,
+     "item": " Chương 94: Chân hỏa và sắc lệnh"
+    },
+    {
+     "id": 95,
+     "item": " Chương 95: Được là may mắn. Mất là số mệnh"
+    },
+    {
+     "id": 96,
+     "item": " Chương 96: Chính không thể ép tà"
+    },
+    {
+     "id": 97,
+     "item": " Chương 97: Manh mối của chuyện xưa"
+    },
+    {
+     "id": 98,
+     "item": " Chương 98: Kiếm Tiên"
+    },
+    {
+     "id": 99,
+     "item": " Chương 99: Hai lựa chọn"
+    },
+    {
+     "id": 100,
+     "item": " Chương 100: Nhuệ khí Tả gia"
+    },
+    {
+     "id": 101,
+     "item": " Chương 101: Thành Kỳ chi Y"
+    },
+    {
+     "id": 102,
+     "item": " Chương 102: Hiếm thấy Phán Quan có tính trẻ con"
+    },
+    {
+     "id": 103,
+     "item": " Chương 103: Ta không mua"
+    },
+    {
+     "id": 104,
+     "item": " Chương 104: Nhất duyên khuy thiên"
+    },
+    {
+     "id": 105,
+     "item": " Chương 105: Người chơi cờ"
+    },
+    {
+     "id": 106,
+     "item": " Chương 106: Một chén say ở Tiểu Các"
+    },
+    {
+     "id": 107,
+     "item": " Chương 107: Chơi cờ như một giấc mộng ba năm"
+    },
+    {
+     "id": 108,
+     "item": " Chương 108: Kỳ đạo Âm Dương"
+    },
+    {
+     "id": 109,
+     "item": " Chương 109: Cuộc mua bán kỳ quái"
+    },
+    {
+     "id": 110,
+     "item": " Chương 110: Hạnh phúc là khi biết tự thỏa mãn"
+    },
+    {
+     "id": 111,
+     "item": " Chương 111: Hồng phu nhân"
+    },
+    {
+     "id": 112,
+     "item": " Chương 112: Dám động tới bạn của Kế mỗ?"
+    },
+    {
+     "id": 113,
+     "item": " Chương 113: Quái án"
+    },
+    {
+     "id": 114,
+     "item": " Chương 114: Sắc lệnh\"Trảm yêu\""
+    },
+    {
+     "id": 115,
+     "item": " Chương 115: Tiên kiếm trên không, Hắc Phong run rẩy"
+    },
+    {
+     "id": 116,
+     "item": " Chương 116: Kiếm linh giúp quỷ thần"
+    },
+    {
+     "id": 117,
+     "item": " Chương 117: Mộng Âm Ti"
+    },
+    {
+     "id": 118,
+     "item": " Chương 118: Gặp chuyện"
+    },
+    {
+     "id": 119,
+     "item": " Chương 119: Mưa đêm Tiêu Diệp Sơn"
+    },
+    {
+     "id": 120,
+     "item": " Chương 120: Gặp lại trong miếu chính là Tiên nhân"
+    },
+    {
+     "id": 121,
+     "item": " Chương 121: Phép Câu Thần và định thân"
+    },
+    {
+     "id": 122,
+     "item": " Chương 122: Ma khí mà thôi"
+    },
+    {
+     "id": 123,
+     "item": " Chương 123: Người câu cá"
+    },
+    {
+     "id": 124,
+     "item": " Chương 124: Hai bên tìm không thấy"
+    },
+    {
+     "id": 125,
+     "item": " Chương 125: Thuyền đâu?"
+    },
+    {
+     "id": 126,
+     "item": " Chương 126: Kế thúc thúc"
+    },
+    {
+     "id": 127,
+     "item": " Chương 127: Chân Long thọ yến"
+    },
+    {
+     "id": 128,
+     "item": " Chương 128: Lễ vật này có chút nặng"
+    },
+    {
+     "id": 129,
+     "item": " Chương 129: Sẽ có lúc tự dâng hương"
+    },
+    {
+     "id": 130,
+     "item": " Chương 130: Một viên cờ ngưng thực"
+    },
+    {
+     "id": 131,
+     "item": " Chương 131: Lời bàn tán từ chiếc lâu thuyền"
+    },
+    {
+     "id": 132,
+     "item": " Chương 132: Bạn hữu đã đến"
+    },
+    {
+     "id": 133,
+     "item": " Chương 133: Gặp lại bạn cũ"
+    },
+    {
+     "id": 134,
+     "item": " Chương 134: Kẻ mang chữ Minh, khí lành sơ hiện"
+    },
+    {
+     "id": 135,
+     "item": " Chương 135: Chuyện lạ tại nhà họ Chu"
+    },
+    {
+     "id": 136,
+     "item": " Chương 136: Tình người duyên yêu hiếm thấy"
+    },
+    {
+     "id": 137,
+     "item": " Chương 137: Ta mạnh hơn một chút"
+    },
+    {
+     "id": 138,
+     "item": " Chương 138: Uyên ương đẹp mộng, thần tiên chẳng màng"
+    },
+    {
+     "id": 139,
+     "item": " Chương 139: Thay xà đổi cột"
+    },
+    {
+     "id": 140,
+     "item": " Chương 140: Pháp - Không được phạm, nhưng cũng khoan dung"
+    },
+    {
+     "id": 141,
+     "item": " Chương 141: Ngụy gia sinh con trai"
+    },
+    {
+     "id": 142,
+     "item": " Chương 142: Có người vẻ vang, có người đau khổ"
+    },
+    {
+     "id": 143,
+     "item": " Chương 143: Tiếu Diện Hổ"
+    },
+    {
+     "id": 144,
+     "item": " Chương 144: Đại hiệp cụt tay"
+    },
+    {
+     "id": 145,
+     "item": " Chương 145: Sự lột xác ngoạn mục"
+    },
+    {
+     "id": 146,
+     "item": " Chương 146: Tụ tập cùng nhau"
+    },
+    {
+     "id": 147,
+     "item": " Chương 147: Tiệc nhà trong vương phủ"
+    },
+    {
+     "id": 148,
+     "item": " Chương 148: Khách không mời"
+    },
+    {
+     "id": 149,
+     "item": " Chương 149: Điềm lành"
+    },
+    {
+     "id": 150,
+     "item": " Chương 150: Suy nghĩ gì vậy?"
+    },
+    {
+     "id": 151,
+     "item": " Chương 151: Truyền mộng người kể chuyện"
+    },
+    {
+     "id": 152,
+     "item": " Chương 152: Một chút chuyện bình thường"
+    },
+    {
+     "id": 153,
+     "item": " Chương 153: Một khi vang danh"
+    },
+    {
+     "id": 154,
+     "item": " Chương 154: Thiên hạ đều biết"
+    },
+    {
+     "id": 155,
+     "item": " Chương 155: Gặp lại Thanh Tùng"
+    },
+    {
+     "id": 156,
+     "item": " Chương 156: Tính xấu không đổi"
+    },
+    {
+     "id": 157,
+     "item": " Chương 157: Nếm thử mà thôi"
+    },
+    {
+     "id": 158,
+     "item": " Chương 158: Tại nơi này"
+    },
+    {
+     "id": 159,
+     "item": " Chương 159: Như một tờ giấy"
+    },
+    {
+     "id": 160,
+     "item": " Chương 160: Ở nhờ Vân Sơn"
+    },
+    {
+     "id": 161,
+     "item": " Chương 161: Cao nhân đạo trưởng"
+    },
+    {
+     "id": 162,
+     "item": " Chương 162: Nhân họa chuyển biến"
+    },
+    {
+     "id": 163,
+     "item": " Chương 163: Sẽ không làm ngơ"
+    },
+    {
+     "id": 164,
+     "item": " Chương 164: Thổ Địa ẩn nấp"
+    },
+    {
+     "id": 165,
+     "item": " Chương 165: Kiêng kị lẫn nhau"
+    },
+    {
+     "id": 166,
+     "item": " Chương 166: Ẩn Tiên ở Đại Trinh"
+    },
+    {
+     "id": 167,
+     "item": " Chương 167: Thời khắc nguy hiểm nhất"
+    },
+    {
+     "id": 168,
+     "item": " Chương 168: Kết quả khá lắm"
+    },
+    {
+     "id": 169,
+     "item": " Chương 169: Chuyện ở Vân Sơn"
+    },
+    {
+     "id": 170,
+     "item": " Chương 170: Ngươi quá bất công!"
+    },
+    {
+     "id": 171,
+     "item": " Chương 171: Hồ Ly tên Hồ Vân"
+    },
+    {
+     "id": 172,
+     "item": " Chương 172: Cáo nói tiếng cáo, đứa nhỏ Nguyên Sinh"
+    },
+    {
+     "id": 173,
+     "item": " Chương 173: Kế Duyên xuống núi"
+    },
+    {
+     "id": 174,
+     "item": " Chương 174: Khách quý của Ngụy phủ"
+    },
+    {
+     "id": 175,
+     "item": " Chương 175: Đạo đạo quan hệ"
+    },
+    {
+     "id": 176,
+     "item": " Chương 176: Chuyện Ngọc Hoài"
+    },
+    {
+     "id": 177,
+     "item": " Chương 177: Giống như lúc trước"
+    },
+    {
+     "id": 178,
+     "item": " Chương 178: Lời nhẹ ý nặng"
+    },
+    {
+     "id": 179,
+     "item": " Chương 179: Xin nghe lời sư phụ"
+    },
+    {
+     "id": 180,
+     "item": " Chương 180: Lại đến tiết Mang chủng"
+    },
+    {
+     "id": 181,
+     "item": " Chương 181: Phụ tử nhà Ngụy vào Ngọc Hoài"
+    },
+    {
+     "id": 182,
+     "item": " Chương 182: Tiên hạc và hạc giấy"
+    },
+    {
+     "id": 183,
+     "item": " Chương 183: Linh hạc giấy"
+    },
+    {
+     "id": 184,
+     "item": " Chương 184: Muốn đến quan sát"
+    },
+    {
+     "id": 185,
+     "item": " Chương 185: Người thương cảm thiên địa"
+    },
+    {
+     "id": 186,
+     "item": " Chương 186: Cảm thụ không thể nói"
+    },
+    {
+     "id": 187,
+     "item": " Chương 187: Tâm tình thay đổi theo sự tình"
+    },
+    {
+     "id": 188,
+     "item": " Chương 188: Gặp lại Tần Tử Chu"
+    },
+    {
+     "id": 189,
+     "item": " Chương 189: Có đường đi khác"
+    },
+    {
+     "id": 190,
+     "item": " Chương 190: Hai Giang Chính Thần đều tới"
+    },
+    {
+     "id": 191,
+     "item": " Chương 191: Chuyển âm sang dương, từ hư hóa thực"
+    },
+    {
+     "id": 192,
+     "item": " Chương 192: Kim pháp cổ pháp (*)"
+    },
+    {
+     "id": 193,
+     "item": " Chương 193: Thoát khỏi mồng một chứ không tránh được mười lăm (*)"
+    },
+    {
+     "id": 194,
+     "item": " Chương 194: Canh cá Ngân Khiếu Tử"
+    },
+    {
+     "id": 195,
+     "item": " Chương 195: Thật sự có Thủy Công sao?"
+    },
+    {
+     "id": 196,
+     "item": " Chương 196: Cá uống canh cá"
+    },
+    {
+     "id": 197,
+     "item": " Chương 197: Dưỡng linh lung"
+    },
+    {
+     "id": 198,
+     "item": " Chương 198: Thì ra là ngươi!"
+    },
+    {
+     "id": 199,
+     "item": " Chương 199: Thế mà sống đến bây giờ"
+    },
+    {
+     "id": 200,
+     "item": " Chương 200: Tiên nhân chỉ lộ"
+    },
+    {
+     "id": 201,
+     "item": " Chương 201: Khí minh thanh chính"
+    },
+    {
+     "id": 202,
+     "item": " Chương 202: Chuyện cũ năm xưa"
+    },
+    {
+     "id": 203,
+     "item": " Chương 203: Bình cũ"
+    },
+    {
+     "id": 204,
+     "item": " Chương 204: Đến ngày chuyển mình"
+    },
+    {
+     "id": 205,
+     "item": " Chương 205: Nghĩ tới Chân Hỏa"
+    },
+    {
+     "id": 206,
+     "item": " Chương 206: Chân Hỏa hiện, tin xa đến"
+    },
+    {
+     "id": 207,
+     "item": " Chương 207: Hiệp khách sa cơ"
+    },
+    {
+     "id": 208,
+     "item": " Chương 208: Xem như nể mặt các ngươi"
+    },
+    {
+     "id": 209,
+     "item": " Chương 209: Thật sự có thể chạy"
+    },
+    {
+     "id": 210,
+     "item": " Chương 210: Thuật pháp giao phong"
+    },
+    {
+     "id": 211,
+     "item": " Chương 211: Thần thông trời ban"
+    },
+    {
+     "id": 212,
+     "item": " Chương 212: Tội gì phải khổ đến vậy"
+    },
+    {
+     "id": 213,
+     "item": " Chương 213: Có thể ngủ một giấc ngon rồi"
+    },
+    {
+     "id": 214,
+     "item": " Chương 214: Cái gì cũng nhận"
+    },
+    {
+     "id": 215,
+     "item": " Chương 215: Giấc mộng dài"
+    },
+    {
+     "id": 216,
+     "item": " Chương 216: Mưa đêm nơi dịch trạm hoang vắng"
+    },
+    {
+     "id": 217,
+     "item": " Chương 217: Bức thư trước kia"
+    },
+    {
+     "id": 218,
+     "item": " Chương 218: Bài đao ca dân gian"
+    },
+    {
+     "id": 219,
+     "item": " Chương 219: Người còn hung dữ hơn cả yêu quái"
+    },
+    {
+     "id": 220,
+     "item": " Chương 220: Mổ ba cái"
+    },
+    {
+     "id": 221,
+     "item": " Chương 221: Bái sơn"
+    },
+    {
+     "id": 222,
+     "item": " Chương 222: Uyển Châu bất thường"
+    },
+    {
+     "id": 223,
+     "item": " Chương 223: Không còn là người mới vào chốn quan trường"
+    },
+    {
+     "id": 224,
+     "item": " Chương 224: Rồng rơi xuống Nghiễm Động Hồ"
+    },
+    {
+     "id": 225,
+     "item": " Chương 225: Thủy trạch chi khí điên cuồng tiết ra"
+    },
+    {
+     "id": 226,
+     "item": " Chương 226: Trừ tà trói mị"
+    },
+    {
+     "id": 227,
+     "item": " Chương 227: Lũ lụt"
+    },
+    {
+     "id": 228,
+     "item": " Chương 228: Long Quân phẫn nộ"
+    },
+    {
+     "id": 229,
+     "item": " Chương 229: Sau khi chết cũng \"Tẩu Thủy\""
+    },
+    {
+     "id": 230,
+     "item": " Chương 230: Nơi rồng rơi xuống"
+    },
+    {
+     "id": 231,
+     "item": " Chương 231: Pháp hội không tầm thường"
+    },
+    {
+     "id": 232,
+     "item": " Chương 232: Đây cũng không phải tên mù bình thường"
+    },
+    {
+     "id": 233,
+     "item": " Chương 233: Quả đúng là cao nhân tụ tập"
+    },
+    {
+     "id": 234,
+     "item": " Chương 234: Cười Sở phủ hay cười ‘Cao nhân’"
+    },
+    {
+     "id": 235,
+     "item": " Chương 235: Người thường sẽ an toàn hơn"
+    },
+    {
+     "id": 236,
+     "item": " Chương 236: Thư kiếm ánh trăng"
+    },
+    {
+     "id": 237,
+     "item": " Chương 237: Trăng trong nước, công dã tràng"
+    },
+    {
+     "id": 238,
+     "item": " Chương 238: Pháp hội mở màn"
+    },
+    {
+     "id": 239,
+     "item": " Chương 239: Lấy thế đè \"người\""
+    },
+    {
+     "id": 240,
+     "item": " Chương 240: Tất cả đều biến mất"
+    },
+    {
+     "id": 241,
+     "item": " Chương 241: Người hưởng hết vinh hoa của nhân gian"
+    },
+    {
+     "id": 242,
+     "item": " Chương 242: Duyên đã hết"
+    },
+    {
+     "id": 243,
+     "item": " Chương 243: Buồn bã mất mát"
+    },
+    {
+     "id": 244,
+     "item": " Chương 244: Xác thật không đáng"
+    },
+    {
+     "id": 245,
+     "item": " Chương 245: Thiếu nợ ân tình"
+    },
+    {
+     "id": 246,
+     "item": " Chương 246: Chuyện từ Vân Châu mà ra"
+    },
+    {
+     "id": 247,
+     "item": " Chương 247: Thám tử đầu trọc"
+    },
+    {
+     "id": 248,
+     "item": " Chương 248: Tơ lụa màu máu"
+    },
+    {
+     "id": 249,
+     "item": " Chương 249: Thoát thai hoán cốt"
+    },
+    {
+     "id": 250,
+     "item": " Chương 250: Tụ nội càn khôn đại, hồ Trung nhật nguyệt trường"
+    },
+    {
+     "id": 251,
+     "item": " Chương 251: Ngoan ngoãn lưu lại đi"
+    },
+    {
+     "id": 252,
+     "item": " Chương 252: Mười năm mưa bụi"
+    },
+    {
+     "id": 253,
+     "item": " Chương 253: Xin được vào U Minh"
+    },
+    {
+     "id": 254,
+     "item": " Chương 254: Biến đổi trong một giấc chiêm bao mà thôi"
+    },
+    {
+     "id": 255,
+     "item": " Chương 255: Yên tĩnh suy nghĩ"
+    },
+    {
+     "id": 256,
+     "item": " Chương 256: Người kể chuyện"
+    },
+    {
+     "id": 257,
+     "item": " Chương 257: Nữ thần áo trắng"
+    },
+    {
+     "id": 258,
+     "item": " Chương 258: Vẫn phải thực sự cầu thị"
+    },
+    {
+     "id": 259,
+     "item": " Chương 259: Nhất chi Hồng Tú(*)"
+    },
+    {
+     "id": 260,
+     "item": " Chương 260: Thật không đơn giản"
+    },
+    {
+     "id": 261,
+     "item": " Chương 261: Rốt cuộc ngươi là ai"
+    },
+    {
+     "id": 262,
+     "item": " Chương 262: Nhân cách được nhắc tới như vậy"
+    },
+    {
+     "id": 263,
+     "item": " Chương 263: Hồ Ly mê kiếm"
+    },
+    {
+     "id": 264,
+     "item": " Chương 264: Mức độ hư ảo của Pháp Thiên Tượng Địa"
+    },
+    {
+     "id": 265,
+     "item": " Chương 265: Hồng Tú dũng mãnh"
+    },
+    {
+     "id": 266,
+     "item": " Chương 266: Mong vẫn luôn như thế"
+    },
+    {
+     "id": 267,
+     "item": " Chương 267: Người đòi nợ"
+    },
+    {
+     "id": 268,
+     "item": " Chương 268: Long Nữ tức giận"
+    },
+    {
+     "id": 269,
+     "item": " Chương 269: Sự khác nhau giữa thần tiên chân chính và yêu tà"
+    },
+    {
+     "id": 270,
+     "item": " Chương 270: Hoàng Đế sắp chết, lời nói như thế nào"
+    },
+    {
+     "id": 271,
+     "item": " Chương 271: Lòng người khó dò"
+    },
+    {
+     "id": 272,
+     "item": " Chương 272: Người thứ hai đánh cược"
+    },
+    {
+     "id": 273,
+     "item": " Chương 273: Cơ hội duy nhất"
+    },
+    {
+     "id": 274,
+     "item": " Chương 274: Dương mưu, âm mưu"
+    },
+    {
+     "id": 275,
+     "item": " Chương 275: Thiên ý hay là nhân họa?"
+    },
+    {
+     "id": 276,
+     "item": " Chương 276: Kinh Kỳ phủ náo loạn trong đêm"
+    },
+    {
+     "id": 277,
+     "item": " Chương 277: Lại một người khôn ngoan"
+    },
+    {
+     "id": 278,
+     "item": " Chương 278: Lão hoàng đế gặp lại lão ăn mày"
+    },
+    {
+     "id": 279,
+     "item": " Chương 279: Có thể hay không thể"
+    },
+    {
+     "id": 280,
+     "item": " Chương 280: Hình ảnh mà hắn không dám tưởng tượng"
+    },
+    {
+     "id": 281,
+     "item": " Chương 281: Lão Kế cô đơn"
+    },
+    {
+     "id": 282,
+     "item": " Chương 282: Kim Giáp Lực Sĩ"
+    },
+    {
+     "id": 283,
+     "item": " Chương 283: Gặp lại Nguyên Sinh"
+    },
+    {
+     "id": 284,
+     "item": " Chương 284: Niềm vui của kẻ có tiền"
+    },
+    {
+     "id": 285,
+     "item": " Chương 285: Ra ngoài một chút"
+    },
+    {
+     "id": 286,
+     "item": " Chương 286: Thôn vắng"
+    },
+    {
+     "id": 287,
+     "item": " Chương 287: Có quái vật"
+    },
+    {
+     "id": 288,
+     "item": " Chương 288: Chết kiểu quỷ dị"
+    },
+    {
+     "id": 289,
+     "item": " Chương 289: Hôm nay không diệt, tất thành hậu hoạn"
+    },
+    {
+     "id": 290,
+     "item": " Chương 290: Tà thi"
+    },
+    {
+     "id": 291,
+     "item": " Chương 291: Lấy lực phá lực"
+    },
+    {
+     "id": 292,
+     "item": " Chương 292: Đến gần người, chết"
+    },
+    {
+     "id": 293,
+     "item": " Chương 293: Hậu quả của việc bị lửa giận làm cho u mê"
+    },
+    {
+     "id": 294,
+     "item": " Chương 294: Kế Duyên nói lời giữ lời"
+    },
+    {
+     "id": 295,
+     "item": " Chương 295: Làm sai thì phải chịu trách nhiệm"
+    },
+    {
+     "id": 296,
+     "item": " Chương 296: Phi kiếm khách"
+    },
+    {
+     "id": 297,
+     "item": " Chương 297: Đất lành với “người dân thành thật chất phác”"
+    },
+    {
+     "id": 298,
+     "item": " Chương 298: Gặp ở bãi đá"
+    },
+    {
+     "id": 299,
+     "item": " Chương 299: Xem ngươi có chết hay không"
+    },
+    {
+     "id": 300,
+     "item": " Chương 300: Trâu khờ"
+    }
+   ]
+  },
+  {
+   "key": "1",
+   "story_name": "THẦN ĐIÊU HIỆP NỮ",
+   "source_img": "https://static.8cache.com/cover/eJzLyTDWLzCssDTyzc_2MjCOzzetcssrdMxLTS5wNQh0TAssyQnLqwwqtDSsdEzPCE3K903NLzfI9coK9ywIdczQDXAJNQ41z3UuyspOK_XLTSl1CnBzdbQtNzI01c0wNjICACnKH9c=/than-dieu-hiep-nu.jpg",
+   "author": "Não Tử Không Sát",
+   "tag": [
+    {
+     "id": 1,
+     "item": "Kiếm Hiệp"
+    },
+    {
+     "id": 27,
+     "item": "Bách Hợp"
+    },
+    {
+     "id": 14,
+     "item": "Xuyên Không"
+    },
+    {
+     "id": 9,
+     "item": "Cổ Đại"
+    },
+    {
+     "id": 37,
+     "item": "Khác"
+    }
+   ],
+   "source_by": "sưu tầm",
+   "status": {
+    "id": 3,
+    "item": "Full"
+   },
+   "summary": [
+    "Tác Giả: Não Tử Không Sát",
+    "",
+    "Thể loại: Bách Hợp, Xuyên Không, Cổ Đại, Kiếm Hiệp...",
+    "",
+    "Editor: Wjnd",
+    "",
+    "Nhân vật: (Đương nhiên là đá bay tên Dương Quá tới tây phương cực lạc rồi) Trình Dương x Tiểu Long Nữ",
+    "",
+    "Phụ thêm: Lý Mạc Sầu, Trình Anh, Lục Vô Song....vv có nhiêu người trong Thần Điêu thì mọi người tự biết nha, ta làm biếng kể quá...",
+    "",
+    "Văn án:",
+    "",
+    "Trình Dương là sinh viên, cuộc sống bình thường cứ trôi, nhưng nàng lại luôn gặp nhiều chuyện không như ý muốn. Sinh trên đời ai không muốn luôn gặp may mắn nhưng đâu phải cứ muốn là được. Vẫn tưởng là số con rệp không gì xui hơn, ai biết được nàng âm kém dương sai xuyên vào trong Thần Điêu truyện.",
+    "",
+    "Mà xuyên vào không thôi thì đâu có gì, bất quá xuyên qua ngộ sát Dương Quá, này một chuyện chưa đủ phiền liền bị Quách Tĩnh Hoàng Dung nhận sai nhân. Từ đó vận mệnh nàng như gắn với Dương Quá vận, tái ngộ Tiểu Long Nữ, gặp gỡ Kim Luân pháp vương, lại xảo kiều chim điêu. Này vận đúng là nàng không nghĩ tới mà...",
+    "",
+    "Một hồi thần điêu hiệp lữ vốn sống động phim ảnh giờ đây là nàng vận mệnh sao?",
+    "",
+    "Tình một chữ, duyên một câu lấy ai phân giải cùng đây?"
+   ],
+   "list_chapter": [
+    {
+     "id": 1,
+     "item": " Chương 1"
+    },
+    {
+     "id": 2,
+     "item": " Chương 2"
+    },
+    {
+     "id": 3,
+     "item": " Chương 3"
+    },
+    {
+     "id": 4,
+     "item": " Chương 4"
+    },
+    {
+     "id": 5,
+     "item": " Chương 5"
+    },
+    {
+     "id": 6,
+     "item": " Chương 6"
+    },
+    {
+     "id": 7,
+     "item": " Chương 7"
+    },
+    {
+     "id": 8,
+     "item": " Chương 8"
+    },
+    {
+     "id": 9,
+     "item": " Chương 9"
+    },
+    {
+     "id": 10,
+     "item": " Chương 10"
+    },
+    {
+     "id": 11,
+     "item": " Chương 11"
+    },
+    {
+     "id": 12,
+     "item": " Chương 12"
+    },
+    {
+     "id": 13,
+     "item": " Chương 13"
+    },
+    {
+     "id": 14,
+     "item": " Chương 14"
+    },
+    {
+     "id": 15,
+     "item": " Chương 15"
+    },
+    {
+     "id": 16,
+     "item": " Chương 16"
+    },
+    {
+     "id": 17,
+     "item": " Chương 17"
+    },
+    {
+     "id": 18,
+     "item": " Chương 18"
+    },
+    {
+     "id": 19,
+     "item": " Chương 19"
+    },
+    {
+     "id": 20,
+     "item": " Chương 20"
+    },
+    {
+     "id": 21,
+     "item": " Chương 21"
+    },
+    {
+     "id": 22,
+     "item": " Chương 22"
+    },
+    {
+     "id": 23,
+     "item": " Chương 23"
+    },
+    {
+     "id": 24,
+     "item": " Chương 24"
+    },
+    {
+     "id": 25,
+     "item": " Chương 25"
+    },
+    {
+     "id": 26,
+     "item": " Chương 26"
+    },
+    {
+     "id": 27,
+     "item": " Chương 27"
+    },
+    {
+     "id": 28,
+     "item": " Chương 28"
+    },
+    {
+     "id": 29,
+     "item": " Chương 29"
+    },
+    {
+     "id": 30,
+     "item": " Chương 30"
+    },
+    {
+     "id": 31,
+     "item": " Chương 31"
+    },
+    {
+     "id": 32,
+     "item": " Chương 32"
+    },
+    {
+     "id": 33,
+     "item": " Chương 33"
+    },
+    {
+     "id": 34,
+     "item": " Chương 34"
+    },
+    {
+     "id": 35,
+     "item": " Chương 35"
+    },
+    {
+     "id": 36,
+     "item": " Chương 36"
+    },
+    {
+     "id": 37,
+     "item": " Chương 37"
+    },
+    {
+     "id": 38,
+     "item": " Chương 38"
+    },
+    {
+     "id": 39,
+     "item": " Chương 39"
+    },
+    {
+     "id": 40,
+     "item": " Chương 40"
+    },
+    {
+     "id": 41,
+     "item": " Chương 41"
+    },
+    {
+     "id": 42,
+     "item": " Chương 42"
+    },
+    {
+     "id": 43,
+     "item": " Chương 43"
+    },
+    {
+     "id": 44,
+     "item": " Chương 44"
+    },
+    {
+     "id": 45,
+     "item": " Chương 45"
+    },
+    {
+     "id": 46,
+     "item": " Chương 46"
+    },
+    {
+     "id": 47,
+     "item": " Chương 47"
+    },
+    {
+     "id": 48,
+     "item": " Chương 48"
+    },
+    {
+     "id": 49,
+     "item": " Chương 49"
+    },
+    {
+     "id": 50,
+     "item": " Chương 49-2"
+    }
+   ]
+  },
+  {
+   "key": "2",
+   "story_name": "KHÔNG NGỪNG TÌM ĐƯỜNG CHẾT TA BỊ CỐ NHỊ GIA LÀM HƯ",
+   "source_img": "https://static.8cache.com/cover/eJzLyTDWTzVI8o9yt8xKzo-MyssxzavyNSpPrQj39LJ0Tc4PLK0qM0yKKjf3DvNIq3JO9I5wLcoyDTXMsjTPN0tyzLKI8EnVzU-MjArOykvxctd1znA0dLQtNzI01c0wNjICACb6Hyc=/khong-ngung-tim-duong-chet-ta-bi-co-nhi-gia-lam-hu.jpg",
+   "author": "Mang Mang Gia Du",
+   "tag": [
+    {
+     "id": 3,
+     "item": "Ngôn Tình"
+    },
+    {
+     "id": 6,
+     "item": "Đô Thị"
+    },
+    {
+     "id": 14,
+     "item": "Xuyên Không"
+    },
+    {
+     "id": 28,
+     "item": "Hài Hước"
+    },
+    {
+     "id": 37,
+     "item": "Khác"
+    },
+    {
+     "id": 22,
+     "item": "Sủng"
+    }
+   ],
+   "source_by": "sưu tầm",
+   "status": {
+    "id": 2,
+    "item": "Đang ra"
+   },
+   "summary": [
+    "Giới thiệu vắn tắt:",
+    "",
+    "【 Ngọt sủng 】【 Trước tiên cưới sau thích 】【 Xuyên Không 】【 Hiện Đại 】",
+    "",
+    "Người người đều biết Cố nhị gia cao ngạo tự phụ, không gần phụ nữ, là đóa hoa cao ngạo lạnh lẽo khó ai với tới.",
+    "",
+    "Vào ngày Cố thị tổ chức một hội trọng yếu, những người có uy tín lâu năm trong giới kinh doanh nhao nhao ngồi vào vị trí chờ đợi, nhưng mà nhân vật chính của hội nghị là nhị gia lại thật lâu vẫn chưa thấy đến. Người quen đều biết anh ta rất nghiêm khắc và kỷ luật đối với bản thân, từ trước đến nay chưa bao giờ đi trễ nên sự việc này để họ bắt đầu đoán già đoán non.",
+    "",
+    "Cho đến khi thư ký định đi kiểm tra, thì đã nhìn thấy Cố nhị gia ôm một cô nàng mít ướt lững thững chầm chậm đi tới, ôn nhu cưng chiều nói: “Tiểu tổ tông ơi, tôi sai rồi.”",
+    "",
+    "Trong ánh mắt chấn kinh của đám người, Lâm Kiều Kiều tỏ ra dữ dằn mà mắng: “Tôi sẽ không tha thứ cho anh.”",
+    "",
+    "Sau đó, để hoàn thành nhiệm vụ \" ôm ấp \" trớ trêu của hệ thống, nàng đành quay người ôm hắn một lúc rồi ngay lập tức muốn bỏ chạy.",
+    "",
+    "Nam nhân phát điên đem nàng áp sát vào tường, tiếng nói khàn khàn trầm thấp: “Em trốn được tôi sao Lâm Kiều Kiều?”"
+   ],
+   "list_chapter": [
+    {
+     "id": 1,
+     "item": " Chương 1: 1: Xuyên Qua Thành Nữ Phụ Trà Xanh"
+    },
+    {
+     "id": 2,
+     "item": " Chương 2: 2: Ngày Đầu Tiên Liền Bị Bắt Đi Kết Hôn"
+    },
+    {
+     "id": 3,
+     "item": " Chương 3: 3: Tôi Thật Sự Muốn Làm Người Tốt"
+    },
+    {
+     "id": 4,
+     "item": " Chương 4: 4: Hệ Thống Xui Xẻo"
+    },
+    {
+     "id": 5,
+     "item": " Chương 5: 5: Trang Bức Thành Công"
+    },
+    {
+     "id": 6,
+     "item": " Chương 6: 6: Nhiệm Vụ Ẩn"
+    },
+    {
+     "id": 7,
+     "item": " Chương 7: 7: Làm Chuyện Mà Vợ Chồng Nên Làm"
+    },
+    {
+     "id": 8,
+     "item": " Chương 8: 8: Vốn Chỉ Muốn Mười Sợi Tóc Mà"
+    },
+    {
+     "id": 9,
+     "item": " Chương 9: 9: Thủy Thượng Phiêu"
+    },
+    {
+     "id": 10,
+     "item": " Chương 10: 10: Đầu Đinh"
+    },
+    {
+     "id": 11,
+     "item": " Chương 11: 11: Em Tốt Chỗ Nào"
+    },
+    {
+     "id": 12,
+     "item": " Chương 12: 12: Lễ Vật Quý Trọng"
+    },
+    {
+     "id": 13,
+     "item": " Chương 13: 13: Mất Kiểm Soát"
+    },
+    {
+     "id": 14,
+     "item": " Chương 14: 14: Xin Tôi Đi"
+    },
+    {
+     "id": 15,
+     "item": " Chương 15: 15: Lưu Manh"
+    },
+    {
+     "id": 16,
+     "item": " Chương 16: 16: Người Ở Dưới Mái Hiên"
+    },
+    {
+     "id": 17,
+     "item": " Chương 17: 17: Không Có Ý Tốt"
+    },
+    {
+     "id": 18,
+     "item": " Chương 18: 18: Gặp Dịp Thì Chơi"
+    },
+    {
+     "id": 19,
+     "item": " Chương 19: 19: Sắp Gầy Thành Heo Rồi"
+    },
+    {
+     "id": 20,
+     "item": " Chương 20: 20: Nhiệm Vụ Phản Kích"
+    },
+    {
+     "id": 21,
+     "item": " Chương 21: 21: Đi Trung Tâm Thương Mại"
+    },
+    {
+     "id": 22,
+     "item": " Chương 22: 22: Vào Cửa Hàng Quần Áo"
+    },
+    {
+     "id": 23,
+     "item": " Chương 23: 23: Cố Gia Thiếu Phu Nhân"
+    },
+    {
+     "id": 24,
+     "item": " Chương 24: 24: Thật Có Tiền Mình Rất Thích"
+    },
+    {
+     "id": 25,
+     "item": " Chương 25: 25: Đưa Đi Đút Sói"
+    },
+    {
+     "id": 26,
+     "item": " Chương 26: 26: Anh Ta Thật Sự Không Xem Mình Là Phụ Nữ"
+    },
+    {
+     "id": 27,
+     "item": " Chương 27: 27: Nhiệm Vụ Mới"
+    },
+    {
+     "id": 28,
+     "item": " Chương 28: 28: Không Thể Thừa Nhận Sai Lầm Của Bản Thân"
+    },
+    {
+     "id": 29,
+     "item": " Chương 29: 29: Chờ Tháo Lớp Bó Bột Rồi Thích Làm Kiểu Gì Thì Làm"
+    },
+    {
+     "id": 30,
+     "item": " Chương 30: 30: Quá Khứ Của Cố Đông Quân"
+    },
+    {
+     "id": 31,
+     "item": " Chương 31: 31: Có Thể Làm Máy Lọc Không Khí"
+    },
+    {
+     "id": 32,
+     "item": " Chương 32: 32: Không Người Đàn Ông Nào Có Thể Từ Chối Lâm Kiều Kiều"
+    },
+    {
+     "id": 33,
+     "item": " Chương 33: 33: Đẩy Nhẹ Xuống Cố Gia Sẽ Không Còn Thiếu Phu Nhân"
+    },
+    {
+     "id": 34,
+     "item": " Chương 34: 34: Cứu Người"
+    },
+    {
+     "id": 35,
+     "item": " Chương 35: 35: Không Chết"
+    },
+    {
+     "id": 36,
+     "item": " Chương 36: 36: Suy Luận"
+    },
+    {
+     "id": 37,
+     "item": " Chương 37: 37: Sự Thật Được Phơi Bày"
+    },
+    {
+     "id": 38,
+     "item": " Chương 38: 38: Không Thể Để Con Gái Trở Về Nơi Địa Ngục Đó"
+    },
+    {
+     "id": 39,
+     "item": " Chương 39: 39: Biết Thế Nào Là Mùi Đời"
+    },
+    {
+     "id": 40,
+     "item": " Chương 40: 40: Thích Anh Nào Thoải Mái Chọn"
+    },
+    {
+     "id": 41,
+     "item": " Chương 41: 41: Bị Bắt Gặp"
+    },
+    {
+     "id": 42,
+     "item": " Chương 42: 42: Trai Bao Nhỏ"
+    },
+    {
+     "id": 43,
+     "item": " Chương 43: 43: Không Không Có Tỉnh"
+    },
+    {
+     "id": 44,
+     "item": " Chương 44: 44: Đồ Lót Cỡ Nhỏ Nhất"
+    },
+    {
+     "id": 45,
+     "item": " Chương 45: 45: Tổn Thương Nhân Đôi"
+    },
+    {
+     "id": 46,
+     "item": " Chương 46: 46: Loại Phụ Nữ Không Đứng Đắn Như Cô"
+    },
+    {
+     "id": 47,
+     "item": " Chương 47: 47: Thì Ra Là Cô Muốn Tiền"
+    },
+    {
+     "id": 48,
+     "item": " Chương 48: 48: Chuyện Kinh Thiên Động Địa"
+    },
+    {
+     "id": 49,
+     "item": " Chương 49: 49: Con Ở Chung Một Gian Phòng Với Kiều Kiều Là Được"
+    },
+    {
+     "id": 50,
+     "item": " Chương 50: 50: Cải Trắng Bị Heo Ủi"
+    }
+   ]
+  },
+  {
+   "key": "3",
+   "story_name": "MỘT NỬA TRÁI TIM",
+   "source_img": "https://static.8cache.com/cover/eJzLyTDWd_Us8opy8ggvzTVxLMwzzyl1L3IqctINsCjwLzdzcspL9s6yjDJIL3K0LKkISjHJSEr2NnBO9k4tyvfLCrDIj_AtNwu10A3JK48KivT0znB1KbctNzI01c0wNjICAALpHxw=/mot-nua-trai-tim.jpg",
+   "author": "Tây Qua Gia",
+   "tag": [
+    {
+     "id": 15,
+     "item": "Đam Mỹ"
+    },
+    {
+     "id": 22,
+     "item": "Sủng"
+    }
+   ],
+   "source_by": "wattpad.com",
+   "status": {
+    "id": 3,
+    "item": "Full"
+   },
+   "summary": [
+    "Giới thiệu",
+    "",
+    "Ngày Lục Thanh Du đi, Tạ Vọng cảm thấy trái tim mình như thiếu mất một nửa, đau đớn vô cùng.",
+    "",
+    ".———-"
+   ],
+   "list_chapter": []
+  },
+  {
+   "key": "4",
+   "story_name": "BẮT ĐƯỢC MỘT ANH TRUNG KHUYỂN THẸN THÙNG",
+   "source_img": "https://static.8cache.com/cover/eJzLyTDWNysPqUqOjyo3r3Q1D_bzLgyNco0oKC4IDXVOd4ssKs7x8ynJdCozSkrP1nUvrypwCzAt9imJMizwNAiqqohITzROCg4v8jZx8nFJNDZJy0xPTLctNzI01c0wNjICAE7EIDE=/bat-duoc-mot-anh-trung-khuyen-then-thung.jpg",
+   "author": "Cú Hào Thủy Tinh",
+   "tag": [
+    {
+     "id": 6,
+     "item": "Đô Thị"
+    },
+    {
+     "id": 16,
+     "item": "Quan Trường"
+    }
+   ],
+   "source_by": "phuongchieungoc.wordpress",
+   "status": {
+    "id": 3,
+    "item": "Full"
+   },
+   "summary": [
+    "Văn án",
+    "Tống Ý Dung sống tiêu cực, chán đời, đối với tiền tài, thời gian, thân thể đều xem nhẹ, sống thế nào cũng được.",
+    "",
+    "Cậu biết đây là bệnh tâm lý, nhưng cậu xem qua rất nhiều bác sĩ tâm lý đều không làm nên chuyện gì.",
+    "",
+    "Tống Ý Dung thậm chí nghĩ, nếu có thể chết sớm một chút thì tốt rồi, cậu không còn mơ ác mộng liên tục, đêm đêm ngủ không yên.",
+    "",
+    "Bác sĩ kiến nghị cậu nên tìm địa phương yên tĩnh mà giải sầu, Tống Ý Dung cảm thấy buông tâm cũng không mất điều gì, vì thế thu thập hành lý rời đi thành thị, đến thôn trấn nhỏ nào đó thuê phòng ở.",
+    "",
+    "Tống Ý Dung phát hiện, nam nhân cao lớn ở cách vách thường hay nhìn lén cậu, còn thực dễ dàng đỏ mặt, khờ đến đáng yêu.",
+    "",
+    "Buổi tối tắm xong, Tống Ý Dung mặc kiện áo trắng hở ngực, đứng ở ban công phơi quần áo, nam nhân vừa vặn đi ngang qua, chắc là mới từ ruộng về, trên người thấm mồ hôi.",
+    "",
+    "Tống Ý Dung gọi anh lại: “Này, anh muốn lên đây ngồi chung không?”",
+    "",
+    "Nam nhân bỗng chốc ngừng bước chân, ngẩng đầu nhìn cậu một cái, lại cuống quít cúi đầu, lỗ tai hồng hồng, âm thanh thực buồn: “Không được.”",
+    "",
+    "Tống Ý Dung ghé vào lan can, ngữ khí cố ý mang theo ái muội cùng dụ dỗ: “Vì sao không được? Sợ tôi khi dễ anh à.”",
+    "",
+    "Nam nhân cúi đầu, nghẹn một lúc lâu, mới nhảy ra hai chữ: “Không sợ.”",
+    "",
+    "Tống Ý Dung cười rộ lên: “Không sợ vậy anh vì sao không dám nhìn tôi?”",
+    "",
+    "Nam nhân cúi đầu càng thấp, lỗ tai càng đỏ.",
+    "",
+    "Tống Ý Làm làm sao cũng không ngờ được người nam nhân này sẽ thay đổi cuộc đời mình thành dương quang rực rỡ cùng mùa xuân.",
+    "",
+    "Một câu tóm tắt: Yêu nhau khi mặt đỏ.",
+    "",
+    "Lập ý: Nỗ lực phấn đấu, tích cực hướng về phía trước."
+   ],
+   "list_chapter": []
+  },
+  {
+   "key": "5",
+   "story_name": "VÕNG DU ĐỆ NHẤT MỸ NHÂN [THỰC TẾ ẢO]",
+   "source_img": "https://static.8cache.com/cover/eJzLyTDWr8xJKonINTeoSnRKdClKKSz1NQgo0LU0yEqzCDROyfIONvUqM3AycA-2CDTKzsxKDbMwzEws9S7yqgz2cTMoSEqxLC73jArQTQrziTIyCMuNSrctNzI01c0wNjICAP-kHr4=/vong-du-de-nhat-my-nhan-thuc-te-ao.jpg",
+   "author": "Phù Sinh Nghiên Noãn",
+   "tag": [
+    {
+     "id": 3,
+     "item": "Ngôn Tình"
+    },
+    {
+     "id": 6,
+     "item": "Đô Thị"
+    },
+    {
+     "id": 11,
+     "item": "Khoa Huyễn"
+    },
+    {
+     "id": 13,
+     "item": "Võng Du"
+    },
+    {
+     "id": 37,
+     "item": "Khác"
+    },
+    {
+     "id": 22,
+     "item": "Sủng"
+    },
+    {
+     "id": 18,
+     "item": "Xuyên Nhanh"
+    }
+   ],
+   "source_by": "sưu tầm",
+   "status": {
+    "id": 2,
+    "item": "Đang ra"
+   },
+   "summary": [
+    "Thể loại: Ngôn tình, Xuyên nhanh, Tương lai, Sủng, Ngọt, HE, 1v1, Nữ chủ.",
+    "",
+    "Giới thiệu:",
+    "",
+    "Mộc Phỉ, đệ nhất mỹ nhân của《 Tu Tiên OL》!",
+    "",
+    "Nghe nói, nàng không chỉ có khuôn mặt xinh đẹp còn có dáng người như yêu tinh.",
+    "",
+    "Một số kẻ muốn dính chút vận may của nàng, một số lại muốn ôm đùi* a.*Ôm đùi: dựa hơi người khác.",
+    "",
+    "Thực tế, Mộc Phỉ vừa xuyên qua, nàng là một cô nương nhỏ mập tầm ba trăm cân a...*Ba trăm cân, tính theo cân TQ, về VN là 150 kí các nàng nhá.",
+    "",
+    "Một câu chuyện, về một cô gái xuyên đến tương lai, từ ba trăm cân, kiên trì nỗ lực giảm béo trở lên xinh đẹp! Một câu chuyện đơn giản, vui vẻ đầy nét cổ tích^^",
+    "",
+    "Đọc nhắc nhở:",
+    "",
+    "Nam chủ: Hoàng Lương Nhất Mộng",
+    "",
+    "Review:",
+    "",
+    "\"Truyện rất hay, nhẹ nhàng, cũng có một chút bi thương, 2 nhân vật chính ko phải là người hoàn mỹ vô cùng, truyện phát triển nội dung và tình cảm khá hợp lý, đặc biệt nhấn mạnh nam9 là dấm vương đáng yêu. Một điểm mạnh nữa là truyện ngắn thôi.\""
+   ],
+   "list_chapter": []
+  },
+  {
+   "key": "6",
+   "story_name": "TÔI ĐÓNG VAI NHÀ TIÊN TRI TRONG TỔ CỨU THẾ",
+   "source_img": "https://static.8cache.com/cover/eJzLyTDWd3UMM88yc61I8zX2qkjKN0xL83A1Tg4384o3dI_wSXN3KinIjyqPcMnycK9KDzIzNzIICHROLM0vNAmN9E4x9vbyy_PM8gl1DrPITsz3LCrKKbctNzI01c0wNjICANxoHtM=/toi-dong-vai-nha-tien-tri-trong-to-cuu-the.jpg",
+   "author": "Cỏ Gối Rõ Ràng",
+   "tag": [
+    {
+     "id": 11,
+     "item": "Khoa Huyễn"
+    },
+    {
+     "id": 37,
+     "item": "Khác"
+    }
+   ],
+   "source_by": "sưu tầm",
+   "status": {
+    "id": 2,
+    "item": "Đang ra"
+   },
+   "summary": [
+    "Tên Khác: Ta ở cứu thế tổ chức sắm vai nhà tiên tri",
+    "",
+    "Tác Giả: Cỏ Gối Rõ Ràng",
+    "",
+    "Thể loại: Khoa Huyễn, Biến thể tiến hóa",
+    "",
+    "Giới thiệu:",
+    "",
+    "Sau khi xuyên vào thế giới song song, Bạch Lệnh nhìn xuống và phát hiện trên ngực mình có một lỗ hổng, máu khắp người và khiến anh trở thành một xác chết biết đi, để điều tra nguyên nhân anh lật giở nhật ký của mình. [Nếu bạn nhìn thấy dòng chữ này, điều đó có nghĩa là tôi đã chết]",
+    "[Tôi là một nhà tiên tri đã tiên đoán được những thảm họa trong tương lai. Để tránh kết cục, tôi đã tự sát. Bởi vì khả năng nhận thức của tôi cần phải tiêu thụ sự sống, và người chết có thể sử dụng khả năng này mọi lúc]",
+    "[Tôi đến từ thế giới khác, hi vọng bạn có thể cứu thế giới này và cứu nhân loại]",
+    "Nhìn vào cuốn nhật ký chứa đầy thông tin trong ba năm tới, tất cả các sự kiện lớn, tài năng và bí mật, cũng như khả năng hoạt động của mình tại thời điểm đó. Bạch Lệnh chấp nhận tất cả những điều ấy một cách dễ dàng.",
+    "“Cần có một tổ chức, một tổ chức giải cứu thế giới. Trong tổ chức này tôi có thể sử dụng khả năng của mình để đóng vai trò là ‘nhà tiên tri’ và hướng dẫn hành động của các thành viên.”",
+    "Nhưng trước đó, Bạch Lệnh nhìn xuống cơ thể của mình:“Chắc mình phải tìm một nhà tang lễ trước, để cơ thể không bị thối rữa và bốc mùi...”"
+   ],
+   "list_chapter": []
+  },
+  {
+   "key": "7",
+   "story_name": "MỖI CÁI THẾ GIỚI TÔ MỘT LẦN",
+   "source_img": "https://static.8cache.com/cover/eJzLyTDWzwrzzC_1MA8udveNcK6IDDPUDfB1Dw3wcHKP8s5yDPDNyE7zicy0CCisTC4PCkn2Dq_IDQnJzc3OKHVPK0jP9Tb08iqNKCiJMgrzz8gKMUjO9_K0LTcyNNXNMDYyAgBEJiBn/moi-cai-the-gioi-to-mot-lan.jpg",
+   "author": "Chân Lật Tử",
+   "tag": [
+    {
+     "id": 3,
+     "item": "Ngôn Tình"
+    },
+    {
+     "id": 14,
+     "item": "Xuyên Không"
+    },
+    {
+     "id": 18,
+     "item": "Xuyên Nhanh"
+    },
+    {
+     "id": 10,
+     "item": "Hệ Thống"
+    }
+   ],
+   "source_by": "wattpad.com/user/Lucy15112016",
+   "status": {
+    "id": 2,
+    "item": "Đang ra"
+   },
+   "summary": [
+    "Edit: Thiên Tình, Yến Tử ",
+    "Thể loại: ngôn tình, xuyên không, hệ thống...",
+    "",
+    "Mỗi người đều có được số phận của riêng mình mà Văn Anh định sẵn lại bị Chủ thần đế ý tới lựa chọn cô trở thành \"kẻ không may mắn\". （▽д▽）",
+    "",
+    "Cho du cô được cơ hội xuyên qua các thế giới nhưng ở thế giới nào cô cũng đều không gặp may mắn bị mọi người  không ai yêu quý cô.",
+    "",
+    "\"Nghe nói cô bị bao nuôi?\"  Σ(ﾟДﾟ)",
+    "",
+    "\"Chân đạp ba thuyền, a, lật thuyền rồi chứ gì.\"  Σ(ﾟДﾟ)",
+    "",
+    "\"Thân là thần thê, lại đi quyến rũ bệ hạ, ngươi đê tiện như thế ư?\"  ΣΣ(ﾟДﾟ;)",
+    "",
+    "Văn Anh, xuất thân diễn viên, lộ ra nụ cười  Bạch Liên hoa chuyên biệt --  （＾ｖ＾）",
+    "",
+    "Vậy thì thế nào? Cuối cùng các ngươi còn không phải đều sẽ trở thành \"quần hạ chi thần\" của tôi sao.  （；￣︶￣）",
+    "",
+    "# ta có kỹ xảo tẩy bạch đặc biệt  ",
+    "",
+    "#Cần biết trước khi ăn: Bài này chủ tô, tập hợp thiên lôi máu chó, tẩy bạch, công lược, tu la tràng toàn thân.",
+    "",
+    "Nội dung nhãn mác: Khoái xuyên",
+    "",
+    "Vai chính: Văn Anh ┃ vai phụ: ┃ cái khác:"
+   ],
+   "list_chapter": [
+    {
+     "id": 1,
+     "item": " Chương 1: Không gian"
+    },
+    {
+     "id": 2,
+     "item": " Chương 2: Thế thân nghịch tập nữ minh tinh nổi tiếng (1)"
+    },
+    {
+     "id": 3,
+     "item": " Chương 3: Thế thân nghịch tập nữ minh tinh nổi tiếng (2)"
+    },
+    {
+     "id": 4,
+     "item": " Chương 4: Thế thân nghịch tập nữ minh tinh nổi tiếng (3)"
+    },
+    {
+     "id": 5,
+     "item": " Chương 5: Thế thân nghịch tập nữ minh tinh nổi tiếng (4)"
+    },
+    {
+     "id": 6,
+     "item": " Chương 6: Thế thân nghịch tập nữ minh tinh nổi tiếng (5)"
+    },
+    {
+     "id": 7,
+     "item": " Chương 7: Thế thân nghịch tập nữ minh tinh nổi tiếng (6)"
+    },
+    {
+     "id": 8,
+     "item": " Chương 8: Thế thân nghịch tập nữ minh tinh nổi tiếng (7)"
+    },
+    {
+     "id": 9,
+     "item": " Chương 9: Thế thân nghịch tập nữ minh tinh nổi tiếng (8)"
+    },
+    {
+     "id": 10,
+     "item": " Chương 10: Thế thân nghịch tập nữ minh tinh nổi tiếng (9)"
+    },
+    {
+     "id": 11,
+     "item": " Chương 11: Thế thân nghịch tập nữ minh tinh nổi tiếng (10)"
+    },
+    {
+     "id": 12,
+     "item": " Chương 12: Thế thân nghịch tập nữ minh tinh nổi tiếng (11)"
+    },
+    {
+     "id": 13,
+     "item": " Chương 13: Thế thân nghịch tập nữ minh tinh nổi tiếng (12)"
+    },
+    {
+     "id": 14,
+     "item": " Chương 14: Hoàng đế mưu đoạt thần thê (1)"
+    },
+    {
+     "id": 15,
+     "item": " Chương 15: Hoàng đế mưu đoạt thần thê (2)"
+    },
+    {
+     "id": 16,
+     "item": " Chương 16: Hoàng đế mưu đoạt thần thê (3)"
+    },
+    {
+     "id": 17,
+     "item": " Chương 17: Hoàng đế mưu đoạt thần thê (4)"
+    },
+    {
+     "id": 18,
+     "item": " Chương 18: Hoàng đế mưu đoạt thần thê (5)"
+    },
+    {
+     "id": 19,
+     "item": " Chương 19: Hoàng đế mưu đoạt thần thê (6)"
+    },
+    {
+     "id": 20,
+     "item": " Chương 20: Hoàng đế mưu đoạt thần thê (7)"
+    },
+    {
+     "id": 21,
+     "item": " Chương 21: Hoàng đế mưu đoạt thần thê (8)"
+    },
+    {
+     "id": 22,
+     "item": " Chương 22: Hoàng đế mưu đoạt thần thê (9)"
+    },
+    {
+     "id": 23,
+     "item": " Chương 23: Hoàng đế mưu đoạt thần thê (10)"
+    },
+    {
+     "id": 24,
+     "item": " Chương 24: Hoàng đế mưu đoạt thần thê (11)"
+    },
+    {
+     "id": 25,
+     "item": " Chương 25: Hoàng đế mưu đoạt thần thê (12)"
+    },
+    {
+     "id": 26,
+     "item": " Chương 26: Quân phiệt chó săn (1)"
+    },
+    {
+     "id": 27,
+     "item": " Chương 27: Quân phiệt chó săn (2)"
+    },
+    {
+     "id": 28,
+     "item": " Chương 28: Quân phiệt chó săn (3)"
+    },
+    {
+     "id": 29,
+     "item": " Chương 29: Quân phiệt chó săn (4)"
+    },
+    {
+     "id": 30,
+     "item": " Chương 30: Quân phiệt chó săn (5)"
+    },
+    {
+     "id": 31,
+     "item": " Chương 31: Quân phiệt chó săn (6)"
+    },
+    {
+     "id": 32,
+     "item": " Chương 32: Quân phiệt chó săn (7)"
+    },
+    {
+     "id": 33,
+     "item": " Chương 33: Quân phiệt chó săn (8)"
+    },
+    {
+     "id": 34,
+     "item": " Chương 34: Quân phiệt chó săn (9)"
+    },
+    {
+     "id": 35,
+     "item": " Chương 35: Quân phiệt chó săn (10)"
+    },
+    {
+     "id": 36,
+     "item": " Chương 36: Quân phiệt chó săn (11)"
+    },
+    {
+     "id": 37,
+     "item": " Chương 37: Quân phiệt chó săn (12)"
+    },
+    {
+     "id": 38,
+     "item": " Chương 38: Quân phiệt chó săn (13)"
+    },
+    {
+     "id": 39,
+     "item": " Chương 39: Cô gái xinh đẹp bước ra từ truyện tranh (1)"
+    },
+    {
+     "id": 40,
+     "item": " Chương 40: Cô gái xinh đẹp bước ra từ truyện tranh (2)"
+    },
+    {
+     "id": 41,
+     "item": " Chương 41: Cô gái xinh đẹp bước ra từ truyện tranh (3)"
+    },
+    {
+     "id": 42,
+     "item": " Chương 42: Cô gái xinh đẹp bước ra từ truyện tranh (4)"
+    },
+    {
+     "id": 43,
+     "item": " Chương 43: Cô gái xinh đẹp bước ra từ truyện tranh (5)"
+    },
+    {
+     "id": 44,
+     "item": " Chương 44: Cô gái xinh đẹp bước ra từ truyện tranh (6)"
+    },
+    {
+     "id": 45,
+     "item": " Chương 45: Cô gái xinh đẹp bước ra từ truyện tranh (7)"
+    },
+    {
+     "id": 46,
+     "item": " Chương 46: Cô gái xinh đẹp bước ra từ truyện tranh (8)"
+    },
+    {
+     "id": 47,
+     "item": " Chương 47: Cô gái xinh đẹp bước ra từ truyện tranh (9)"
+    },
+    {
+     "id": 48,
+     "item": " Chương 48: Cô gái xinh đẹp bước ra từ truyện tranh (10)"
+    },
+    {
+     "id": 49,
+     "item": " Chương 49: Cô gái xinh đẹp bước ra từ truyện tranh (11)"
+    },
+    {
+     "id": 50,
+     "item": " Chương 50: Cô gái xinh đẹp bước ra từ truyện tranh (12)"
+    }
+   ]
+  },
+  {
+   "key": "8",
+   "story_name": "KHÍ VẬN CHI TỬ, PHẢN DIỆN CHI LỘ",
+   "source_img": "https://static.8cache.com/cover/eJzLyTDWD08LMcyqioxKKfUzzA3Oy3RxKylMLS0LTPYPSEuOdPEqtCg0q0wKqPKvCHEL96ksz_BwryjOdcxwyTPKME0MsLAMSko3S6qIMkmPtzT1iChzcbQtNzI01c0wNjICAGKUIEU=/khi-van-chi-tu-phan-dien-chi-lo.jpg",
+   "author": "Bacsiquaidi",
+   "tag": [
+    {
+     "id": 36,
+     "item": "Huyền Huyễn"
+    },
+    {
+     "id": 14,
+     "item": "Xuyên Không"
+    },
+    {
+     "id": 9,
+     "item": "Cổ Đại"
+    },
+    {
+     "id": 37,
+     "item": "Khác"
+    }
+   ],
+   "source_by": "sưu tầm",
+   "status": {
+    "id": 2,
+    "item": "Đang ra"
+   },
+   "summary": [
+    "Tác giả: Bacsiquaidi",
+    "",
+    "Thể loại: Huyền Huyễn",
+    "",
+    "Giới thiệu:",
+    "",
+    "Truyện Khí Vận Chi Tử, Phản Diện Chi Lộ của tác giả Bacsiquaidi kể về một nhà tâm lý học xuyên không, nhập vào thân xác của một tên công tử.",
+    "",
+    "Cứ ngỡ đời này có thể sống một cuộc sống bình dị, nào ngờ lại rơi vòng xoáy tranh đoạt quyền lực bên trong gia tộc.",
+    "",
+    "Càng trăm vạn lần không ngờ, đối thủ của hắn lại là kẻ mang Đại Khí Vận.",
+    "",
+    "Đứng trước tình huống trớ trêu như thế, liệu hắn nên làm gì?",
+    "",
+    "Hoặc là chấp nhận số phận, trở thành hòn đá lót đường cho Khí Vận Chi Tử, nhìn hắn phong vân tái khởi, trở thành chúa tể một phương, còn mình thì chết đi, biến thành nắm tro tàn trong dòng sông lịch sử.",
+    "",
+    "Hoặc là...đi lên con đường của một kẻ phản diện, bày mưu tính kế, cướp lấy tiên cơ, dùng máu của hắn viết lại số phận dành cho mình.",
+    "",
+    "Khí Vận Chi Tử, ngươi có khí vận bảo kê. Còn ta, thứ ta am hiểu nhất chính là lợi dụng lòng người.",
+    "",
+    "Mà ngươi... suy cho cùng cũng chỉ là con người."
+   ],
+   "list_chapter": []
+  },
+  {
+   "key": "9",
+   "story_name": "HOANG CỔ THÁNH THỂ",
+   "source_img": "https://static.8cache.com/cover/eJzLyTDW944Ics8uDDc2ryovtcxNTUov9g3R1U0Pq4gKCgwzcTMqcykzNikyT83LMjUsrEhyzXd39E0KKAxLjczwKvBM9cnOckl3NTHVDfeNzClP9Qgz9jCwLTcyNNXNMDYyAgAziB9X/hoang-co-thanh-the.jpg",
+   "author": "J Thần",
+   "tag": [
+    {
+     "id": 4,
+     "item": "Tiên Hiệp"
+    },
+    {
+     "id": 5,
+     "item": "Dị Giới"
+    },
+    {
+     "id": 36,
+     "item": "Huyền Huyễn"
+    },
+    {
+     "id": 14,
+     "item": "Xuyên Không"
+    },
+    {
+     "id": 17,
+     "item": "Dị Năng"
+    },
+    {
+     "id": 9,
+     "item": "Cổ Đại"
+    }
+   ],
+   "source_by": "sưu tầm",
+   "status": {
+    "id": 2,
+    "item": "Đang ra"
+   },
+   "summary": [
+    "Tác giả: J Thần",
+    "",
+    "Thể loại: Dị Năng, Xuyên Không, Dị Giới, Cổ Đại, Tiên Hiệp, Huyền Huyễn",
+    "",
+    "Kiếp trước, Quân Tiêu Dao chính là một cô nhi, được một người đoán mệnh mù lòa nhận nuôi.",
+    "",
+    "Người mù kia nói, đời này của hắn tuy nghèo khổ nhưng kiếp sau nhất định sẽ được trời cao ưu ái, bước lên đỉnh cao nhân sinh.",
+    "",
+    "Khi đó Quân Tiêu Dao còn tin mấy nhưng sau một lần ngoài ý muốn, hắn mất mạng, mở mắt ra lần nữa đã trở thành hậu duệ bảo bối của một thế gia Hoang Cổ...",
+    "",
+    "\"Xem ra, kiếp này, ta quả thực sinh ra đã ở vạch đích rồi.\" Quân Tiêu Dao thầm nghĩ trong lòng.",
+    "",
+    "... ",
+    "",
+    "Quân Tiêu Dao xuyên đến thế giới huyền huyễn, trở thành Thần tử của một thế gia Hoang Cổ, có bối cảnh vô địch, thiên phú kinh thế, còn nhận được hệ thống đánh dấu độc nhất vô nhị"
+   ],
+   "list_chapter": []
+  },
+  {
+   "key": "10",
+   "story_name": "NHỊ THỨ NGUYÊN TIẾN HOÁ GIẢ",
+   "source_img": "https://static.8cache.com/cover/eJzLyTDW94ssdA2xMKhwDA9PSgxyLtQNTY1wqnIMKXaMyo7Py_CtNM8sDEwxKnEqccn2KCtxMkouLk0piiytTEvxzDXUTfQ3TXcvsQwoSSsuCnayzCrKc7QtNzI01c0wNjICADdzIGE=/nhi-thu-nguyen-tien-hoa-gia.jpg",
+   "author": "Yozora",
+   "tag": [
+    {
+     "id": 6,
+     "item": "Đô Thị"
+    },
+    {
+     "id": 36,
+     "item": "Huyền Huyễn"
+    },
+    {
+     "id": 17,
+     "item": "Dị Năng"
+    },
+    {
+     "id": 37,
+     "item": "Khác"
+    }
+   ],
+   "source_by": "sưu tầm",
+   "status": {
+    "id": 2,
+    "item": "Đang ra"
+   },
+   "summary": [
+    "Tác giả: Yozora",
+    "",
+    "Thể loại: Dị Năng, Đô Thị, Truyện Khác, Huyền Huyễn",
+    "",
+    "Giới thiệu:",
+    "",
+    "Hắn xuyên việt qua nhị thứ nguyên, người mang theo tiến hoá hệ thống.",
+    "",
+    "Nhưng ai cũng biết nhị thứ nguyên rất nguy hiểm.",
+    "",
+    "Cho nên hắn quyết định vừa làm bình thường không có lạ tiến hoá giả vừa âm thầm mạnh lên để bảo vệ mạng sống của mình... Chắc vậy."
+   ],
+   "list_chapter": []
+  },
+  {
+   "key": "11",
+   "story_name": "CƠ VÕ PHONG BẠO",
+   "source_img": "https://static.8cache.com/cover/eJzLyTDWT0p3Nkvxis8u9IvPKY4yLMs2KCxISfT3i_A1tiwONS0MC7QMcS7PSc5P8SqyiAoMc8kpL_MxdSz1z_cPzNQN8fdJDHUKMzKPCgwoqkpO042ITLctNzI01c0wNjICAC_9H6w=/co-vo-phong-bao.jpg",
+   "author": "Khô Lâu Tinh Linh",
+   "tag": [
+    {
+     "id": 11,
+     "item": "Khoa Huyễn"
+    },
+    {
+     "id": 12,
+     "item": "Quân Sự"
+    },
+    {
+     "id": 37,
+     "item": "Khác"
+    }
+   ],
+   "source_by": "sưu tầm",
+   "status": {
+    "id": 2,
+    "item": "Đang ra"
+   },
+   "summary": [
+    "Tác giả: Khô Lâu Tinh Linh",
+    "",
+    "Thể loại: Quân Sự, Khoa Huyễn",
+    "",
+    "Giới thiệu:",
+    "",
+    "Giải đấu cơ võ toàn thái dương hệ S10 đánh dấu sự đi xuống của USE liên bang Địa Cầu, cũng như sự bùng nổ của NUP liên bang Mặt Trăng, sự vươn lên mạnh mẽ của ROM liên bang Hỏa Tinh. Nó khiến cho cơ giáp hạng nhẹ của liên Địa Cầu được xem là đã hết thời, thay vào đó là thời đại của cơ giáp thú trang đặc trưng của ROM hoặc cơ giáp cỡ trung nhẹ trọng tải 50 đến 60 tấn sở trường của NUP sẽ là chủ lưu trong thời gian tới. Liên bang Địa Cầu với vị trí gần như áp chót đã đánh mất hào quang trong quá khứ, chịu đủ sỉ nhục khi thể hiện ra thực lực thường thường bậc trung không có gì đáng để ý. Rất nhiều kế hoạch, những dòng máu mới được đưa ra để tạo nên những sự thay đổi tích cực, hướng tới thay đổi cục diện trước mắt. Nhưng ít ai ngờ đến, tâm điểm của sự thay đổi ấy, tâm điểm giúp liên bang Địa Cầu lấy lại mọi vinh quang vươn lên dẫn đầu thái dương hệ lại nằm trên người Lý Hạo, một học sinh cực kỳ bình thường tại Thiên Kinh Cơ Võ, một học viện cơ giáp tại châu Á. Cơ Võ Phong Bạo là phần tiếp theo của serie cơ giáp phong bạo của đại thần khoa huyễn Khô Lâu Tinh Linh được nhóm dịch NTm.Group chuyển ngữ gởi đến quý độc giả, mời quý độc giả đón xem."
+   ],
+   "list_chapter": []
+  },
+  {
+   "key": "12",
+   "story_name": "MINH THIÊN HẠ",
+   "source_img": "https://static.8cache.com/cover/eJzLyTDWT_Uocs3ODAzO8g_3cw8N8cy28MurzAktSPRNdgwIMM1PNncq9vIrNg0vMylOzffIizB3jQ809UtMdEv1TCmMrzIsSQ3NL4_PjrRMNotyTsyOD7QtNzI01c0wNjICADKiIAw=/minh-thien-ha.jpg",
+   "author": "Kiết Dữ 2",
+   "tag": [
+    {
+     "id": 2,
+     "item": "Lịch Sử"
+    },
+    {
+     "id": 14,
+     "item": "Xuyên Không"
+    },
+    {
+     "id": 19,
+     "item": "Trọng Sinh"
+    },
+    {
+     "id": 37,
+     "item": "Khác"
+    }
+   ],
+   "source_by": "sưu tầm",
+   "status": {
+    "id": 2,
+    "item": "Đang ra"
+   },
+   "summary": [
+    "Tác giả: Kiết Dữ 2",
+    "",
+    "Thể loại: Xuyên Không, Lịch Sử",
+    "",
+    "Giới thiệu:",
+    "",
+    "Lịch sử Minh mạt hỗn loạn vô cùng, có thể nói đó là giai đoạn lịch sử do cá nhân có sức hút lớn viết thành.",
+    "",
+    "Bất kể là những kẻ phản nghịch như Lý Tự Hành, hay Trương Hiến Trung, hay là kẻ quyền như Viên Sùng Hoán, Sùng Trinh, hoặc kẻ phản bội như Ngô Tam Quế, Cảnh Tinh Trung, mỗi người đều có những câu chuyện đặc sắc riêng, chính vì họ mà lịch sử Minh mạt trở thành gay cấn kịch tính.",
+    "",
+    "Nhân vật chính trùng sinh thành tiểu thiếu thiếu gia của đại gia đình, nhưng thôn trang của hắn lại nằm tít trong núi sâu, chưa nói tới loạn thế sắp tới, nơi này còn là quê hương của các loại phỉ tặc. Thật không may nhưng cũng là cơ hội, ở nơi trời cao hoàng đế xa này, Vân Chiêu âm thầm gây dựng trang viên, phát triển gia tộc, mở rộng thế lực, nghênh đón loạn thế..."
+   ],
+   "list_chapter": [
+    {
+     "id": 1,
+     "item": " Chương 1: 1: Bát Đại Khấu 1"
+    },
+    {
+     "id": 2,
+     "item": " Chương 2: 2: Bát Đại Khấu 2"
+    },
+    {
+     "id": 3,
+     "item": " Chương 3: 3: Bát Đại Khấu 3"
+    },
+    {
+     "id": 4,
+     "item": " Chương 4: 4: Bát Đại Khấu 4"
+    },
+    {
+     "id": 5,
+     "item": " Chương 5: 5: Bát Đại Khấu 5"
+    },
+    {
+     "id": 6,
+     "item": " Chương 6: 6: Bát Đại Khấu 6"
+    },
+    {
+     "id": 7,
+     "item": " Chương 7: 7: Bát Đại Khấu 7"
+    },
+    {
+     "id": 8,
+     "item": " Chương 8: 8: Bát Đại Khấu 8"
+    },
+    {
+     "id": 9,
+     "item": " Chương 9: 9: Bát Đại Khấu 9"
+    },
+    {
+     "id": 10,
+     "item": " Chương 10: 10: Bát Đại Khấu 10"
+    },
+    {
+     "id": 11,
+     "item": " Chương 11: 11: Bát Đại Khấu 11"
+    },
+    {
+     "id": 12,
+     "item": " Chương 12: 12: Bát Đại Khấu 12"
+    },
+    {
+     "id": 13,
+     "item": " Chương 13: 13: Đối Thoại Với Lợn Rừng 1"
+    },
+    {
+     "id": 14,
+     "item": " Chương 14: 14: Đối Thoại Với Lợn Rừng 2"
+    },
+    {
+     "id": 15,
+     "item": " Chương 15: 15: Tình Thân Kỳ Thực Là An Ủi Lẫn Nhau"
+    },
+    {
+     "id": 16,
+     "item": " Chương 16: 16: Chỉ Nhận Mông Không Nhận Người 1"
+    },
+    {
+     "id": 17,
+     "item": " Chương 17: 17: Chỉ Nhận Mông Không Nhận Người 2"
+    },
+    {
+     "id": 18,
+     "item": " Chương 18: 18: Tiên Sinh Sắp Chết Và Con Chó 1"
+    },
+    {
+     "id": 19,
+     "item": " Chương 19: 19: Tiên Sinh Sắp Chết Và Con Chó 2"
+    },
+    {
+     "id": 20,
+     "item": " Chương 20: 20: Vân Thập Bát Nhờ Đánh Mà Ra"
+    },
+    {
+     "id": 21,
+     "item": " Chương 21: 21: Chiến Tranh Chiến Tranh Với Ngan 1"
+    },
+    {
+     "id": 22,
+     "item": " Chương 22: 22: Chiến Tranh Chiến Tranh Với Ngan 2"
+    },
+    {
+     "id": 23,
+     "item": " Chương 23: 23: Yêu Nghiệt Không Đáng Tiền"
+    },
+    {
+     "id": 24,
+     "item": " Chương 24: 24: Giao Ước Giữa Tiên Sinh Và Học Sinh 1"
+    },
+    {
+     "id": 25,
+     "item": " Chương 25: 25: Giao Ước Giữa Tiên Sinh Và Học Sinh 2"
+    },
+    {
+     "id": 26,
+     "item": " Chương 26: 26: Thành Tin Là Gốc Lập Gia 1"
+    },
+    {
+     "id": 27,
+     "item": " Chương 27: 27: Thành Tin Là Gốc Lập Gia 2"
+    },
+    {
+     "id": 28,
+     "item": " Chương 28: 28: Thành Tín Là Gốc Lập Gia 3"
+    },
+    {
+     "id": 29,
+     "item": " Chương 29: 29: Mười Ba Người"
+    },
+    {
+     "id": 30,
+     "item": " Chương 30: 30: Lợn Nào Cũng Là Lợn"
+    },
+    {
+     "id": 31,
+     "item": " Chương 31: 31: Mưa Xuân Quý Hơn Dầu"
+    },
+    {
+     "id": 32,
+     "item": " Chương 32: 32: Cự Khấu Trong Truyền Thuyết Sắp Tới Nhà Làm Công"
+    },
+    {
+     "id": 33,
+     "item": " Chương 33: 33: Ta Muốn Có Một Thanh Đao"
+    },
+    {
+     "id": 34,
+     "item": " Chương 34: 34: Trộm Tới Nhà Phải Đánh"
+    },
+    {
+     "id": 35,
+     "item": " Chương 35: 35: Vân Chiêu Tự Chuốc Khổ Vào Thân"
+    },
+    {
+     "id": 36,
+     "item": " Chương 36: 36: Làm Đúng Hết Rồi"
+    },
+    {
+     "id": 37,
+     "item": " Chương 37: 37: Chẳng Có Ai Là Đơn Giản"
+    },
+    {
+     "id": 38,
+     "item": " Chương 38: 38: Đại Tộc Nghìn Năm 1"
+    },
+    {
+     "id": 39,
+     "item": " Chương 39: 39: Đại Tộc Nghìn Năm 2"
+    },
+    {
+     "id": 40,
+     "item": " Chương 40: 40: Một Vân Gia Không Tầm Thường"
+    },
+    {
+     "id": 41,
+     "item": " Chương 41: 41: Ăn Đòn Cả Đám"
+    },
+    {
+     "id": 42,
+     "item": " Chương 42: 42: Ai Là Đại Anh Hùng 1"
+    },
+    {
+     "id": 43,
+     "item": " Chương 43: 43: Ai Là Đại Anh Hùng 2"
+    },
+    {
+     "id": 44,
+     "item": " Chương 44: 44: Thăm Dò Và Giải Mật 1"
+    },
+    {
+     "id": 45,
+     "item": " Chương 45: 45: Thăm Dò Và Giải Mật 2"
+    },
+    {
+     "id": 46,
+     "item": " Chương 46: 46: Đoàn Khảo Cổ Của Vân Chiêu 1"
+    },
+    {
+     "id": 47,
+     "item": " Chương 47: 47: Đoàn Khảo Cổ Của Vân Chiêu 2"
+    },
+    {
+     "id": 48,
+     "item": " Chương 48: 48: Khảo Cổ Tới Tận Mộ Tổ Rồi"
+    },
+    {
+     "id": 49,
+     "item": " Chương 49: 49: Truyền Thuyết Về Âm Tộc 1"
+    },
+    {
+     "id": 50,
+     "item": " Chương 50: 50: Truyền Thuyết Âm Tộc 3"
+    },
+    {
+     "id": 51,
+     "item": " Chương 51-173"
+    },
+    {
+     "id": 52,
+     "item": " Chương 174: 174: Chỉ Cần Đợi Chuyện Tốt Đẹp Rồi Sẽ Tới 1"
+    },
+    {
+     "id": 53,
+     "item": " Chương 175: 175: Chỉ Cần Đợi Chuyện Tốt Đẹp Rồi Sẽ Tới 2"
+    },
+    {
+     "id": 54,
+     "item": " Chương 176: 176: Lòng Tham Hoành Hành 1"
+    },
+    {
+     "id": 55,
+     "item": " Chương 177: 177: Thiên Sứ Của Thần Linh 1"
+    },
+    {
+     "id": 56,
+     "item": " Chương 178: 178: Thiên Sứ Của Thần Linh 2"
+    },
+    {
+     "id": 57,
+     "item": " Chương 179: 179: Biện Pháp Của Cường Đạo 1"
+    },
+    {
+     "id": 58,
+     "item": " Chương 180: 180: Biện Pháp Của Cường Đạo 2"
+    },
+    {
+     "id": 59,
+     "item": " Chương 181: 181: Thứ Cần Tới Cũng Phải Tới 1"
+    },
+    {
+     "id": 60,
+     "item": " Chương 182: 182: Thứ Cần Tới Cũng Phải Tới 2"
+    },
+    {
+     "id": 61,
+     "item": " Chương 183: 183: Giá Trị Của Sinh Mạng"
+    },
+    {
+     "id": 62,
+     "item": " Chương 184: 184: Sức Mạnh Của Hương Thân"
+    },
+    {
+     "id": 63,
+     "item": " Chương 185: 185: Gia Đình Lợn Rừng"
+    },
+    {
+     "id": 64,
+     "item": " Chương 186: 186: Ai Là Quan Ai Là Tặc 1"
+    },
+    {
+     "id": 65,
+     "item": " Chương 187: 187: Ai Là Quan Ai Là Tặc 2"
+    },
+    {
+     "id": 66,
+     "item": " Chương 188: 188: Lương Thực Bán Mãi Không Hết 1"
+    },
+    {
+     "id": 67,
+     "item": " Chương 189: 189: Lương Thực Bán Mãi Không Hết 2"
+    },
+    {
+     "id": 68,
+     "item": " Chương 190: 190: Chuẩn Bị Chuẩn Bị Tiếp Tục Chuẩn Bị"
+    },
+    {
+     "id": 69,
+     "item": " Chương 191: 191: Người Thứ Tám Trong Bát Đại Khấu 1"
+    },
+    {
+     "id": 70,
+     "item": " Chương 192: 192: Người Thứ Tám Trong Bát Đại Khấu 2"
+    },
+    {
+     "id": 71,
+     "item": " Chương 193: 193: Biện Pháp Luôn Nhiều Hơn Khó Khăn"
+    },
+    {
+     "id": 72,
+     "item": " Chương 194: 194: Thỏ Khôn Đào Ba Hang 1"
+    },
+    {
+     "id": 73,
+     "item": " Chương 195: 195: Thỏ Khôn Đào Ba Hang 2"
+    },
+    {
+     "id": 74,
+     "item": " Chương 196: 196: Gió Trên Thảo Nguyên 1"
+    },
+    {
+     "id": 75,
+     "item": " Chương 197: 197: Gió Trên Thảo Nguyên 2"
+    },
+    {
+     "id": 76,
+     "item": " Chương 198: 198: Võ Điên Vân Dương"
+    },
+    {
+     "id": 77,
+     "item": " Chương 199: 199: Dưỡng Thương Và Mở Rộng Địa Bàn"
+    },
+    {
+     "id": 78,
+     "item": " Chương 200: 200: Bố Trí Của Vân Chiêu 1"
+    },
+    {
+     "id": 79,
+     "item": " Chương 201: 201: Bố Trí Của Vân Chiêu 2"
+    },
+    {
+     "id": 80,
+     "item": " Chương 202: 202: Mùa Thu Đã Tới"
+    },
+    {
+     "id": 81,
+     "item": " Chương 203: 203: Đại Lạt Ma Rất Khủng Bố 1"
+    },
+    {
+     "id": 82,
+     "item": " Chương 204: 204: Đại Lạt Ma Rất Khủng Bố 2"
+    },
+    {
+     "id": 83,
+     "item": " Chương 205: 205: Đông Hồng Tiên Sinh 1"
+    },
+    {
+     "id": 84,
+     "item": " Chương 206: 206: Đông Hồng Tiên Sinh 2"
+    },
+    {
+     "id": 85,
+     "item": " Chương 207: 207: Nghi Vấn Của Tôn Truyền Đình 1"
+    },
+    {
+     "id": 86,
+     "item": " Chương 208: 208: Nghi Vấn Của Tôn Truyền Đình 2"
+    },
+    {
+     "id": 87,
+     "item": " Chương 209: 209: Ai Mới Là Sâu Hại"
+    },
+    {
+     "id": 88,
+     "item": " Chương 210: 210: Ở Nơi Này Phải Làm Kẻ Ác 1"
+    },
+    {
+     "id": 89,
+     "item": " Chương 211: 211: Ở Nơi Này Phải Làm Kẻ Ác 2"
+    },
+    {
+     "id": 90,
+     "item": " Chương 212: 212: Người Kiến Châu Tới Rồi"
+    },
+    {
+     "id": 91,
+     "item": " Chương 213: 213: Tiết Tháo Của Lô Tượng Thăng 1"
+    },
+    {
+     "id": 92,
+     "item": " Chương 214: 214: Tiết Tháo Của Lô Tượng Thăng 2"
+    },
+    {
+     "id": 93,
+     "item": " Chương 215: 215: Vụ Làm Ăn Của Vân Chiêu 1"
+    },
+    {
+     "id": 94,
+     "item": " Chương 216: 216: Vụ Làm Ăn Của Vân Chiêu 2"
+    },
+    {
+     "id": 95,
+     "item": " Chương 217: 217: Vụ Làm Ăn Của Vân Chiêu 3"
+    },
+    {
+     "id": 96,
+     "item": " Chương 218: 218: Điều Không Dự Liệu Được Trong Ngày Về 1"
+    },
+    {
+     "id": 97,
+     "item": " Chương 219: 219: Bất Ngờ Ngày Về 2"
+    },
+    {
+     "id": 98,
+     "item": " Chương 220: 220: Phùng Anh! Phùng Anh!"
+    },
+    {
+     "id": 99,
+     "item": " Chương 221: 221: Tra Nam Vân Chiêu! 1"
+    },
+    {
+     "id": 100,
+     "item": " Chương 222: 222: Tra Nam Vân Chiêu! 2"
+    }
+   ]
+  },
+  {
+   "key": "13",
+   "story_name": "SƠN HÀ CHẨM",
+   "source_img": "https://static.8cache.com/cover/eJzLyTDWzwlw0nXOtfAPMU80rQgoyMmviI-ojPfNqtQNssjzSA7yTnMtMQtxq0ir8s1yD7DINjV2DDcJ9DEoC9I1dzPw8_LKyUnJSy53D4zIz3BKD61KD7QtNzI01c0wNjICAAF1HyE=/son-ha-cham.jpg",
+   "author": "Mặc Thư Bạch",
+   "tag": [
+    {
+     "id": 3,
+     "item": "Ngôn Tình"
+    },
+    {
+     "id": 19,
+     "item": "Trọng Sinh"
+    },
+    {
+     "id": 9,
+     "item": "Cổ Đại"
+    }
+   ],
+   "source_by": "Sưu tầm",
+   "status": {
+    "id": 3,
+    "item": "Full"
+   },
+   "summary": [
+    "Bạn đang đọc truyện Sơn Hà Chẩm của tác giả Mặc Thư Bạch.",
+    "",
+    "Năm Vệ Uẩn mười bốn tuổi, trai tráng toàn gia tử chiến sa trường, cửa nát nhà tan.",
+    "",
+    "Khi đó chỉ có mẫu thân và tân tẩu tử giúp đỡ hắn chèo chống Vệ gia.",
+    "",
+    "Mẫu thân nói tân tẩu tử không dễ dàng gì, vừa mới bái đường đã không còn trượng phu, sau này hắn thành đạt cần phải tìm một mối hôn nhân tốt cho tân tẩu.",
+    "",
+    "Khi đó hắn nói, được!"
+   ],
+   "list_chapter": [
+    {
+     "id": 1,
+     "item": " Chương 1: Chương 1:"
+    },
+    {
+     "id": 2,
+     "item": " Chương 2: Chương 2:"
+    },
+    {
+     "id": 3,
+     "item": " Chương 3: Chương 3:"
+    },
+    {
+     "id": 4,
+     "item": " Chương 4: Chương 4:"
+    },
+    {
+     "id": 5,
+     "item": " Chương 5: Chương 5:"
+    },
+    {
+     "id": 6,
+     "item": " Chương 6: Chương 6:"
+    },
+    {
+     "id": 7,
+     "item": " Chương 7: Chương 7:"
+    },
+    {
+     "id": 8,
+     "item": " Chương 8: Chương 8:"
+    },
+    {
+     "id": 9,
+     "item": " Chương 9: Chương 9:"
+    },
+    {
+     "id": 10,
+     "item": " Chương 10: Chương 10:"
+    },
+    {
+     "id": 11,
+     "item": " Chương 11: Chương 11:"
+    },
+    {
+     "id": 12,
+     "item": " Chương 12: Chương 12:"
+    },
+    {
+     "id": 13,
+     "item": " Chương 13: Chương 13:"
+    },
+    {
+     "id": 14,
+     "item": " Chương 14: Chương 14:"
+    },
+    {
+     "id": 15,
+     "item": " Chương 15: Chương 15:"
+    },
+    {
+     "id": 16,
+     "item": " Chương 16: Chương 16:"
+    },
+    {
+     "id": 17,
+     "item": " Chương 17: Chương 17:"
+    },
+    {
+     "id": 18,
+     "item": " Chương 18: Chương 18:"
+    },
+    {
+     "id": 19,
+     "item": " Chương 19: Chương 19:"
+    },
+    {
+     "id": 20,
+     "item": " Chương 20: Chương 20:"
+    },
+    {
+     "id": 21,
+     "item": " Chương 21: Chương 21:"
+    },
+    {
+     "id": 22,
+     "item": " Chương 22: Chương 22:"
+    },
+    {
+     "id": 23,
+     "item": " Chương 23: Chương 23:"
+    },
+    {
+     "id": 24,
+     "item": " Chương 24: Chương 24:"
+    },
+    {
+     "id": 25,
+     "item": " Chương 25: Chương 25:"
+    },
+    {
+     "id": 26,
+     "item": " Chương 26: Chương 26:"
+    },
+    {
+     "id": 27,
+     "item": " Chương 27: Chương 27:"
+    },
+    {
+     "id": 28,
+     "item": " Chương 28: Chương 28:"
+    },
+    {
+     "id": 29,
+     "item": " Chương 29: Chương 29:"
+    },
+    {
+     "id": 30,
+     "item": " Chương 30: Chương 30:"
+    },
+    {
+     "id": 31,
+     "item": " Chương 31: Chương 31:"
+    },
+    {
+     "id": 32,
+     "item": " Chương 32: Chương 32:"
+    },
+    {
+     "id": 33,
+     "item": " Chương 33: Chương 33:"
+    },
+    {
+     "id": 34,
+     "item": " Chương 34: Chương 34:"
+    },
+    {
+     "id": 35,
+     "item": " Chương 35: Chương 35:"
+    },
+    {
+     "id": 36,
+     "item": " Chương 36: Chương 36:"
+    },
+    {
+     "id": 37,
+     "item": " Chương 37: Chương 37:"
+    },
+    {
+     "id": 38,
+     "item": " Chương 38: Chương 38:"
+    },
+    {
+     "id": 39,
+     "item": " Chương 39: Chương 39:"
+    },
+    {
+     "id": 40,
+     "item": " Chương 40: Chương 40:"
+    },
+    {
+     "id": 41,
+     "item": " Chương 41: Chương 41:"
+    },
+    {
+     "id": 42,
+     "item": " Chương 42: Chương 42:"
+    },
+    {
+     "id": 43,
+     "item": " Chương 43: Chương 43:"
+    },
+    {
+     "id": 44,
+     "item": " Chương 44: Chương 44:"
+    },
+    {
+     "id": 45,
+     "item": " Chương 45: Chương 45:"
+    },
+    {
+     "id": 46,
+     "item": " Chương 46: Chương 46:"
+    },
+    {
+     "id": 47,
+     "item": " Chương 47: Chương 47:"
+    },
+    {
+     "id": 48,
+     "item": " Chương 48: Chương 48:"
+    },
+    {
+     "id": 49,
+     "item": " Chương 49: Chương 49:"
+    },
+    {
+     "id": 50,
+     "item": " Chương 50"
+    },
+    {
+     "id": 51,
+     "item": " Chương 51"
+    },
+    {
+     "id": 52,
+     "item": " Chương 52"
+    },
+    {
+     "id": 53,
+     "item": " Chương 53"
+    },
+    {
+     "id": 54,
+     "item": " Chương 54"
+    },
+    {
+     "id": 55,
+     "item": " Chương 55"
+    },
+    {
+     "id": 56,
+     "item": " Chương 56"
+    },
+    {
+     "id": 57,
+     "item": " Chương 57"
+    },
+    {
+     "id": 58,
+     "item": " Chương 58"
+    },
+    {
+     "id": 59,
+     "item": " Chương 59"
+    },
+    {
+     "id": 60,
+     "item": " Chương 60"
+    },
+    {
+     "id": 61,
+     "item": " Chương 61"
+    },
+    {
+     "id": 62,
+     "item": " Chương 62"
+    },
+    {
+     "id": 63,
+     "item": " Chương 63"
+    },
+    {
+     "id": 64,
+     "item": " Chương 64"
+    },
+    {
+     "id": 65,
+     "item": " Chương 65"
+    },
+    {
+     "id": 66,
+     "item": " Chương 66"
+    },
+    {
+     "id": 67,
+     "item": " Chương 67"
+    },
+    {
+     "id": 68,
+     "item": " Chương 68"
+    },
+    {
+     "id": 69,
+     "item": " Chương 69"
+    },
+    {
+     "id": 70,
+     "item": " Chương 70"
+    },
+    {
+     "id": 71,
+     "item": " Chương 71"
+    },
+    {
+     "id": 72,
+     "item": " Chương 72"
+    },
+    {
+     "id": 73,
+     "item": " Chương 73"
+    },
+    {
+     "id": 74,
+     "item": " Chương 74"
+    },
+    {
+     "id": 75,
+     "item": " Chương 75"
+    },
+    {
+     "id": 76,
+     "item": " Chương 76"
+    },
+    {
+     "id": 77,
+     "item": " Chương 77"
+    },
+    {
+     "id": 78,
+     "item": " Chương 78"
+    },
+    {
+     "id": 79,
+     "item": " Chương 79"
+    },
+    {
+     "id": 80,
+     "item": " Chương 80"
+    },
+    {
+     "id": 81,
+     "item": " Chương 81"
+    },
+    {
+     "id": 82,
+     "item": " Chương 82"
+    },
+    {
+     "id": 83,
+     "item": " Chương 83"
+    },
+    {
+     "id": 84,
+     "item": " Chương 84"
+    },
+    {
+     "id": 85,
+     "item": " Chương 85"
+    },
+    {
+     "id": 86,
+     "item": " Chương 86"
+    },
+    {
+     "id": 87,
+     "item": " Chương 87"
+    },
+    {
+     "id": 88,
+     "item": " Chương 88"
+    },
+    {
+     "id": 89,
+     "item": " Chương 89"
+    },
+    {
+     "id": 90,
+     "item": " Chương 90"
+    },
+    {
+     "id": 91,
+     "item": " Chương 91"
+    },
+    {
+     "id": 92,
+     "item": " Chương 92"
+    },
+    {
+     "id": 93,
+     "item": " Chương 93"
+    },
+    {
+     "id": 94,
+     "item": " Chương 94"
+    },
+    {
+     "id": 95,
+     "item": " Chương 95"
+    },
+    {
+     "id": 96,
+     "item": " Chương 96"
+    },
+    {
+     "id": 97,
+     "item": " Chương 97"
+    },
+    {
+     "id": 98,
+     "item": " Chương 98"
+    },
+    {
+     "id": 99,
+     "item": " Chương 99"
+    },
+    {
+     "id": 100,
+     "item": " Chương 100"
+    },
+    {
+     "id": 101,
+     "item": " Chương 101: Chương 101:"
+    },
+    {
+     "id": 102,
+     "item": " Chương 102: Chương 102:"
+    },
+    {
+     "id": 103,
+     "item": " Chương 103: Chương 103:"
+    },
+    {
+     "id": 104,
+     "item": " Chương 104: Chương 104:"
+    },
+    {
+     "id": 105,
+     "item": " Chương 105: Chương 105:"
+    },
+    {
+     "id": 106,
+     "item": " Chương 106: Chương 106:"
+    },
+    {
+     "id": 107,
+     "item": " Chương 107: Chương 107:"
+    },
+    {
+     "id": 108,
+     "item": " Chương 108: Chương 108:"
+    },
+    {
+     "id": 109,
+     "item": " Chương 109: Chương 109:"
+    },
+    {
+     "id": 110,
+     "item": " Chương 110: Chương 110:"
+    },
+    {
+     "id": 111,
+     "item": " Chương 111-112"
+    },
+    {
+     "id": 112,
+     "item": " Chương 113-114: Chương 113:"
+    },
+    {
+     "id": 113,
+     "item": " Chương 115-116"
+    },
+    {
+     "id": 114,
+     "item": " Chương 117-118: Chương 117:"
+    },
+    {
+     "id": 115,
+     "item": " Chương 119-120"
+    },
+    {
+     "id": 116,
+     "item": " Chương 121: Chương 121:"
+    },
+    {
+     "id": 117,
+     "item": " Chương 122: Chương 122:"
+    },
+    {
+     "id": 118,
+     "item": " Chương 123: Chương 123:"
+    },
+    {
+     "id": 119,
+     "item": " Chương 124: Chương 124:"
+    },
+    {
+     "id": 120,
+     "item": " Chương 125: Chương 125:"
+    },
+    {
+     "id": 121,
+     "item": " Chương 126: Chương 126:"
+    },
+    {
+     "id": 122,
+     "item": " Chương 127: Chương 127:"
+    },
+    {
+     "id": 123,
+     "item": " Chương 128: Chương 128:"
+    },
+    {
+     "id": 124,
+     "item": " Chương 129: Chương 129:"
+    },
+    {
+     "id": 125,
+     "item": " Chương 130: Chương 130:"
+    },
+    {
+     "id": 126,
+     "item": " Chương 131: Chương 131:"
+    },
+    {
+     "id": 127,
+     "item": " Chương 132: Chương 132:"
+    },
+    {
+     "id": 128,
+     "item": " Chương 133-140"
+    },
+    {
+     "id": 129,
+     "item": " Chương 141: Chương 141:"
+    },
+    {
+     "id": 130,
+     "item": " Chương 142: Chương 142:"
+    },
+    {
+     "id": 131,
+     "item": " Chương 143: Chương 143:"
+    },
+    {
+     "id": 132,
+     "item": " Chương 144-150"
+    },
+    {
+     "id": 133,
+     "item": " Chương 151-152"
+    },
+    {
+     "id": 134,
+     "item": " Chương 153-154"
+    },
+    {
+     "id": 135,
+     "item": " Chương 155-156"
+    },
+    {
+     "id": 136,
+     "item": " Chương 157-158"
+    },
+    {
+     "id": 137,
+     "item": " Chương 159-160"
+    },
+    {
+     "id": 138,
+     "item": " Chương 161: Chương 161:"
+    },
+    {
+     "id": 139,
+     "item": " Chương 162: Chương 162:"
+    },
+    {
+     "id": 140,
+     "item": " Chương 163: Chương 163:"
+    },
+    {
+     "id": 141,
+     "item": " Chương 164: Chương 164:"
+    },
+    {
+     "id": 142,
+     "item": " Chương 165: Chương 165:"
+    },
+    {
+     "id": 143,
+     "item": " Chương 166: Chương 166:"
+    },
+    {
+     "id": 144,
+     "item": " Chương 167: Chương 167:"
+    },
+    {
+     "id": 145,
+     "item": " Chương 168: Chương 168:"
+    },
+    {
+     "id": 146,
+     "item": " Chương 169: Chương 169:"
+    },
+    {
+     "id": 147,
+     "item": " Chương 170: Chương 170:"
+    },
+    {
+     "id": 148,
+     "item": " Chương 171: Chương 171:"
+    },
+    {
+     "id": 149,
+     "item": " Chương 172: Chương 172:"
+    },
+    {
+     "id": 150,
+     "item": " Chương 101: Chương 101:"
+    },
+    {
+     "id": 151,
+     "item": " Chương 102: Chương 102:"
+    },
+    {
+     "id": 152,
+     "item": " Chương 103: Chương 103:"
+    },
+    {
+     "id": 153,
+     "item": " Chương 104: Chương 104:"
+    },
+    {
+     "id": 154,
+     "item": " Chương 105: Chương 105:"
+    },
+    {
+     "id": 155,
+     "item": " Chương 106: Chương 106:"
+    },
+    {
+     "id": 156,
+     "item": " Chương 107: Chương 107:"
+    },
+    {
+     "id": 157,
+     "item": " Chương 108: Chương 108:"
+    },
+    {
+     "id": 158,
+     "item": " Chương 109: Chương 109:"
+    },
+    {
+     "id": 159,
+     "item": " Chương 110: Chương 110:"
+    },
+    {
+     "id": 160,
+     "item": " Chương 111-112"
+    },
+    {
+     "id": 161,
+     "item": " Chương 113-114: Chương 113:"
+    },
+    {
+     "id": 162,
+     "item": " Chương 115-116"
+    },
+    {
+     "id": 163,
+     "item": " Chương 117-118: Chương 117:"
+    },
+    {
+     "id": 164,
+     "item": " Chương 119-120"
+    },
+    {
+     "id": 165,
+     "item": " Chương 121: Chương 121:"
+    },
+    {
+     "id": 166,
+     "item": " Chương 122: Chương 122:"
+    },
+    {
+     "id": 167,
+     "item": " Chương 123: Chương 123:"
+    },
+    {
+     "id": 168,
+     "item": " Chương 124: Chương 124:"
+    },
+    {
+     "id": 169,
+     "item": " Chương 125: Chương 125:"
+    },
+    {
+     "id": 170,
+     "item": " Chương 126: Chương 126:"
+    },
+    {
+     "id": 171,
+     "item": " Chương 127: Chương 127:"
+    },
+    {
+     "id": 172,
+     "item": " Chương 128: Chương 128:"
+    },
+    {
+     "id": 173,
+     "item": " Chương 129: Chương 129:"
+    },
+    {
+     "id": 174,
+     "item": " Chương 130: Chương 130:"
+    },
+    {
+     "id": 175,
+     "item": " Chương 131: Chương 131:"
+    },
+    {
+     "id": 176,
+     "item": " Chương 132: Chương 132:"
+    },
+    {
+     "id": 177,
+     "item": " Chương 133-140"
+    },
+    {
+     "id": 178,
+     "item": " Chương 141: Chương 141:"
+    },
+    {
+     "id": 179,
+     "item": " Chương 142: Chương 142:"
+    },
+    {
+     "id": 180,
+     "item": " Chương 143: Chương 143:"
+    },
+    {
+     "id": 181,
+     "item": " Chương 144-150"
+    },
+    {
+     "id": 182,
+     "item": " Chương 151-152"
+    },
+    {
+     "id": 183,
+     "item": " Chương 153-154"
+    },
+    {
+     "id": 184,
+     "item": " Chương 155-156"
+    },
+    {
+     "id": 185,
+     "item": " Chương 157-158"
+    },
+    {
+     "id": 186,
+     "item": " Chương 159-160"
+    },
+    {
+     "id": 187,
+     "item": " Chương 161: Chương 161:"
+    },
+    {
+     "id": 188,
+     "item": " Chương 162: Chương 162:"
+    },
+    {
+     "id": 189,
+     "item": " Chương 163: Chương 163:"
+    },
+    {
+     "id": 190,
+     "item": " Chương 164: Chương 164:"
+    },
+    {
+     "id": 191,
+     "item": " Chương 165: Chương 165:"
+    },
+    {
+     "id": 192,
+     "item": " Chương 166: Chương 166:"
+    },
+    {
+     "id": 193,
+     "item": " Chương 167: Chương 167:"
+    },
+    {
+     "id": 194,
+     "item": " Chương 168: Chương 168:"
+    },
+    {
+     "id": 195,
+     "item": " Chương 169: Chương 169:"
+    },
+    {
+     "id": 196,
+     "item": " Chương 170: Chương 170:"
+    },
+    {
+     "id": 197,
+     "item": " Chương 171: Chương 171:"
+    },
+    {
+     "id": 198,
+     "item": " Chương 172: Chương 172:"
+    }
+   ]
+  },
+  {
+   "key": "14",
+   "story_name": "VĂN PHÒNG THÁM TỬ NHỊ LAM THẦN",
+   "source_img": "https://static.8cache.com/cover/eJzLyTDW988wTHHyTyly8vQLyEzKrqowyChzTvbKdc0KcrfMzSpMrHQMTC0MMbQI8kzJLwwtdi6KDHGsMPMoSfFydcvwCvINSPfIrwrzLff1DgiML7UsCrQtNzI01c0wNjICAD2uIC8=/van-phong-tham-tu-nhi-lam-than.jpg",
+   "author": "Minh Nguyệt Thính Phong",
+   "tag": [
+    {
+     "id": 3,
+     "item": "Ngôn Tình"
+    },
+    {
+     "id": 8,
+     "item": "Trinh Thám"
+    },
+    {
+     "id": 37,
+     "item": "Khác"
+    }
+   ],
+   "source_by": "tuphuongcoc.com",
+   "status": {
+    "id": 3,
+    "item": "Full"
+   },
+   "summary": [
+    "Tác giả: Minh Nguyệt Thính Phong ",
+    "",
+    "Thể loại: Hiện đại, HE, Tình cảm, Trinh thám, Phá án, Giới giải trí, Hoan hỉ oan gia, 1v1",
+    "",
+    "Số chương: 83 chương",
+    "",
+    "Editor: Tử Phương Cốc",
+    "",
+    "GIỚI THIỆU",
+    "",
+    "Lam Diệu Dương – tổng giám đốc ngành giải trí muốn làm thám tử cùng Nghê Lam – nữ nghệ sĩ hacker chống khủng bố thành lập một văn phòng thám tử tên là Nhị Lam Thần.",
+    "",
+    "Bọn họ nhận được một vụ án – một bà mẹ ủy thác cho Nghê Lam đi tìm ‘linh hồn u uất’ của đứa con gái đã chết của mình. Vốn tưởng là chấp niệm của một người mẹ yêu thương nóng lòng vì con, không ngờ lại kéo theo một loạt sự kiện không tưởng tượng được.",
+    "",
+    "Lam Diệu Dương vừa muốn thu dọn cục diện rối rắm cho Nghê Lam vừa muốn nói chuyện yêu đương lãng mạn với cô. Tự do hoán đổi giữa vị trí tổng tài bá đạo và thám tử, ông chồng quản vợ và sợ vợ.",
+    "",
+    "Đội chó săn vẫn tích cực làm việc như cũ. Cảnh sát tinh anh tận tụy với cương vị, vì nhân dân phục vụ."
+   ],
+   "list_chapter": [
+    {
+     "id": 1,
+     "item": " Chương 1"
+    },
+    {
+     "id": 2,
+     "item": " Chương 2"
+    },
+    {
+     "id": 3,
+     "item": " Chương 3"
+    },
+    {
+     "id": 4,
+     "item": " Chương 4"
+    },
+    {
+     "id": 5,
+     "item": " Chương 5"
+    },
+    {
+     "id": 6,
+     "item": " Chương 6"
+    },
+    {
+     "id": 7,
+     "item": " Chương 7"
+    },
+    {
+     "id": 8,
+     "item": " Chương 8"
+    },
+    {
+     "id": 9,
+     "item": " Chương 9"
+    },
+    {
+     "id": 10,
+     "item": " Chương 10"
+    },
+    {
+     "id": 11,
+     "item": " Chương 11"
+    },
+    {
+     "id": 12,
+     "item": " Chương 12"
+    },
+    {
+     "id": 13,
+     "item": " Chương 13"
+    },
+    {
+     "id": 14,
+     "item": " Chương 14"
+    },
+    {
+     "id": 15,
+     "item": " Chương 15"
+    },
+    {
+     "id": 16,
+     "item": " Chương 16"
+    },
+    {
+     "id": 17,
+     "item": " Chương 17"
+    },
+    {
+     "id": 18,
+     "item": " Chương 18"
+    },
+    {
+     "id": 19,
+     "item": " Chương 19"
+    },
+    {
+     "id": 20,
+     "item": " Chương 20"
+    },
+    {
+     "id": 21,
+     "item": " Chương 21"
+    },
+    {
+     "id": 22,
+     "item": " Chương 22"
+    },
+    {
+     "id": 23,
+     "item": " Chương 23"
+    },
+    {
+     "id": 24,
+     "item": " Chương 24"
+    },
+    {
+     "id": 25,
+     "item": " Chương 25"
+    },
+    {
+     "id": 26,
+     "item": " Chương 26"
+    },
+    {
+     "id": 27,
+     "item": " Chương 27"
+    },
+    {
+     "id": 28,
+     "item": " Chương 28"
+    },
+    {
+     "id": 29,
+     "item": " Chương 29"
+    },
+    {
+     "id": 30,
+     "item": " Chương 30"
+    },
+    {
+     "id": 31,
+     "item": " Chương 31"
+    },
+    {
+     "id": 32,
+     "item": " Chương 32"
+    },
+    {
+     "id": 33,
+     "item": " Chương 33"
+    },
+    {
+     "id": 34,
+     "item": " Chương 34"
+    },
+    {
+     "id": 35,
+     "item": " Chương 35"
+    },
+    {
+     "id": 36,
+     "item": " Chương 36"
+    },
+    {
+     "id": 37,
+     "item": " Chương 37"
+    },
+    {
+     "id": 38,
+     "item": " Chương 38"
+    },
+    {
+     "id": 39,
+     "item": " Chương 39"
+    },
+    {
+     "id": 40,
+     "item": " Chương 40"
+    },
+    {
+     "id": 41,
+     "item": " Chương 41"
+    },
+    {
+     "id": 42,
+     "item": " Chương 42"
+    },
+    {
+     "id": 43,
+     "item": " Chương 43"
+    },
+    {
+     "id": 44,
+     "item": " Chương 44"
+    },
+    {
+     "id": 45,
+     "item": " Chương 45"
+    },
+    {
+     "id": 46,
+     "item": " Chương 46"
+    },
+    {
+     "id": 47,
+     "item": " Chương 47"
+    },
+    {
+     "id": 48,
+     "item": " Chương 48"
+    },
+    {
+     "id": 49,
+     "item": " Chương 49"
+    },
+    {
+     "id": 50,
+     "item": " Chương 50"
+    }
+   ]
+  },
+  {
+   "key": "15",
+   "story_name": "CUỘC SỐNG CỦA THIÊN THẦN CHÁN ĐỜI TẠI DỊ GIỚI",
+   "source_img": "https://static.8cache.com/cover/eJzLyTDWdzco8kgLSkvLDCvzKI2w8CtKSvUzDSvyMAmODyjxtoz0dXUMsSjLi0w1DPd2SnSuSPJ1KfQJ8g4wTHIKciwqKkrLTwtI9TNxKTUxC3GLMnZOcc63LTcyNNXNMDYyAgAl5x8p/cuoc-song-cua-thien-than-chan-doi-tai-di-gioi.jpg",
+   "author": "WaterBamboo",
+   "tag": [
+    {
+     "id": 5,
+     "item": "Dị Giới"
+    },
+    {
+     "id": null,
+     "item": "Thám Hiểm"
+    },
+    {
+     "id": 19,
+     "item": "Trọng Sinh"
+    },
+    {
+     "id": 37,
+     "item": "Khác"
+    }
+   ],
+   "source_by": "sưu tầm",
+   "status": {
+    "id": 3,
+    "item": "Full"
+   },
+   "summary": [
+    "Tác giả: WaterBamboo",
+    "",
+    "Thể loại: Truyện Khác",
+    "",
+    "Giới thiệu:",
+    "",
+    "Trong thế giới tồn tại rất nhiều chủng tộc khác nhau này, có một loài gọi là thiên thần. Họ là những sứ giả của thần, thay anh ấy cai quản thế giới. Trong các cấp bậc của thiên thần, người đứng đầu là một đại thiên thần. Đại thiên thần trong trí tưởng tượng của mọi người là một người vĩ đại, mạnh mẽ, cao ráo đẹp trai, nhưng có một sự thật đáng buồn là vị đại thiên thần ấy là một thằng lười chán đời muốn bỏ trốn khỏi thiên giới."
+   ],
+   "list_chapter": [
+    {
+     "id": 1,
+     "item": " Chương 1: C1: Bỏ Nhà Đi Bụi"
+    },
+    {
+     "id": 2,
+     "item": " Chương 2: C2: Gặp Hai Nhóc Á Nhân"
+    },
+    {
+     "id": 3,
+     "item": " Chương 3: C3: Vào Thành Phố Và Tham Gia Guild Mạo Hiểm Giả"
+    },
+    {
+     "id": 4,
+     "item": " Chương 4: C4: Ánh Sáng"
+    },
+    {
+     "id": 5,
+     "item": " Chương 5: C5: Huấn Luyện Cho Hai Nhóc"
+    },
+    {
+     "id": 6,
+     "item": " Chương 6: C6: Nhiệm Vụ Đầu Tiên"
+    },
+    {
+     "id": 7,
+     "item": " Chương 7: C7: Dạo Quanh Thành Phố"
+    },
+    {
+     "id": 8,
+     "item": " Chương 8: C8: Một Ngày Không Có Nico"
+    },
+    {
+     "id": 9,
+     "item": " Chương 9: C9: Shiro?kuro?"
+    },
+    {
+     "id": 10,
+     "item": " Chương 10: C10: Nhiệm Vụ Hoàn Thành"
+    },
+    {
+     "id": 11,
+     "item": " Chương 11: C11: Chúng Tôi Bị Thuyết Giáo Về Sự \"bình Thường"
+    },
+    {
+     "id": 12,
+     "item": " Chương 12: C12: Đi Đến Trại Trẻ Mồ Côi"
+    },
+    {
+     "id": 13,
+     "item": " Chương 13: C13: Thông Báo"
+    },
+    {
+     "id": 14,
+     "item": " Chương 14: C14: Bài Kiểm Tra Thăng Hạng"
+    },
+    {
+     "id": 15,
+     "item": " Chương 15: C15: Bài Kiểm Tra Thăng Hạng-phần 2"
+    },
+    {
+     "id": 16,
+     "item": " Chương 16: C16: Bài Kiểm Tra Thăng Hạng-phần 3"
+    },
+    {
+     "id": 17,
+     "item": " Chương 17: C17: Chỉ Cho Kai Cách Nấu Nướng. \"mẹ Mode\" ? Và Âm Mưu Của Thiên Thần"
+    },
+    {
+     "id": 18,
+     "item": " Chương 18: C18: Minh Họa"
+    },
+    {
+     "id": 19,
+     "item": " Chương 19: C19: Minh Họa-phần 2"
+    },
+    {
+     "id": 20,
+     "item": " Chương 20: C20: Nhận Nhiệm Vụ Thảo Phạt"
+    },
+    {
+     "id": 21,
+     "item": " Chương 21: C21: Thảo Phạt Ma Thú"
+    },
+    {
+     "id": 22,
+     "item": " Chương 22: C22: Thảo Phạt Ma Thú-phần 2"
+    },
+    {
+     "id": 23,
+     "item": " Chương 23: C23: Thông Báo Buồn"
+    },
+    {
+     "id": 24,
+     "item": " Chương 24: C24: Thỏa Hiệp"
+    },
+    {
+     "id": 25,
+     "item": " Chương 25: C25: Đến Gặp Lãnh Chúa"
+    },
+    {
+     "id": 26,
+     "item": " Chương 26: C26: Sự Việc Diễn Ra Sau Chuyến Viếng Thăm"
+    },
+    {
+     "id": 27,
+     "item": " Chương 27: C27: Thông Báo Vui"
+    },
+    {
+     "id": 28,
+     "item": " Chương 28: C28: Cuộc Cãi Vã Và Đợt Huấn Luyện Của Rei"
+    },
+    {
+     "id": 29,
+     "item": " Chương 29: C29: Giả Quyết Vấn Đề Và Đến Trại"
+    },
+    {
+     "id": 30,
+     "item": " Chương 30: C30: Một Ngày Ở Trại Và Giải Thích Về Tinh Linh"
+    },
+    {
+     "id": 31,
+     "item": " Chương 31: C31: Alice Và Vụ Bắt Cóc"
+    },
+    {
+     "id": 32,
+     "item": " Chương 32: C32: Giải Cứu Thành Công"
+    },
+    {
+     "id": 33,
+     "item": " Chương 33: C33: Học Trò Mới"
+    },
+    {
+     "id": 34,
+     "item": " Chương 34: C34: Ngày Đầu Tập Luyện"
+    },
+    {
+     "id": 35,
+     "item": " Chương 35: C35: 3 Năm Sau"
+    },
+    {
+     "id": 36,
+     "item": " Chương 36: C36: Đến Học Viện Lilian Và Cuộc Gặp Gỡ Bất Ngờ"
+    },
+    {
+     "id": 37,
+     "item": " Chương 37: C37: Đậu Bài Kiểm Tra Và Gia Nhập Vào Học Viện"
+    },
+    {
+     "id": 38,
+     "item": " Chương 38: C38: Hoàn Thành Bài Thi Và Gặp Lại Thằng Nhóc Ngày Nào"
+    },
+    {
+     "id": 39,
+     "item": " Chương 39: C39: Gặp Lại Chủ Nhân"
+    },
+    {
+     "id": 40,
+     "item": " Chương 40: C40: Náo Loạn Ở Guild"
+    },
+    {
+     "id": 41,
+     "item": " Chương 41: C41: Ngoài Lề Một Tí (cảnh Báo Spoil)"
+    },
+    {
+     "id": 42,
+     "item": " Chương 42: C42: Nói Về Kai Và Rắc Rối"
+    },
+    {
+     "id": 43,
+     "item": " Chương 43: C43: Ngày Đầu Tiên Ở Học Viện Lilian"
+    },
+    {
+     "id": 44,
+     "item": " Chương 44: C44: Trận Đấu Với Học Viên Và Bài Học Đầu Tiên"
+    },
+    {
+     "id": 45,
+     "item": " Chương 45: C45: Góc Nhìn Của Fumi"
+    },
+    {
+     "id": 46,
+     "item": " Chương 46: C46: Một Ngày Cùng Học Viên"
+    },
+    {
+     "id": 47,
+     "item": " Chương 47: C47: Góc Thăm Hỏi"
+    },
+    {
+     "id": 48,
+     "item": " Chương 48: C48: Lễ Hội Trường"
+    },
+    {
+     "id": 49,
+     "item": " Chương 49: C49: Lễ Hội Trường -phần 2"
+    },
+    {
+     "id": 50,
+     "item": " Chương 50: C50: Lễ Hội Trường- Phần 3"
+    }
+   ]
+  },
+  {
+   "key": "16",
+   "story_name": "NHẬT KÍ CỦA KẺ ĐIÊN",
+   "source_img": "https://static.8cache.com/cover/eJzLyTDWtzD1czYLyAwryamoCvIx9c5Nt0h1dvXOScvSTffxdnTODvHxdfPxz8kOLYjKd_VIjjSs8jYJdQ3y9TNICU8pzg3P8PDJCjMIrypyTCrwDg30C7QtNzI01c0wNjICAPPZHwE=/nhat-ki-cua-ke-dien.jpg",
+   "author": "Nhược cẩn Trần",
+   "tag": [
+    {
+     "id": 6,
+     "item": "Đô Thị"
+    },
+    {
+     "id": 20,
+     "item": "Linh Dị"
+    }
+   ],
+   "source_by": "Sưu tầm",
+   "status": {
+    "id": 3,
+    "item": "Full"
+   },
+   "summary": [
+    "Bạn đang đọc truyện Nhật Kí Của Kẻ Điên của tác giả Nhược cẩn Trần. Không lẽ là vì ánh sáng phản chiếu khiến mắt tôi bị hoa đi...",
+    "",
+    "Tôi mơ hồ thấy chủ nhiệm lớp mình đang cười.",
+    "",
+    "Mà nụ cười kia thật quái dị, càng lúc độ rộng của khóe môi càng lớn, kéo dài tận về phía tai, như một Joker với nụ cười rộng ngoác có thêm hàm răng trắng lộ ra ra hết thảy, lóe sáng.",
+    "",
+    "Tôi điên rồi, tôi thế mà nhìn thấy một gương mặt hơn phân nửa là cái miệng cười khủng bố thông qua tấm kính kia!",
+    "",
+    "Tươi cười hiền hòa hay thấy giờ thay bằng vẻ dữ tợn. Tôi hoảng sợ nhìn chằm chằm vào bóng lưng của chủ nhiệm lớp, trong lòng vô cùng lo lắng thầy ấy sẽ đột nhiên xoay người, nhào tới ăn tươi nuốt sống tôi.",
+    "",
+    "Thật may, cho đến tận lúc gương mặt tươi cười trong tấm thủy tinh biến mất, thầy chủ nhiệm cũng không hề xoay người lại. Chờ đến khi thầy ấy đem bằng tốt nghiệp đưa cho tôi, trên mặt vẫn là nụ cười hòa ái như thường ngày."
+   ],
+   "list_chapter": []
+  },
+  {
+   "key": "17",
+   "story_name": "KHÔNG YÊU LÚC SAU",
+   "source_img": "https://static.8cache.com/cover/eJzLyTDWDzEyLzcIKnX3LM0MNnH2NAouzDE0N3Xx8Sk0N8kxj3IvTg0sNQ2JzEw3yMsocq-qcDWtrMrLj3Qrikg3T03OsYhINTFyz8z08MkyNfTSTcrICLQtNzI01c0wNjICAN8OHq4=/khong-yeu-luc-sau.jpg",
+   "author": "Thường Nhàn",
+   "tag": [
+    {
+     "id": 3,
+     "item": "Ngôn Tình"
+    },
+    {
+     "id": 21,
+     "item": "Ngược"
+    }
+   ],
+   "source_by": "Sưu tầm",
+   "status": {
+    "id": 3,
+    "item": "Full"
+   },
+   "summary": [
+    "Bạn đang đọc truyện Không Yêu Lúc Sau của tác giả Thường Nhàn.",
+    "",
+    "Cùng ác long chiến đấu quá lâu, chính bản thân cũng trở thành ác long.",
+    "",
+    "Cũng như khi người nhìn chăm chú nhìn vực sâu, thật ra vực sâu cũng đang vọng nhìn lại.",
+    "",
+    "Sự đau khổ của anh, cũng là ngọn nguồn cho sự khổ đau của cô.",
+    "",
+    "Anh vì báo thù, hại gia đình cô tan vỡ.",
+    "",
+    "Cho đến khi mọi thứ hạ màn, anh ngỡ ngàng nhận ra, hạnh phúc của anh đã do chính tay anh xé nát.",
+    "",
+    "Giờ đây anh mới hiểu, thù hận, ân oán đã che mờ lý trí anh, hạnh phúc mới thứ quan trọng nhất anh cần nắm lấy, không có gì đủ đáng giá để đổi lấy hạnh phúc cả.",
+    "",
+    "Anh hỏi: Anh phải làm sao em mới chịu trở về?",
+    "",
+    "Cô đáp: Trừ khi anh đem tất cả trả lại hết cho tôi.",
+    "",
+    "Cô cư xử lạnh nhạt, anh từng bước bức ép.",
+    "",
+    "Khi yêu đương đã hóa chuyện cũ, làm thế nào mới có thể khiến cô tin tưởng anh thêm một lần nữa?"
+   ],
+   "list_chapter": [
+    {
+     "id": 1,
+     "item": " Chương 1: 1: -1"
+    },
+    {
+     "id": 2,
+     "item": " Chương 2: 2: Chương 1-2"
+    },
+    {
+     "id": 3,
+     "item": " Chương 3: 3: Chương 2-1"
+    },
+    {
+     "id": 4,
+     "item": " Chương 4: 4: Chương 2-2"
+    },
+    {
+     "id": 5,
+     "item": " Chương 5: 5: Chương 3-1"
+    },
+    {
+     "id": 6,
+     "item": " Chương 6: 6: Chương 3-2"
+    },
+    {
+     "id": 7,
+     "item": " Chương 7: 7: Chương 4-1"
+    },
+    {
+     "id": 8,
+     "item": " Chương 8: 8: Chương 4-2"
+    },
+    {
+     "id": 9,
+     "item": " Chương 9: 9: Chương 5-1"
+    },
+    {
+     "id": 10,
+     "item": " Chương 10: 10: Chương 5-2"
+    },
+    {
+     "id": 11,
+     "item": " Chương 11: 11: H"
+    },
+    {
+     "id": 12,
+     "item": " Chương 12: 12: Chương 6-2"
+    },
+    {
+     "id": 13,
+     "item": " Chương 13: 13: Chương 7-1"
+    },
+    {
+     "id": 14,
+     "item": " Chương 14: 14: Chương 7-2"
+    },
+    {
+     "id": 15,
+     "item": " Chương 15: 15: Chương 7-3"
+    },
+    {
+     "id": 16,
+     "item": " Chương 16: 16: Viên Miêu Đừng Trêu Chọc Tôi"
+    },
+    {
+     "id": 17,
+     "item": " Chương 17: 17: Chương 8-2"
+    },
+    {
+     "id": 18,
+     "item": " Chương 18: 18: Chương 8-3"
+    },
+    {
+     "id": 19,
+     "item": " Chương 19: 19: Chương 9-1"
+    },
+    {
+     "id": 20,
+     "item": " Chương 20: 20: Chương 9-2"
+    },
+    {
+     "id": 21,
+     "item": " Chương 21: 21: Chương 9-3"
+    },
+    {
+     "id": 22,
+     "item": " Chương 22: 22: Vậy Anh Ta Biết Tối Qua Cô Ở Chỗ Này Cùng Tôi Sao"
+    },
+    {
+     "id": 23,
+     "item": " Chương 23: 23: Chương 10-2"
+    },
+    {
+     "id": 24,
+     "item": " Chương 24: 24: Bình Bình Và Lôi Diệp Đó Là Gia Đình Của Tôi"
+    },
+    {
+     "id": 25,
+     "item": " Chương 25: 25: Khi Anh Ấy Đến Gặp Tôi Anh Ấy Tìm Mọi Cách Để Tôi Chấp Nhận Luật Sư Anh Ấy Mời Nhưng Cô Không Nghe Lời Thậm Ch"
+    },
+    {
+     "id": 26,
+     "item": " Chương 26: 26: Cô Nói Không Có Anh Em Sẽ Thiếu Một Nửa; Anh Nói Thiếu Em Anh Chỉ Thiếu Một Nửa"
+    },
+    {
+     "id": 27,
+     "item": " Chương 27: 27: Viên Miêu Bây Giờ Cô Nói Dối Cũng Không Chớp Mắt"
+    },
+    {
+     "id": 28,
+     "item": " Chương 28: 28: Có Lẽ Tất Cả Mọi Người Đều Giống Nhau Ngồi Ở Dưới Mái Hiên Đều Phải Cúi Đầu"
+    },
+    {
+     "id": 29,
+     "item": " Chương 29: 29: Chương 12-2"
+    },
+    {
+     "id": 30,
+     "item": " Chương 30: 30: Chương 13-1"
+    },
+    {
+     "id": 31,
+     "item": " Chương 31: 31: Cam Tâm Tình Nguyện Một Lần Coi Như Làm Cảm Ơn Tôi Như Thế Nào"
+    },
+    {
+     "id": 32,
+     "item": " Chương 32: 32: Cô Nhìn Màn Hình Một Lúc Lâu Mới Nhắn Lại Ba Chữ “anh Yên Tâm”"
+    },
+    {
+     "id": 33,
+     "item": " Chương 33: 33: Chương 14-2"
+    },
+    {
+     "id": 34,
+     "item": " Chương 34: 34: Chương 15-1"
+    },
+    {
+     "id": 35,
+     "item": " Chương 35: 35: Tôi Là Viên Miêu Bạn Gái Của Chư Nhất Hành"
+    },
+    {
+     "id": 36,
+     "item": " Chương 36: 36: Không Có Sự Đồng Ý Của Tôi Cô Đừng Nghĩ Được Tiếp Xúc Với Người Khác"
+    },
+    {
+     "id": 37,
+     "item": " Chương 37: 37: Chương 16-1"
+    },
+    {
+     "id": 38,
+     "item": " Chương 38: 38: Chúng Tôi Là Một Gia Đình Ba Người Và Không Ai Muốn Gặp Chư Tổng"
+    },
+    {
+     "id": 39,
+     "item": " Chương 39: 39: Anh Có Biết Những Người Từng Đi Tù Sẽ Bị Hủy Hộ Khẩu Không"
+    },
+    {
+     "id": 40,
+     "item": " Chương 40: 40: Chương 17-2"
+    },
+    {
+     "id": 41,
+     "item": " Chương 41: 41: Viên Miêu Tôi Chỉ Hỏi Cô Một Câu Đứa Bé Đó Là Của Ai"
+    },
+    {
+     "id": 42,
+     "item": " Chương 42: 42: Chương 18-1"
+    },
+    {
+     "id": 43,
+     "item": " Chương 43: 43: Chương 18-2"
+    },
+    {
+     "id": 44,
+     "item": " Chương 44: 44: Chương 18-3"
+    },
+    {
+     "id": 45,
+     "item": " Chương 45: 45: Chương 18-4"
+    },
+    {
+     "id": 46,
+     "item": " Chương 46: 46: Chương 19-1"
+    },
+    {
+     "id": 47,
+     "item": " Chương 47: 47: Chương 19-2"
+    },
+    {
+     "id": 48,
+     "item": " Chương 48: 48: Chương 19-3"
+    },
+    {
+     "id": 49,
+     "item": " Chương 49: 49: Chương 20-1"
+    },
+    {
+     "id": 50,
+     "item": " Chương 50: 50: Chương 20-2"
+    }
+   ]
+  },
+  {
+   "key": "18",
+   "story_name": "CHẠY TRỜI KHÔNG KHỎI NẮNG",
+   "source_img": "https://static.8cache.com/cover/eJzLyTDWjwrNC8wMDHY2SCrz9coKiDJy9DAoM7UMM8qvLPJ2czHzsPRwznavLEjy88vJyjJwCk23TDWv8nYP9q8KT9ONcnf3diutKHcM8ynLjghPMYs08Mm2LTcyNNXNMDYyAgADBR8A/chay-troi-khong-khoi-nang.jpg",
+   "author": "Lan Mii",
+   "tag": [
+    {
+     "id": 3,
+     "item": "Ngôn Tình"
+    },
+    {
+     "id": 21,
+     "item": "Ngược"
+    },
+    {
+     "id": 22,
+     "item": "Sủng"
+    }
+   ],
+   "source_by": "sưu tầm",
+   "status": {
+    "id": 2,
+    "item": "Đang ra"
+   },
+   "summary": [
+    "Tác giả: Lan Mii",
+    "",
+    "Thể loại: Ngôn Tình, Truyện Ngược, Truyện Sủng",
+    "",
+    "Giới thiệu:",
+    "",
+    "Một người là ông trùm khiến người run sợ khắp Đông Nam Á.",
+    "",
+    "Một người là một cô nàng điều dưỡng thực tập vừa ra trường.",
+    "",
+    "Một người buôn bán vũ khí, máu lạnh, vô tình.",
+    "",
+    "Một người lại như đóa hoa thơ ngây, trong sáng.",
+    "",
+    "Hai người không cùng một thế giới lại giao ở một điểm.",
+    "",
+    "Đêm em gái sinh đôi của cô gặp chuyện... vậy mà cô phải chịu sự khuất nhục nhất ở dưới thân hắn...",
+    "",
+    "Là yêu... là hận... tất cả đều sẽ rõ ràng trong cuốn tiểu thuyết này.",
+    "",
+    "......",
+    "",
+    "Hoa trong nghịch cảnh là bông hoa đẹp nhất.",
+    "",
+    "Người đáng yêu nhất là người dịu dàng giữa cơn thịnh nộ..."
+   ],
+   "list_chapter": [
+    {
+     "id": 1,
+     "item": " Chương 1: 1: Cứu Người Người Trả Oán"
+    },
+    {
+     "id": 2,
+     "item": " Chương 2: 2: Cứu Người Người Trả Oán 2"
+    },
+    {
+     "id": 3,
+     "item": " Chương 3: 3: Huyền Trân - Huyền Anh"
+    },
+    {
+     "id": 4,
+     "item": " Chương 4: 4: Người Đàn Ông Thần Bí"
+    },
+    {
+     "id": 5,
+     "item": " Chương 5: 5: Bị Ép Làm Đầy Tớ"
+    },
+    {
+     "id": 6,
+     "item": " Chương 6: 6: Cướp Đoạt"
+    },
+    {
+     "id": 7,
+     "item": " Chương 7: 7: Bi Kịch Bắt Đầu"
+    },
+    {
+     "id": 8,
+     "item": " Chương 8: 8: Các Người Đã Nói Gì Với Huyền Anh"
+    },
+    {
+     "id": 9,
+     "item": " Chương 9: 9: Kết Quả Khám Nghiệm"
+    },
+    {
+     "id": 10,
+     "item": " Chương 10: 10: Tâm Trí Rối Bời"
+    },
+    {
+     "id": 11,
+     "item": " Chương 11: 11: Lực Bất Tòng Tâm"
+    },
+    {
+     "id": 12,
+     "item": " Chương 12: 12: Quay Về"
+    },
+    {
+     "id": 13,
+     "item": " Chương 13: 13: Bỏ Thuốc"
+    },
+    {
+     "id": 14,
+     "item": " Chương 14: 14: Tôi Lại Muốn Rồi"
+    },
+    {
+     "id": 15,
+     "item": " Chương 15: 15: Nhẫn Nhịn"
+    },
+    {
+     "id": 16,
+     "item": " Chương 16: 16: Mơ Hồ"
+    },
+    {
+     "id": 17,
+     "item": " Chương 17: 17: Trở Thành Người Phụ Nữ Của Hắn"
+    },
+    {
+     "id": 18,
+     "item": " Chương 18: 18: Mục Đích Thật Sự Của Châu Mặc Lâm"
+    },
+    {
+     "id": 19,
+     "item": " Chương 19: 19: Đi Manila"
+    },
+    {
+     "id": 20,
+     "item": " Chương 20: 20: Rượt Đuổi Trong Đêm"
+    },
+    {
+     "id": 21,
+     "item": " Chương 21: 21: Đụng Độ"
+    },
+    {
+     "id": 22,
+     "item": " Chương 22: 22: Thú Cưng"
+    },
+    {
+     "id": 23,
+     "item": " Chương 23: 23: Người Bạn Nhỏ Tuổi"
+    },
+    {
+     "id": 24,
+     "item": " Chương 24: 24: Bị Thương Nặng"
+    },
+    {
+     "id": 25,
+     "item": " Chương 25: 25: Rời Đi"
+    },
+    {
+     "id": 26,
+     "item": " Chương 26: 26: Cõi Lòng Nặng Trĩu"
+    },
+    {
+     "id": 27,
+     "item": " Chương 27: 27: Rời Khỏi Manila"
+    },
+    {
+     "id": 28,
+     "item": " Chương 28: 28: Tàn Nhẫn"
+    },
+    {
+     "id": 29,
+     "item": " Chương 29: 29: Thoát Thân"
+    },
+    {
+     "id": 30,
+     "item": " Chương 30: 30: Châu Kiến Thành"
+    },
+    {
+     "id": 31,
+     "item": " Chương 31: 31: Châu Kiến Thành 2"
+    },
+    {
+     "id": 32,
+     "item": " Chương 32: 32: Châu Mặc Lâm Nổi Giận"
+    },
+    {
+     "id": 33,
+     "item": " Chương 33: 33: Băn Khoăn"
+    },
+    {
+     "id": 34,
+     "item": " Chương 34: 34: Tâm Tư"
+    },
+    {
+     "id": 35,
+     "item": " Chương 35: 35: Môi Hôn Dưới Bình Minh"
+    },
+    {
+     "id": 36,
+     "item": " Chương 36: 36: Ân Cần"
+    },
+    {
+     "id": 37,
+     "item": " Chương 37: 37: Ghen"
+    },
+    {
+     "id": 38,
+     "item": " Chương 38: 38: Cưng Chiều"
+    },
+    {
+     "id": 39,
+     "item": " Chương 39: 39: Cảm Giác Khó Hiểu"
+    },
+    {
+     "id": 40,
+     "item": " Chương 40: 40: Tôi Thích Em"
+    },
+    {
+     "id": 41,
+     "item": " Chương 41: 41: Phức Tạp"
+    },
+    {
+     "id": 42,
+     "item": " Chương 42: 42: Hắn Biến Thái"
+    },
+    {
+     "id": 43,
+     "item": " Chương 43: 43: Săn Sóc"
+    },
+    {
+     "id": 44,
+     "item": " Chương 44: 44: Quan Tâm"
+    },
+    {
+     "id": 45,
+     "item": " Chương 45: 45: Tâm Sự Cùng Hắn"
+    },
+    {
+     "id": 46,
+     "item": " Chương 46: 46: Huyền Trân Dao Động"
+    },
+    {
+     "id": 47,
+     "item": " Chương 47: 47: Phức Tạp"
+    },
+    {
+     "id": 48,
+     "item": " Chương 48: 48: Cơn Giận Của Huyền Trân"
+    },
+    {
+     "id": 49,
+     "item": " Chương 49: 49: Thì Ra Chỉ Là Thế Thân"
+    },
+    {
+     "id": 50,
+     "item": " Chương 50: 50: Một Thế Thân Không Hơn Không Kém"
+    }
+   ]
+  },
+  {
+   "key": "19",
+   "story_name": "VẠN THIÊN SỦNG ÁI",
+   "source_img": "https://static.8cache.com/cover/eJzLyTDWj09JznIuDMyyLDcN9cpPNUzxMk_PdqvKMwsIy_J1r_Q19nfxci82So8ItHDKKXBxygpzSS4udnUPKo6P0g0wSHUvDzOPTPEKcYlPLAopTUtNd7QtNzI01c0wNjICABM4H2U=/van-thien-sung-ai.jpg",
+   "author": "Độc Độc",
+   "tag": [
+    {
+     "id": 3,
+     "item": "Ngôn Tình"
+    },
+    {
+     "id": 23,
+     "item": "Cung Đấu"
+    },
+    {
+     "id": 9,
+     "item": "Cổ Đại"
+    }
+   ],
+   "source_by": "ebooktruyen.net",
+   "status": {
+    "id": 3,
+    "item": "Full"
+   },
+   "summary": [
+    "Văn án:",
+    "",
+    "Thẩm Ninh xuyên đến Cảnh Triều ba năm, nàng trở thành quả phụ thủ trinh tiết, ở trên chiến trường thì chém chém giết giết. Vốn tưởng rằng sẽ xin được một cái đền thờ trinh tiết là có thể quay trở về sống cuộc sống bình yên, nhưng nàng không ngờ, người thèm muốn nàng cũng là người đứng sau tấm bùa hộ mệnh lại chính là Hoàng đế biến thái, người đã ban thưởng đền thờ cho nàng...",
+    "",
+    "Mẩu chuyện ngắn nhỏ:",
+    "",
+    "Trước khi người nào đó vào cung, Hoàng đế vô tình nào đó: “Được lắm, phụ nhân miệng lưỡi trơn tru này! Nếu như không phải ngươi ở Vân Châu lập được công, trẫm sẽ lột một lớp da của ngươi!” Dứt lời liền phạt người ta quỳ đến trưa.",
+    "",
+    "Sau khi người nào đó trở thành quý phi, Hoàng đế si tình nào đó: “Ái phi muốn học thêu thùa? Thêu không cẩn thận kim đâm những ngón tay này đầy lỗ nhỏ li ti, trẫm sẽ đau lòng, nàng chơi trò khác đi, ngoan.”"
+   ],
+   "list_chapter": [
+    {
+     "id": 1,
+     "item": " Chương 1"
+    },
+    {
+     "id": 2,
+     "item": " Chương 2"
+    },
+    {
+     "id": 3,
+     "item": " Chương 3"
+    },
+    {
+     "id": 4,
+     "item": " Chương 4"
+    },
+    {
+     "id": 5,
+     "item": " Chương 5"
+    },
+    {
+     "id": 6,
+     "item": " Chương 6"
+    },
+    {
+     "id": 7,
+     "item": " Chương 7"
+    },
+    {
+     "id": 8,
+     "item": " Chương 8"
+    },
+    {
+     "id": 9,
+     "item": " Chương 9"
+    },
+    {
+     "id": 10,
+     "item": " Chương 10"
+    },
+    {
+     "id": 11,
+     "item": " Chương 11"
+    },
+    {
+     "id": 12,
+     "item": " Chương 12"
+    },
+    {
+     "id": 13,
+     "item": " Chương 13"
+    },
+    {
+     "id": 14,
+     "item": " Chương 14"
+    },
+    {
+     "id": 15,
+     "item": " Chương 15"
+    },
+    {
+     "id": 16,
+     "item": " Chương 16"
+    },
+    {
+     "id": 17,
+     "item": " Chương 17"
+    },
+    {
+     "id": 18,
+     "item": " Chương 18"
+    },
+    {
+     "id": 19,
+     "item": " Chương 19"
+    },
+    {
+     "id": 20,
+     "item": " Chương 20"
+    },
+    {
+     "id": 21,
+     "item": " Chương 21"
+    },
+    {
+     "id": 22,
+     "item": " Chương 22"
+    },
+    {
+     "id": 23,
+     "item": " Chương 23"
+    },
+    {
+     "id": 24,
+     "item": " Chương 24"
+    },
+    {
+     "id": 25,
+     "item": " Chương 25"
+    },
+    {
+     "id": 26,
+     "item": " Chương 26"
+    },
+    {
+     "id": 27,
+     "item": " Chương 27"
+    },
+    {
+     "id": 28,
+     "item": " Chương 28"
+    },
+    {
+     "id": 29,
+     "item": " Chương 29"
+    },
+    {
+     "id": 30,
+     "item": " Chương 30"
+    },
+    {
+     "id": 31,
+     "item": " Chương 31"
+    },
+    {
+     "id": 32,
+     "item": " Chương 32"
+    },
+    {
+     "id": 33,
+     "item": " Chương 33"
+    },
+    {
+     "id": 34,
+     "item": " Chương 34"
+    },
+    {
+     "id": 35,
+     "item": " Chương 35"
+    },
+    {
+     "id": 36,
+     "item": " Chương 36"
+    },
+    {
+     "id": 37,
+     "item": " Chương 37"
+    },
+    {
+     "id": 38,
+     "item": " Chương 38"
+    },
+    {
+     "id": 39,
+     "item": " Chương 39"
+    },
+    {
+     "id": 40,
+     "item": " Chương 40"
+    },
+    {
+     "id": 41,
+     "item": " Chương 41"
+    },
+    {
+     "id": 42,
+     "item": " Chương 42"
+    },
+    {
+     "id": 43,
+     "item": " Chương 43"
+    },
+    {
+     "id": 44,
+     "item": " Chương 44"
+    },
+    {
+     "id": 45,
+     "item": " Chương 45"
+    },
+    {
+     "id": 46,
+     "item": " Chương 46"
+    },
+    {
+     "id": 47,
+     "item": " Chương 47"
+    },
+    {
+     "id": 48,
+     "item": " Chương 48"
+    },
+    {
+     "id": 49,
+     "item": " Chương 49"
+    },
+    {
+     "id": 50,
+     "item": " Chương 50"
+    },
+    {
+     "id": 51,
+     "item": " Chương 51"
+    },
+    {
+     "id": 52,
+     "item": " Chương 52"
+    },
+    {
+     "id": 53,
+     "item": " Chương 53"
+    },
+    {
+     "id": 54,
+     "item": " Chương 54"
+    },
+    {
+     "id": 55,
+     "item": " Chương 55"
+    },
+    {
+     "id": 56,
+     "item": " Chương 56"
+    },
+    {
+     "id": 57,
+     "item": " Chương 57"
+    },
+    {
+     "id": 58,
+     "item": " Chương 58"
+    },
+    {
+     "id": 59,
+     "item": " Chương 59"
+    },
+    {
+     "id": 60,
+     "item": " Chương 60"
+    },
+    {
+     "id": 61,
+     "item": " Chương 61"
+    },
+    {
+     "id": 62,
+     "item": " Chương 62"
+    },
+    {
+     "id": 63,
+     "item": " Chương 63"
+    },
+    {
+     "id": 64,
+     "item": " Chương 64"
+    },
+    {
+     "id": 65,
+     "item": " Chương 65"
+    },
+    {
+     "id": 66,
+     "item": " Chương 66"
+    },
+    {
+     "id": 67,
+     "item": " Chương 67"
+    },
+    {
+     "id": 68,
+     "item": " Chương 68"
+    },
+    {
+     "id": 69,
+     "item": " Chương 69"
+    },
+    {
+     "id": 70,
+     "item": " Chương 70"
+    },
+    {
+     "id": 71,
+     "item": " Chương 71"
+    },
+    {
+     "id": 72,
+     "item": " Chương 72"
+    },
+    {
+     "id": 73,
+     "item": " Chương 73"
+    },
+    {
+     "id": 74,
+     "item": " Chương 74"
+    },
+    {
+     "id": 75,
+     "item": " Chương 75"
+    },
+    {
+     "id": 76,
+     "item": " Chương 76"
+    },
+    {
+     "id": 77,
+     "item": " Chương 77"
+    },
+    {
+     "id": 78,
+     "item": " Chương 78"
+    },
+    {
+     "id": 79,
+     "item": " Chương 79"
+    },
+    {
+     "id": 80,
+     "item": " Chương 80"
+    },
+    {
+     "id": 81,
+     "item": " Chương 81"
+    },
+    {
+     "id": 82,
+     "item": " Chương 82"
+    },
+    {
+     "id": 83,
+     "item": " Chương 83"
+    },
+    {
+     "id": 84,
+     "item": " Chương 84"
+    },
+    {
+     "id": 85,
+     "item": " Chương 85"
+    },
+    {
+     "id": 86,
+     "item": " Chương 86"
+    },
+    {
+     "id": 87,
+     "item": " Chương 87"
+    },
+    {
+     "id": 88,
+     "item": " Chương 88"
+    },
+    {
+     "id": 89,
+     "item": " Chương 89"
+    },
+    {
+     "id": 90,
+     "item": " Chương 90"
+    },
+    {
+     "id": 91,
+     "item": " Chương 91"
+    },
+    {
+     "id": 92,
+     "item": " Chương 92"
+    },
+    {
+     "id": 93,
+     "item": " Chương 93"
+    },
+    {
+     "id": 94,
+     "item": " Chương 94"
+    },
+    {
+     "id": 95,
+     "item": " Chương 95"
+    },
+    {
+     "id": 96,
+     "item": " Chương 96"
+    },
+    {
+     "id": 97,
+     "item": " Chương 97"
+    },
+    {
+     "id": 98,
+     "item": " Chương 98"
+    },
+    {
+     "id": 99,
+     "item": " Chương 99"
+    },
+    {
+     "id": 100,
+     "item": " Chương 100"
+    }
+   ]
+  },
+  {
+   "key": "20",
+   "story_name": "NỮ VƯƠNG TRỌNG SINH TRỞ VỀ",
+   "source_img": "https://static.8cache.com/cover/eJzLyTDW9wrIDywxNfDO8TcNCkw3NC7zyg3OTQxPKsvzDTM3L3fNcC6MCvHzTatMD64Izs4KCEzSNUsJSSrzzzcxNPT2dzF1NcvLTzJwN_SKMjIxCjC1SLctNzI01c0wNjICAPLUHgA=/nu-vuong-trong-sinh-tro-ve.jpg",
+   "author": "A Lê",
+   "tag": [
+    {
+     "id": 3,
+     "item": "Ngôn Tình"
+    },
+    {
+     "id": 19,
+     "item": "Trọng Sinh"
+    },
+    {
+     "id": 24,
+     "item": "Nữ Cường"
+    },
+    {
+     "id": 37,
+     "item": "Khác"
+    },
+    {
+     "id": 22,
+     "item": "Sủng"
+    }
+   ],
+   "source_by": "sưu tầm",
+   "status": {
+    "id": 2,
+    "item": "Đang ra"
+   },
+   "summary": [
+    "[Thể loại: Ngôn Tình, Trọng Sinh, Truyện Sủng, Nữ Cường, Hiện Đại ]",
+    "",
+    "Vào đêm tân hôn, chồng và em gái hợp lực giết cô nhưng người cha mà cô luôn kính trọng lại chỉ lạnh lùng đứng ngoài cửa nhìn. Trọng sinh trở lại, cô thề sẽ vệ những người mà mình thương yêu, ngược đãi tra nam, trả thù tiện nữ, lấy lại những gì thuộc về mình, cô tuyệt đối sẽ không cho phép bản thân sống hèn mọn nữa!",
+    "",
+    "Anh từ đâu cương quyết xông vào cuộc sống của cô: “Làm người phụ nữ của tôi, thù của em, tôi giúp em trả.”",
+    "",
+    "Cô: “Tên khùng này từ đâu ra vậy?”"
+   ],
+   "list_chapter": []
+  },
+  {
+   "key": "21",
+   "story_name": "CẢ NHÀ THÁI PHÓ XUYÊN KHÔNG ĐẾN HIỆN ĐẠI",
+   "source_img": "https://static.8cache.com/cover/eJzLyTDWTwwJys8pdHXPcSkw9PZMCs7LSQ32N_PydE_J9XUrcPRKdw2yLDPJcfby8QsvCLQot6h08zGLcsnzLjb3jMo3j0qPLHVJSslOKs_x9o2MCEp3DrQtNzI01c0wNjICAAy8H1U=/ca-nha-thai-pho-xuyen-khong-den-hien-dai.jpg",
+   "author": "Đồ Mi Phu Nhân",
+   "tag": [
+    {
+     "id": 3,
+     "item": "Ngôn Tình"
+    },
+    {
+     "id": 14,
+     "item": "Xuyên Không"
+    },
+    {
+     "id": 24,
+     "item": "Nữ Cường"
+    },
+    {
+     "id": 25,
+     "item": "Gia Đấu"
+    },
+    {
+     "id": 28,
+     "item": "Hài Hước"
+    },
+    {
+     "id": 9,
+     "item": "Cổ Đại"
+    },
+    {
+     "id": 37,
+     "item": "Khác"
+    }
+   ],
+   "source_by": "sưu tầm",
+   "status": {
+    "id": 2,
+    "item": "Đang ra"
+   },
+   "summary": [
+    "Tác giả Đồ Mi Phu Nhân",
+    "",
+    "Cảnh Tình là đích nữ của nhà Thái phó, tương lai sẽ làm Thái Tử Phi, tri thư đạt lễ, tài đức vẹn toàn, từ nhỏ đến lớn cô đều là đối tượng mà các quý nữ ở kinh thành tranh nhau học tập.",
+    "",
+    "Trước đêm đại của Cảnh Tình, đã xảy ra cung biến, Thái Tử thất thế, một nhà già trẻ của nàng sắp trở thành tù nhân.",
+    "",
+    "Sau khi xảy ra chuyện, Cảnh Thái Phó đã phân phát nô tài trong nhà, chuẩn bị mang theo một nhà già trẻ tự kết liễu tánh mạng, không muốn bị người làm nhục, lấy đi thể diện cuối cùng của nhà họ Cảnh.",
+    "",
+    "Sau khi uống độc dược vào miệng, trời giáng dị tượng, một đạo tia chớp chém thẳng vào nóc nhà, trong nháy mắt già trẻ nhà họ Cảnh đã ngất đi.",
+    "",
+    "Thời điểm người nhà họ Cảnh một lần nữa mở to mắt thì bọn họ phát hiện vị trí của bọn họ đã thay đổi, bọn họ đang ở một thế giới khác.",
+    "",
+    "Tòa nhà cao ngất, trên đường quái thú chạy như bay, hộp đen có thể nói chuyện, quần áo nam nữ có khác biệt……",
+    "",
+    "Hết thảy mọi việc ở nơi này đều dừng lại trong mắt người nhà họ Cảnh, tất cả đều là việc cực kỳ mới lạ và không thể tưởng tượng nổi.",
+    "",
+    "Sau này bọn họ mới biết được, bọn họ đã đi tới thời hiện đại có khoa học kỹ thuật phát triển, dùng lời nói của người hiện đại, một nhà bọn họ đã xuyên không.",
+    "",
+    "Không chỉ khiếp sợ, người nhà họ Cảnh cũng cảm thấy vô cùng may mắn -- cũng may tòa nhà lớn cũng đi theo bọn họ xuyên không tới đây, mới làm cho một nhà già trẻ bọn họ không rơi vào hoàn cảnh không có nhà để về.",
+    "",
+    "Nhưng sau khi sinh sống nửa tháng ở hiện đại, Cảnh Thái Phó nhìn thê tử cả ngày vội vàng phát sóng trực tiếp chỉ dạy người trên mạng thêu hoa, nhi tử ôm di động cầu xin người ta mang theo chơi game, nữ nhi trầm mê xem phim, bất đắc dĩ thở dài một hơi.",
+    "",
+    "“Nhi tử, đưa sốt cà chua ở gần tay ngươi cho ta.”",
+    "",
+    "“Ai!” Cảnh Thái Phó một tay cầm gà rán một tay cầm Coca thì nghe thấy tiếng gọi của mẫu thân, ông vội vàng đổ số cà chua lên khoai tây chiên cho mẫu thân.",
+    "",
+    "Cảnh Tình đoan trang hiền thục đang xếp bằng ngồi ở trên sô pha, không yên tâm dặn dò:",
+    "",
+    "“Tổ mẫu, ngài mới vừa làm răng giả còn chưa có thích ứng,  khi ăn đùi gà chiên giòn ngài cần chú ý một chút.”",
+    "",
+    "Lão thái thái nhếch miệng cười, lộ ra hàm răng giả trắng tinh chỉnh tề:",
+    "",
+    "“Xài rất tốt.”"
+   ],
+   "list_chapter": []
+  },
+  {
+   "key": "22",
+   "story_name": "LUÂN HỒI THƯƠNG ĐẾ",
+   "source_img": "https://static.8cache.com/cover/eJzLyTDWjzDINDCx8PQJsfD2Sg4IyAgNTUyKNA5OcaosCg1IL9RN88vQzc_NM_ApiQ8INQ-q0A0KNS5I9iiPjHD0KS_3t_BzNDGzDC3O8A8qyrPwcDIqKLctNzI01c0wNjICANWWHnY=/luan-hoi-thuong-de.jpg",
+   "author": "Luân Hồi Thương Đế",
+   "tag": [
+    {
+     "id": 4,
+     "item": "Tiên Hiệp"
+    },
+    {
+     "id": 36,
+     "item": "Huyền Huyễn"
+    },
+    {
+     "id": 26,
+     "item": "Đông Phương"
+    },
+    {
+     "id": 9,
+     "item": "Cổ Đại"
+    }
+   ],
+   "source_by": "sưu tầm",
+   "status": {
+    "id": 2,
+    "item": "Đang ra"
+   },
+   "summary": [
+    "Tác giả: Luân Hồi Thương Đế",
+    "",
+    "Thể loại: Cổ Đại, Đông Phương, Tiên Hiệp, Huyền Huyễn",
+    "",
+    "Giới thiệu:",
+    "",
+    "Hoàng tử Đoạn Ngọc, không còn mẫu phi, hắn tự biết mình thân ở hiểm cảnh, từng bước kinh tâm, thế nên chọn ẩn giấu tài năng, cũng chờ tìm được cơ hội để tra ra chân tướng người đã hãm hại mẫu phi",
+    "",
+    "Thế giới này là nơi có nhân loại và Yêu tộc, võ đạo được tôn sùng, hắn chỉ là một người có thân phận so với người thường, vẫn quá yếu ớt để có thể tự bảo vệ mình.",
+    "",
+    "Hắn phải mạnh hơn, phải cường đại hơn, hắn muốn nắm lấy số mệnh của mình.",
+    "",
+    "Võ giả tu luyện phân làm Võ đạo cùng Pháp thuật. Võ đạo luyện hóa thiên địa nguyên khí lớn mạnh tu vi, Pháp thuật thì cần đến ở trong tử phủ ngưng tụ nguyên thần câu thông thiên địa chi lực.",
+    "",
+    "Một ngày kia Đoạn Ngọc phát hiện chính mình tử phủ lại là vô cùng hiếm thấy lại có tiềm lực đáng sợ Tiên thiên tử phủ, trong đó tử hải càng là che giấu bí mật kinh thiên!",
+    "",
+    "Nguyên thần vừa thành, Đoạn Ngọc lại nhận được tổ tiên ban cho cơ duyên. Hắn muốn quật khởi.",
+    "",
+    "Võ đạo thế giới sẽ vì hắn mà rung chuyển!",
+    "",
+    "Khi hắn đã đứng ở Võ đạo thế giới chi đỉnh nhìn lại thì hắn chợt nhận ra, vùng thiên địa này quá nhỏ, chứa không được Luân Hồi Thương Đế hắn!"
+   ],
+   "list_chapter": [
+    {
+     "id": 1,
+     "item": " Chương 1: 1: Võ Đạo Thế Giới Thiếu Niên Hoàng Tử"
+    },
+    {
+     "id": 2,
+     "item": " Chương 2: 2: Tôn Giả Tàn Niệm"
+    },
+    {
+     "id": 3,
+     "item": " Chương 3: 3: Biện Pháp"
+    },
+    {
+     "id": 4,
+     "item": " Chương 4: 4: Tu La Luyện Thể Thiên"
+    },
+    {
+     "id": 5,
+     "item": " Chương 5: 5: Đoạn Thị Nội Tình"
+    },
+    {
+     "id": 6,
+     "item": " Chương 6: 6: Tuyệt Sát Chi Địa"
+    },
+    {
+     "id": 7,
+     "item": " Chương 7: 7: Nội Tình Lộ Ra"
+    },
+    {
+     "id": 8,
+     "item": " Chương 8: 8: Kẻ Thù Đan Ma Môn"
+    },
+    {
+     "id": 9,
+     "item": " Chương 9: 9: Thu Phục Mục Vũ"
+    },
+    {
+     "id": 10,
+     "item": " Chương 10: 10: Ngũ Hoàng Tử Đoạn Minh Lâm Ước Chiến"
+    },
+    {
+     "id": 11,
+     "item": " Chương 11: 11: Ngõ Hẹp Gặp Nhau"
+    },
+    {
+     "id": 12,
+     "item": " Chương 12: 12: Thương Đội Nhiệm Vụ"
+    },
+    {
+     "id": 13,
+     "item": " Chương 13: 13: Lý Minh Thiền"
+    },
+    {
+     "id": 14,
+     "item": " Chương 14: 14: Xuất Phát"
+    },
+    {
+     "id": 15,
+     "item": " Chương 15: 15: Con Riêng Cảm Giác Kêu Gọi"
+    },
+    {
+     "id": 16,
+     "item": " Chương 16: 16: Sườn Núi"
+    },
+    {
+     "id": 17,
+     "item": " Chương 17: 17: Tinh Linh Tiên Thiên Tử Phủ"
+    },
+    {
+     "id": 18,
+     "item": " Chương 18: 18: Tổ Tiên Đoạn Thần Đại Đế"
+    },
+    {
+     "id": 19,
+     "item": " Chương 19: 19: Truyền Thừa Chi Địa"
+    },
+    {
+     "id": 20,
+     "item": " Chương 20: 20: Cảm Ứng Tử Phủ"
+    },
+    {
+     "id": 21,
+     "item": " Chương 21: 21: Tử Phủ Sinh Tượng Chư Đế Thời Đại!"
+    },
+    {
+     "id": 22,
+     "item": " Chương 22: 22: Võ Đạo Thế Giới Sẽ Vì Hắn Mà Rung Chuyển"
+    },
+    {
+     "id": 23,
+     "item": " Chương 23: 23: Yêu Tộc Điên Rồi"
+    },
+    {
+     "id": 24,
+     "item": " Chương 24: 24: Lăng Vũ Đế Quân"
+    },
+    {
+     "id": 25,
+     "item": " Chương 25: 25: Tế Thương"
+    },
+    {
+     "id": 26,
+     "item": " Chương 26: 26: Nguyên Thần Song Thuộc Tính Thánh Phẩm Tử Phủ"
+    },
+    {
+     "id": 27,
+     "item": " Chương 27: 27: Đan Khí Truyền Thừa"
+    },
+    {
+     "id": 28,
+     "item": " Chương 28: 28: Ba Dạng Đồ Vật"
+    },
+    {
+     "id": 29,
+     "item": " Chương 29: 29: Thí Luyện Chưởng Khống Truyền Thừa Chi Địa"
+    },
+    {
+     "id": 30,
+     "item": " Chương 30: 30: Yêu Cầu1"
+    },
+    {
+     "id": 31,
+     "item": " Chương 31: 31: Yêu Cầu2"
+    },
+    {
+     "id": 32,
+     "item": " Chương 32: 32: Thứ Nguyên Liệt Thần Thánh Thuật"
+    },
+    {
+     "id": 33,
+     "item": " Chương 33: 33: Toàn Phương Diện Tăng Lên"
+    },
+    {
+     "id": 34,
+     "item": " Chương 34: 34: Đại Đế Nhắc Nhở"
+    },
+    {
+     "id": 35,
+     "item": " Chương 35: 35: Kiếm Chỗ Tốt"
+    },
+    {
+     "id": 36,
+     "item": " Chương 36: 36: Thiên Kinh Thừa Nhận"
+    },
+    {
+     "id": 37,
+     "item": " Chương 37: 37: Thực Lực Không Đủ"
+    },
+    {
+     "id": 38,
+     "item": " Chương 38: 38: Tịch Diệt Chi Lực"
+    },
+    {
+     "id": 39,
+     "item": " Chương 39: 39: Mộc Chủng"
+    },
+    {
+     "id": 40,
+     "item": " Chương 40: 40: Quay Về"
+    },
+    {
+     "id": 41,
+     "item": " Chương 41: 41: Nghịch Thiên Thánh Thuật!"
+    },
+    {
+     "id": 42,
+     "item": " Chương 42: 42: Đến Thiên Lang Thành"
+    },
+    {
+     "id": 43,
+     "item": " Chương 43: 43: Linh Thạch Mang Tới Phiền Phức"
+    },
+    {
+     "id": 44,
+     "item": " Chương 44: 44: Miểu Sát Mệnh Tuyền Cảnh Ba Tầng"
+    },
+    {
+     "id": 45,
+     "item": " Chương 45: 45: Nguyên Thần Tăng Lên"
+    },
+    {
+     "id": 46,
+     "item": " Chương 46: 46: Đấu Giá Hội"
+    },
+    {
+     "id": 47,
+     "item": " Chương 47: 47: Tàn Phá Cốt Thương"
+    },
+    {
+     "id": 48,
+     "item": " Chương 48: 48: Hủ Thực Chi Thủy"
+    },
+    {
+     "id": 49,
+     "item": " Chương 49: 49: Nhà Ai Hoàn Khố"
+    },
+    {
+     "id": 50,
+     "item": " Chương 50: 50: Tin Tức Xấu"
+    },
+    {
+     "id": 51,
+     "item": " Chương 51: 51: Linh Nguyệt Nghi Ngờ"
+    },
+    {
+     "id": 52,
+     "item": " Chương 52: 52: Sử Dụng Tử Nguyên Thạch"
+    },
+    {
+     "id": 53,
+     "item": " Chương 53: 53: Đệ Nhị Nguyên Thần"
+    },
+    {
+     "id": 54,
+     "item": " Chương 54: 54: Xâm Nhập Thiên Lang Sơn Mạch"
+    },
+    {
+     "id": 55,
+     "item": " Chương 55: 55: Chạm Trán Hung Lang"
+    },
+    {
+     "id": 56,
+     "item": " Chương 56: 56: Giết Sạch"
+    },
+    {
+     "id": 57,
+     "item": " Chương 57: 57: Hung Thú Vương Giả"
+    },
+    {
+     "id": 58,
+     "item": " Chương 58: 58: Sơn Động Yêu Khí"
+    },
+    {
+     "id": 59,
+     "item": " Chương 59: 59: Hắc Hỏa Xà"
+    },
+    {
+     "id": 60,
+     "item": " Chương 60: 60: Yêu Đế Chuẩn Bị Thánh Thuật Trấn Áp"
+    },
+    {
+     "id": 61,
+     "item": " Chương 61: 61: Đệ Nhị Chân Thân"
+    },
+    {
+     "id": 62,
+     "item": " Chương 62: 62: Mệnh Tuyền Cảnh"
+    },
+    {
+     "id": 63,
+     "item": " Chương 63: 63: Linh Khí Bạo Động"
+    },
+    {
+     "id": 64,
+     "item": " Chương 64: 64: Mệnh Tuyền Cảnh Tầng Một Đỉnh Phong Nhị Giai Nguyên Thần"
+    },
+    {
+     "id": 65,
+     "item": " Chương 65: 65: Giả Heo Giết Hổ Đột Phá Thần Tốc"
+    },
+    {
+     "id": 66,
+     "item": " Chương 66: 66: Kịch Chiến Bầy Thú"
+    },
+    {
+     "id": 67,
+     "item": " Chương 67: 67: Hiểm Cảnh"
+    },
+    {
+     "id": 68,
+     "item": " Chương 68: 68: Hung Thú Bỏ Chạy Mệnh Tuyền Sáu Tầng"
+    },
+    {
+     "id": 69,
+     "item": " Chương 69: 69: Hắn Còn Sống"
+    },
+    {
+     "id": 70,
+     "item": " Chương 70: 70: Bí Pháp"
+    },
+    {
+     "id": 71,
+     "item": " Chương 71: 71: Rút Lui"
+    },
+    {
+     "id": 72,
+     "item": " Chương 72: 72: Đưa Một Phần Lễ"
+    },
+    {
+     "id": 73,
+     "item": " Chương 73: 73: Trò Cười Mà Thôi"
+    },
+    {
+     "id": 74,
+     "item": " Chương 74: 74: Mời Chào"
+    },
+    {
+     "id": 75,
+     "item": " Chương 75: 75: Hắc Hỏa Xà Chân Thân Đột Phá"
+    },
+    {
+     "id": 76,
+     "item": " Chương 76: 76: Khống Xà Thiên Phú"
+    },
+    {
+     "id": 77,
+     "item": " Chương 77: 77: Âm Mưu Tiến Đến"
+    },
+    {
+     "id": 78,
+     "item": " Chương 78: 78: Cơ Tử Nguyệt"
+    },
+    {
+     "id": 79,
+     "item": " Chương 79: 79: Át Chủ Bài"
+    },
+    {
+     "id": 80,
+     "item": " Chương 80: 80: Vô Tình Đụng Trúng"
+    },
+    {
+     "id": 81,
+     "item": " Chương 81: 81: Đoạn Gia Tính Toán"
+    },
+    {
+     "id": 82,
+     "item": " Chương 82: 82: Thiên Bộ"
+    },
+    {
+     "id": 83,
+     "item": " Chương 83: 83: Đối Diện"
+    },
+    {
+     "id": 84,
+     "item": " Chương 84: 84: Va Chạm"
+    },
+    {
+     "id": 85,
+     "item": " Chương 85: 85: Tách Ra Rời Đi"
+    },
+    {
+     "id": 86,
+     "item": " Chương 86: 86: Tiềm Hành"
+    },
+    {
+     "id": 87,
+     "item": " Chương 87: 87: Hung Thú Công Thành"
+    },
+    {
+     "id": 88,
+     "item": " Chương 88: 88: Cường Giả Ngang Qua"
+    },
+    {
+     "id": 89,
+     "item": " Chương 89: 89: Hiện Thực"
+    },
+    {
+     "id": 90,
+     "item": " Chương 90: 90: Tìm Hắn"
+    },
+    {
+     "id": 91,
+     "item": " Chương 91: 91: Xác Nhận Tuyệt Vọng"
+    },
+    {
+     "id": 92,
+     "item": " Chương 92: 92: Hắn Chết Các Ngươi Đều Phải Chôn Cùng!"
+    },
+    {
+     "id": 93,
+     "item": " Chương 93: 93: Lành Ít Dữ Nhiều Ấn Tượng Đầu Tiên"
+    },
+    {
+     "id": 94,
+     "item": " Chương 94: 94: Tiềm Hành Ẩn Thân"
+    },
+    {
+     "id": 95,
+     "item": " Chương 95: 95: Ý Nghĩ Hỏi Đường"
+    },
+    {
+     "id": 96,
+     "item": " Chương 96: 96: Phù Sơn Thành"
+    },
+    {
+     "id": 97,
+     "item": " Chương 97: 97: Tính Toán Bước Đi"
+    },
+    {
+     "id": 98,
+     "item": " Chương 98: 98: Xử Lý Hủ Thực Chi Thủy"
+    },
+    {
+     "id": 99,
+     "item": " Chương 99: 99: Mộc Chủng Nảy Mầm Thôi Phong"
+    },
+    {
+     "id": 100,
+     "item": " Chương 100: 100: Báo Danh Võ Đạo Các"
+    }
+   ]
+  },
+  {
+   "key": "23",
+   "story_name": "MANH MANH CHỌC TỨC KHIẾN ANH YÊU",
+   "source_img": "https://static.8cache.com/cover/eJzLyTDWj_fOMzGNio_P9MwPDwxLisqPSHW2LE7xi0oMLY3398oz9vX0yvfy9MsrT8519jCtsvQxDavQ9fWJKDD3yMypynd2zcstdjP1yEvO9gk39DHOCrQtNzI01c0wNjICAB0xH2M=/manh-manh-choc-tuc-khien-anh-yeu.jpg",
+   "author": "Tầm Quân",
+   "tag": [
+    {
+     "id": 3,
+     "item": "Ngôn Tình"
+    },
+    {
+     "id": 6,
+     "item": "Đô Thị"
+    },
+    {
+     "id": 37,
+     "item": "Khác"
+    }
+   ],
+   "source_by": "sưu tầm",
+   "status": {
+    "id": 2,
+    "item": "Đang ra"
+   },
+   "summary": [
+    "Tác giả: Tầm Quân",
+    "",
+    "Thể loại: Ngôn Tình, Đô Thị",
+    "",
+    "Giới thiệu:",
+    "",
+    "Tô Tiểu Manh say rượu quá độ, đến khi tỉnh dậy vẫn thấy choáng váng đau đầu, cả người rã rời, lại còn có xanh tím từng trên người.",
+    "",
+    "Cô còn không suy nghĩ nhiều, chỉ khó hiểu làm sao say rượu xong lại lăn lộn bản thân thành thế này.",
+    "",
+    "Sau đó cô còn gặp chú của bạn thân mình, không ngờ lại là một chàng trai rất soái, không phải người lớn tuổi nghiêm nghị có râu hay bụng bia như cô nghĩ.",
+    "",
+    "Có điều, tại sao cô cảm giác Ân Thời Tu rất rất quen thuộc, từ thân hình, giọng nói, điệu bộ của anh…."
+   ],
+   "list_chapter": [
+    {
+     "id": 1,
+     "item": " Chương 1: Chương 1"
+    },
+    {
+     "id": 2,
+     "item": " Chương 2: Chương 2"
+    },
+    {
+     "id": 3,
+     "item": " Chương 3: Chương 3"
+    },
+    {
+     "id": 4,
+     "item": " Chương 4: Chương 4"
+    },
+    {
+     "id": 5,
+     "item": " Chương 5: Chương 5"
+    },
+    {
+     "id": 6,
+     "item": " Chương 6: Chương 6"
+    },
+    {
+     "id": 7,
+     "item": " Chương 7: Chương 7"
+    },
+    {
+     "id": 8,
+     "item": " Chương 8: Chương 8"
+    },
+    {
+     "id": 9,
+     "item": " Chương 9: Chương 9"
+    },
+    {
+     "id": 10,
+     "item": " Chương 10: Chương 10"
+    },
+    {
+     "id": 11,
+     "item": " Chương 11: Chương 11"
+    },
+    {
+     "id": 12,
+     "item": " Chương 12: Chương 12"
+    },
+    {
+     "id": 13,
+     "item": " Chương 13: Chương 13"
+    },
+    {
+     "id": 14,
+     "item": " Chương 14: Chương 14"
+    },
+    {
+     "id": 15,
+     "item": " Chương 15: Chương 15"
+    },
+    {
+     "id": 16,
+     "item": " Chương 16: Chương 16"
+    },
+    {
+     "id": 17,
+     "item": " Chương 17: Chương 17"
+    },
+    {
+     "id": 18,
+     "item": " Chương 18: Chương 18"
+    },
+    {
+     "id": 19,
+     "item": " Chương 19: Chương 19"
+    },
+    {
+     "id": 20,
+     "item": " Chương 20: Chương 20"
+    },
+    {
+     "id": 21,
+     "item": " Chương 21: Chương 21"
+    },
+    {
+     "id": 22,
+     "item": " Chương 22: Chương 22"
+    },
+    {
+     "id": 23,
+     "item": " Chương 23: Chương 23"
+    },
+    {
+     "id": 24,
+     "item": " Chương 24: Chương 24"
+    },
+    {
+     "id": 25,
+     "item": " Chương 25: Chương 25"
+    },
+    {
+     "id": 26,
+     "item": " Chương 26: Chương 26"
+    },
+    {
+     "id": 27,
+     "item": " Chương 27: Chương 27"
+    },
+    {
+     "id": 28,
+     "item": " Chương 28: Chương 28"
+    },
+    {
+     "id": 29,
+     "item": " Chương 29: Chương 29"
+    },
+    {
+     "id": 30,
+     "item": " Chương 30: Chương 30"
+    },
+    {
+     "id": 31,
+     "item": " Chương 31: Chương 31"
+    },
+    {
+     "id": 32,
+     "item": " Chương 32: Chương 32"
+    },
+    {
+     "id": 33,
+     "item": " Chương 33: Chương 33"
+    },
+    {
+     "id": 34,
+     "item": " Chương 34: Chương 34"
+    },
+    {
+     "id": 35,
+     "item": " Chương 35: Chương 35"
+    },
+    {
+     "id": 36,
+     "item": " Chương 36: Chương 36"
+    },
+    {
+     "id": 37,
+     "item": " Chương 37: Chương 37"
+    },
+    {
+     "id": 38,
+     "item": " Chương 38: Chương 38"
+    },
+    {
+     "id": 39,
+     "item": " Chương 39: Chương 39"
+    },
+    {
+     "id": 40,
+     "item": " Chương 40: Chương 40"
+    },
+    {
+     "id": 41,
+     "item": " Chương 41: Chương 41"
+    },
+    {
+     "id": 42,
+     "item": " Chương 42: Chương 42"
+    },
+    {
+     "id": 43,
+     "item": " Chương 43: Chương 43"
+    },
+    {
+     "id": 44,
+     "item": " Chương 44: Chương 44"
+    },
+    {
+     "id": 45,
+     "item": " Chương 45: Chương 45"
+    },
+    {
+     "id": 46,
+     "item": " Chương 46: Chương 46"
+    },
+    {
+     "id": 47,
+     "item": " Chương 47: Chương 47"
+    },
+    {
+     "id": 48,
+     "item": " Chương 48: Chương 48"
+    },
+    {
+     "id": 49,
+     "item": " Chương 49: Chương 49"
+    },
+    {
+     "id": 50,
+     "item": " Chương 50: Chương 50"
+    }
+   ]
+  },
+  {
+   "key": "24",
+   "story_name": "LÃO BÀ KẾT HÔN SAO",
+   "source_img": "https://static.8cache.com/cover/eJzLyTDWt3CM9HJNLnAsSksySM8MCIgyNfVyLStLjoxwMQ8yzjLzjizKSjQx9Y_KyvZPNw82MI7P9HGJ9zHNDvcMKggqMEoJ98kMdLQ0qiiMKM5w8nC1dLQtNzI01c0wNjICANd1Hic=/lao-ba-ket-hon-sao.jpg",
+   "author": "Cảnh Ngô",
+   "tag": [
+    {
+     "id": 6,
+     "item": "Đô Thị"
+    },
+    {
+     "id": 27,
+     "item": "Bách Hợp"
+    },
+    {
+     "id": 37,
+     "item": "Khác"
+    }
+   ],
+   "source_by": "sưu tầm",
+   "status": {
+    "id": 2,
+    "item": "Đang ra"
+   },
+   "summary": [
+    "Tác giả: Cảnh Ngô",
+    "",
+    "Thể loại: Bách Hợp, Đô Thị",
+    "",
+    "Giới thiệu:",
+    "",
+    "Năm ấy khi Ôn Chanh gặp được Cố Trì Khê, bản thân chỉ có 7 tuổi, thế mà đã nói ra được câu khen hết sức chân thành và vang dội",
+    "",
+    "”Chị ơi, chị đẹp quá, em muốn chị!”",
+    "",
+    "Lời nói trẻ con ngây ngô khiến mọi người đều cười vui, dĩ nhiên không ai xem đó là thật và đặt trong lòng.",
+    "",
+    "Nhưng mà Ôn Chanh vẫn cứ bám theo sau, như cái đuôi nhỏ của Cố Trì Khê.",
+    "",
+    "Tính tình Cố Trì Khê từ nhỏ đã lãnh đạm, đối xử với ai cũng lạnh như băng, ngoại trừ nàng.",
+    "",
+    "Ở tuổi hai mươi, Ôn Ninh lấy hết can đảm thổ lộ, nhưng Cố Trì Khê lại đi không lời từ biệt, lại bặt vô âm tín.",
+    "",
+    "Cho đến bảy năm sau...",
+    "",
+    "Công ty gặp khủng hoảng tài chính, đã gần ba tháng không phát lương.",
+    "",
+    "Vào ngày tân lão bản hàng không nhậm chức, tất cả nhân viên đều họp, Ôn Ninh nhìn nữ nhân mang khuôn mặt thanh lãnh ở trên đài, khóe mắt co rút.",
+    "",
+    "Đây chẳng phải là thanh mai đã biến mất bảy năm sao?",
+    "",
+    "Sau cuộc họp, Ôn Ninh được mời đến văn phòng tổng tài, nàng cũng không khách khí mà cười hỏi: \"Khi nào Cố tổng phát lương?\"",
+    "",
+    "Cố Trì Khê giơ tay vén sợi tóc bên tai: \"Vậy khi nào em kết hôn với tôi?\"",
+    "",
+    "\"...\""
+   ],
+   "list_chapter": [
+    {
+     "id": 1,
+     "item": " Chương 1: Chương 1"
+    },
+    {
+     "id": 2,
+     "item": " Chương 2: Chương 2"
+    },
+    {
+     "id": 3,
+     "item": " Chương 3: Chương 3"
+    },
+    {
+     "id": 4,
+     "item": " Chương 4: Chương 4"
+    },
+    {
+     "id": 5,
+     "item": " Chương 5: Chương 5"
+    },
+    {
+     "id": 6,
+     "item": " Chương 6: Chương 6"
+    },
+    {
+     "id": 7,
+     "item": " Chương 7: Chương 7"
+    },
+    {
+     "id": 8,
+     "item": " Chương 8: Chương 8"
+    },
+    {
+     "id": 9,
+     "item": " Chương 9: Chương 9"
+    },
+    {
+     "id": 10,
+     "item": " Chương 10: Chương 10"
+    },
+    {
+     "id": 11,
+     "item": " Chương 11: Chương 11"
+    },
+    {
+     "id": 12,
+     "item": " Chương 12: Chương 12"
+    },
+    {
+     "id": 13,
+     "item": " Chương 13: Chương 13"
+    },
+    {
+     "id": 14,
+     "item": " Chương 14: Chương 14"
+    },
+    {
+     "id": 15,
+     "item": " Chương 15: Chương 15"
+    },
+    {
+     "id": 16,
+     "item": " Chương 16: Chương 16"
+    },
+    {
+     "id": 17,
+     "item": " Chương 17: Chương 17"
+    },
+    {
+     "id": 18,
+     "item": " Chương 18: Chương 18"
+    },
+    {
+     "id": 19,
+     "item": " Chương 19: Chương 19"
+    },
+    {
+     "id": 20,
+     "item": " Chương 20: Chương 20"
+    },
+    {
+     "id": 21,
+     "item": " Chương 21: 21: -1"
+    },
+    {
+     "id": 22,
+     "item": " Chương 22: 22: Chương 21-2"
+    },
+    {
+     "id": 23,
+     "item": " Chương 23: 23: Chương 22"
+    },
+    {
+     "id": 24,
+     "item": " Chương 24: 24: Chương 23"
+    },
+    {
+     "id": 25,
+     "item": " Chương 25: 25: Chương 24"
+    },
+    {
+     "id": 26,
+     "item": " Chương 26: 26: Chương 25"
+    },
+    {
+     "id": 27,
+     "item": " Chương 27: 27: Chương 26"
+    },
+    {
+     "id": 28,
+     "item": " Chương 28: 28: Chương 27"
+    },
+    {
+     "id": 29,
+     "item": " Chương 29: 29: Chương 28"
+    },
+    {
+     "id": 30,
+     "item": " Chương 30: 30: Chương 29"
+    },
+    {
+     "id": 31,
+     "item": " Chương 31: 31: Chương 30"
+    },
+    {
+     "id": 32,
+     "item": " Chương 32: 32: Chương 31"
+    },
+    {
+     "id": 33,
+     "item": " Chương 33: 33: Chương 32"
+    },
+    {
+     "id": 34,
+     "item": " Chương 34: 34: Chương 33"
+    },
+    {
+     "id": 35,
+     "item": " Chương 35: 35: Chương 34"
+    },
+    {
+     "id": 36,
+     "item": " Chương 36: 36: Chương 35"
+    },
+    {
+     "id": 37,
+     "item": " Chương 37: 37: Chương 36"
+    },
+    {
+     "id": 38,
+     "item": " Chương 38: 38: Chương 37"
+    },
+    {
+     "id": 39,
+     "item": " Chương 39: 39: Chương 38"
+    },
+    {
+     "id": 40,
+     "item": " Chương 40: 40: Chương 39"
+    },
+    {
+     "id": 41,
+     "item": " Chương 41: 41: Chương 40"
+    },
+    {
+     "id": 42,
+     "item": " Chương 42: 42: Chương 41"
+    },
+    {
+     "id": 43,
+     "item": " Chương 43: 43: Chương 42"
+    },
+    {
+     "id": 44,
+     "item": " Chương 44: 44: Chương 43"
+    },
+    {
+     "id": 45,
+     "item": " Chương 45: 45: Chương 44"
+    },
+    {
+     "id": 46,
+     "item": " Chương 46: 46: Chương 45"
+    },
+    {
+     "id": 47,
+     "item": " Chương 47: 47: Chương 46"
+    },
+    {
+     "id": 48,
+     "item": " Chương 48: 48: Chương 47"
+    },
+    {
+     "id": 49,
+     "item": " Chương 49: 49: Chương 48"
+    },
+    {
+     "id": 50,
+     "item": " Chương 50: 50: Chương 49"
+    }
+   ]
+  },
+  {
+   "key": "25",
+   "story_name": "MỘT MÀU XUÂN",
+   "source_img": "https://static.8cache.com/cover/eJzLyTDWL0jKTw4O9jIoyCgvdw3zjTfI83VxqTDIqkpP9DbwzisJyTU2DckKTyx0KozyTfMoKcqzjHQKiSpwrnLOSwoJCE8yNPbNLzJyjyiOqIwPMUpNL7ctNzI01c0wNjICAEVKIEk=/mot-mau-xuan.jpg",
+   "author": "Trầm Tiêu Chi",
+   "tag": [
+    {
+     "id": 3,
+     "item": "Ngôn Tình"
+    },
+    {
+     "id": 28,
+     "item": "Hài Hước"
+    },
+    {
+     "id": 9,
+     "item": "Cổ Đại"
+    },
+    {
+     "id": 37,
+     "item": "Khác"
+    }
+   ],
+   "source_by": "vongnguyetlau10.wordpress.com",
+   "status": {
+    "id": 3,
+    "item": "Full"
+   },
+   "summary": [
+    "Tác giả: Trầm Tiêu Chi",
+    "",
+    "Thể loại: Ngôn tình, cổ đại, giang hồ, HE, hài",
+    "",
+    "Độ dài: 102 chương",
+    "",
+    "Chuyển ngữ: Vọng Nguyệt Lâu",
+    "",
+    "Giới thiệu vắn tắt:",
+    "",
+    "Nam Sương – đại tiểu thư phái Thiên Thủy – hào sảng, tính cách bình đạm hài hước, là một trong ba vị kỳ nữ được mệnh danh là “Hoa Đào Nước Nam”, am hiểu sâu sắc về thuật khuê phòng. Mười chín tuổi, Nam Sương xuất giá, lấy nhị công tử các Vạn Hồng nhưng hôm sau thức dậy lại phát hiện mình đang nằm trên giường của thiếu chủ Mục Diễn Phong của Giang Nam.",
+    "",
+    "Trò bịp bợm đã làm hỏng mối hôn sự, Nam Sương không đến được các Vạn Hồng còn bị tiểu ma đầu Vu Hoàn Chi mà người trong giang hồ đều sợ hãi lừa gả đến trang Lưu Vân.",
+    "",
+    "Đến đây, đường đời Nam Sương rẽ lối, lênh đênh lận đận trong sắc trời ngày xuân, không thể vãn hồi.",
+    "",
+    "Nhân vật chính: Nam Sương, Vu Hoàn Chi"
+   ],
+   "list_chapter": [
+    {
+     "id": 1,
+     "item": " Chương 1"
+    },
+    {
+     "id": 2,
+     "item": " Chương 2"
+    },
+    {
+     "id": 3,
+     "item": " Chương 3"
+    },
+    {
+     "id": 4,
+     "item": " Chương 4"
+    },
+    {
+     "id": 5,
+     "item": " Chương 5"
+    },
+    {
+     "id": 6,
+     "item": " Chương 6"
+    },
+    {
+     "id": 7,
+     "item": " Chương 7"
+    },
+    {
+     "id": 8,
+     "item": " Chương 8"
+    },
+    {
+     "id": 9,
+     "item": " Chương 9"
+    },
+    {
+     "id": 10,
+     "item": " Chương 10"
+    },
+    {
+     "id": 11,
+     "item": " Chương 11"
+    },
+    {
+     "id": 12,
+     "item": " Chương 12"
+    },
+    {
+     "id": 13,
+     "item": " Chương 13"
+    },
+    {
+     "id": 14,
+     "item": " Chương 14"
+    },
+    {
+     "id": 15,
+     "item": " Chương 15"
+    },
+    {
+     "id": 16,
+     "item": " Chương 16"
+    },
+    {
+     "id": 17,
+     "item": " Chương 17"
+    },
+    {
+     "id": 18,
+     "item": " Chương 18"
+    },
+    {
+     "id": 19,
+     "item": " Chương 19"
+    },
+    {
+     "id": 20,
+     "item": " Chương 20"
+    },
+    {
+     "id": 21,
+     "item": " Chương 21"
+    },
+    {
+     "id": 22,
+     "item": " Chương 22"
+    },
+    {
+     "id": 23,
+     "item": " Chương 23"
+    },
+    {
+     "id": 24,
+     "item": " Chương 24"
+    },
+    {
+     "id": 25,
+     "item": " Chương 25"
+    },
+    {
+     "id": 26,
+     "item": " Chương 26"
+    },
+    {
+     "id": 27,
+     "item": " Chương 27"
+    },
+    {
+     "id": 28,
+     "item": " Chương 28"
+    },
+    {
+     "id": 29,
+     "item": " Chương 29"
+    },
+    {
+     "id": 30,
+     "item": " Chương 30"
+    },
+    {
+     "id": 31,
+     "item": " Chương 31"
+    },
+    {
+     "id": 32,
+     "item": " Chương 32"
+    },
+    {
+     "id": 33,
+     "item": " Chương 33"
+    },
+    {
+     "id": 34,
+     "item": " Chương 34"
+    },
+    {
+     "id": 35,
+     "item": " Chương 35"
+    },
+    {
+     "id": 36,
+     "item": " Chương 36"
+    },
+    {
+     "id": 37,
+     "item": " Chương 37"
+    },
+    {
+     "id": 38,
+     "item": " Chương 38"
+    },
+    {
+     "id": 39,
+     "item": " Chương 39"
+    },
+    {
+     "id": 40,
+     "item": " Chương 40"
+    },
+    {
+     "id": 41,
+     "item": " Chương 41"
+    },
+    {
+     "id": 42,
+     "item": " Chương 42"
+    },
+    {
+     "id": 43,
+     "item": " Chương 43"
+    },
+    {
+     "id": 44,
+     "item": " Chương 44"
+    },
+    {
+     "id": 45,
+     "item": " Chương 45"
+    },
+    {
+     "id": 46,
+     "item": " Chương 46"
+    },
+    {
+     "id": 47,
+     "item": " Chương 47"
+    },
+    {
+     "id": 48,
+     "item": " Chương 48"
+    },
+    {
+     "id": 49,
+     "item": " Chương 49"
+    },
+    {
+     "id": 50,
+     "item": " Chương 50"
+    },
+    {
+     "id": 51,
+     "item": " Chương 51"
+    },
+    {
+     "id": 52,
+     "item": " Chương 52"
+    },
+    {
+     "id": 53,
+     "item": " Chương 53"
+    },
+    {
+     "id": 54,
+     "item": " Chương 54"
+    },
+    {
+     "id": 55,
+     "item": " Chương 55"
+    },
+    {
+     "id": 56,
+     "item": " Chương 56"
+    },
+    {
+     "id": 57,
+     "item": " Chương 57"
+    },
+    {
+     "id": 58,
+     "item": " Chương 58"
+    },
+    {
+     "id": 59,
+     "item": " Chương 59"
+    },
+    {
+     "id": 60,
+     "item": " Chương 60"
+    },
+    {
+     "id": 61,
+     "item": " Chương 61"
+    },
+    {
+     "id": 62,
+     "item": " Chương 62"
+    },
+    {
+     "id": 63,
+     "item": " Chương 63"
+    },
+    {
+     "id": 64,
+     "item": " Chương 64"
+    },
+    {
+     "id": 65,
+     "item": " Chương 65"
+    },
+    {
+     "id": 66,
+     "item": " Chương 66"
+    },
+    {
+     "id": 67,
+     "item": " Chương 67"
+    },
+    {
+     "id": 68,
+     "item": " Chương 68"
+    },
+    {
+     "id": 69,
+     "item": " Chương 69"
+    },
+    {
+     "id": 70,
+     "item": " Chương 70"
+    },
+    {
+     "id": 71,
+     "item": " Chương 71"
+    },
+    {
+     "id": 72,
+     "item": " Chương 72"
+    },
+    {
+     "id": 73,
+     "item": " Chương 73"
+    },
+    {
+     "id": 74,
+     "item": " Chương 74"
+    },
+    {
+     "id": 75,
+     "item": " Chương 75"
+    },
+    {
+     "id": 76,
+     "item": " Chương 76"
+    },
+    {
+     "id": 77,
+     "item": " Chương 77"
+    },
+    {
+     "id": 78,
+     "item": " Chương 78"
+    },
+    {
+     "id": 79,
+     "item": " Chương 79"
+    },
+    {
+     "id": 80,
+     "item": " Chương 80"
+    },
+    {
+     "id": 81,
+     "item": " Chương 81"
+    },
+    {
+     "id": 82,
+     "item": " Chương 82"
+    },
+    {
+     "id": 83,
+     "item": " Chương 83"
+    },
+    {
+     "id": 84,
+     "item": " Chương 84"
+    },
+    {
+     "id": 85,
+     "item": " Chương 85"
+    },
+    {
+     "id": 86,
+     "item": " Chương 86"
+    },
+    {
+     "id": 87,
+     "item": " Chương 87"
+    },
+    {
+     "id": 88,
+     "item": " Chương 88"
+    },
+    {
+     "id": 89,
+     "item": " Chương 89"
+    },
+    {
+     "id": 90,
+     "item": " Chương 90"
+    },
+    {
+     "id": 91,
+     "item": " Chương 91"
+    },
+    {
+     "id": 92,
+     "item": " Chương 92"
+    },
+    {
+     "id": 93,
+     "item": " Chương 93"
+    },
+    {
+     "id": 94,
+     "item": " Chương 94: Ngoại truyện"
+    },
+    {
+     "id": 95,
+     "item": " Chương 95"
+    },
+    {
+     "id": 96,
+     "item": " Chương 96"
+    },
+    {
+     "id": 97,
+     "item": " Chương 97"
+    },
+    {
+     "id": 98,
+     "item": " Chương 98"
+    },
+    {
+     "id": 99,
+     "item": " Chương 99"
+    },
+    {
+     "id": 100,
+     "item": " Chương 100"
+    }
+   ]
+  },
+  {
+   "key": "26",
+   "story_name": "SAU KHI DƯỠNG THÀNH ĐẠI NÔNG HỘ",
+   "source_img": "https://static.8cache.com/cover/eJzLyTDWN_AINDLLTss1zggzSjEyCvasCjGLyIos8i1Oy3NNNa3yDcsrjDczL43XNUkyczV29gspNkkNCM_19KwsDDSLyKjMKXNNSymvLPDzDSqwLE8KK7ctNzI01c0wNjICAOxPH4Q=/sau-khi-duong-thanh-dai-nong-ho.jpg",
+   "author": "Phương Tiện Diện Quân",
+   "tag": [
+    {
+     "id": 36,
+     "item": "Huyền Huyễn"
+    },
+    {
+     "id": 27,
+     "item": "Bách Hợp"
+    },
+    {
+     "id": 14,
+     "item": "Xuyên Không"
+    },
+    {
+     "id": 29,
+     "item": "Điền Văn"
+    },
+    {
+     "id": 9,
+     "item": "Cổ Đại"
+    },
+    {
+     "id": 37,
+     "item": "Khác"
+    }
+   ],
+   "source_by": "sưu tầm",
+   "status": {
+    "id": 2,
+    "item": "Đang ra"
+   },
+   "summary": [
+    "Tác giả: Phương Tiện Diện Quân",
+    "",
+    "Thể loại: Xuyên Không, Cổ Đại, Bách Hợp, Điền Văn, Huyền Huyễn",
+    "",
+    "Giới thiệu:",
+    "",
+    "Chu Thư là một thương nhân kinh doanh trà nổi tiếng ở Tín Châu.",
+    "",
+    "Hôm ấy nàng đến vườn trà xem xét, quản sự vội vàng nói với nàng rằng heo bên nông trường cạnh đã ủn hết vườn trà rồi.",
+    "",
+    "Chủ nhân nông trường là công tử của Kỳ gia, tên Kỳ Hữu Vọng cùng với hạ nhân vội vàng chạy tới muốn bắt heo.",
+    "",
+    "Không ngờ vừa gặp Chu Thư, công tử đã nhằm vào nàng, nói rằng muốn \"ủn\" nàng. Sau này - -",
+    "",
+    "Có người hỏi Kỳ Hữu Vọng, vì sao thịt heo nàng nuôi lại ăn ngon đến vậy.",
+    "",
+    "Kỳ Hữu Vọng nhìn giấy tờ nương tử nhà mình đưa qua, phát sầu: Đương nhiên là ngon rồi, đều là ăn (tiền) lá trà mà lớn lên đó!"
+   ],
+   "list_chapter": []
+  },
+  {
+   "key": "27",
+   "story_name": "MÔN KHÁCH BẤT ĐẮC DĨ",
+   "source_img": "https://static.8cache.com/cover/eJzLyTDWz8zzcDUwKS4ocS3PL_c2cysyckpNDY10NcpKqfIr8s1L9swpTiz2yXBPMi42TTFPzHAJds1NiwooTUz3SAnIKst2yYoINa8qyinzcdf1c3QyTrctNzI01c0wNjICAEVUIDI=/mon-khach-bat-dac-di.jpg",
+   "author": "Thiên Như Ngọc",
+   "tag": [
+    {
+     "id": 3,
+     "item": "Ngôn Tình"
+    },
+    {
+     "id": 14,
+     "item": "Xuyên Không"
+    },
+    {
+     "id": 9,
+     "item": "Cổ Đại"
+    },
+    {
+     "id": 37,
+     "item": "Khác"
+    }
+   ],
+   "source_by": "tucaumuahawordpress",
+   "status": {
+    "id": 2,
+    "item": "Đang ra"
+   },
+   "summary": [
+    "Tác giả: Thiên Như Ngọc",
+    "",
+    "Tên gốc: Một môn khách tự mình tu dưỡng",
+    "",
+    "Thể loại: Cổ trang, triều đình, chiến quốc",
+    "",
+    "Số chương: 102 chương",
+    "",
+    "Văn án",
+    "",
+    "Đây là thời đại hào hùng nhất, quốc gia phân tranh, quần hùng tranh giành, bách gia tranh đấu; đây là thời đại tồi tệ nhất, giao thông bất tiện, không nói nhân quyền, không có WIFI….Xuyên qua thành môn khách không đáng sợ, đáng sợ chính là xuyên thành một môn khách “siêu trâu bò”. Người thật đã ngỏm, hoặc là lừa ăn gạt uống chờ chết, hoặc là bày trò giả chết. Dịch Khương vốn định phỉnh phờ chờ chết, tiếc rằng đóng vai truyền nhân của Quỷ Cốc Tử, lại có một sư huynh được định sẵn bám riết không buông, nàng chỉ có thể giả chết….",
+    "",
+    "PS: Nữ chính lúc bắt đầu là một người bình thường, sẽ có một quá trình trưởng thành, nếu mọi người thích đọc bàn tay vàng thì…có thể ra cửa quẹo trái.",
+    "",
+    "*Môn khách: người có tài năng được giới quý tộc thời phong kiến coi trọng và nuôi dưỡng trong nhà, để khi cần thì dùng đến (theo wiktionary tiếng Việt)"
+   ],
+   "list_chapter": []
+  },
+  {
+   "key": "28",
+   "story_name": "ZOMBIE BAO VÂY HƯỚNG DẪN SỐNG CÒN NGÀY TẬN THẾ",
+   "source_img": "https://static.8cache.com/cover/eJzLyTDWTwnMyCryzHc2Twpw904sy0lN8fPyDtc1KzK39DIMMQg2T3GMqsgpyS8INk_zM85JTSzJdQ4NLHNyD3ErriwMcCsoyfMsN09Nz8sIzkpJMzEIC7QtNzI01c0wNjICAB6VH94=/zombie-bao-vay-huong-dan-song-con-ngay-tan-the.jpg",
+   "author": "Trang Tiểu Bạch",
+   "tag": [
+    {
+     "id": 30,
+     "item": "Mạt Thế"
+    },
+    {
+     "id": 37,
+     "item": "Khác"
+    }
+   ],
+   "source_by": "sưu tầm",
+   "status": {
+    "id": 2,
+    "item": "Đang ra"
+   },
+   "summary": [
+    "Tác giả: Trang Tiểu Bạch",
+    "Thể loại: Mạt Thế, Hiện Đại",
+    "",
+    "Giới thiệu:",
+    "",
+    "Nếu chỉ còn ba tiếng nữa zombie xuất hiện, bạn sẽ làm gì?",
+    "",
+    "Trang Khâm, một sinh viên đại học làm thêm trong một siêu thị bình dân, nhận được một tin nhắn kì lạ:",
+    "",
+    "\"Ba giờ sau, sẽ xuất hiện, bắt đầu đếm ngược từ hai giờ năm mươi chín phút.\"",
+    "",
+    "Trang Khâm, người nhận được cảnh báo, bắt đầu tích trữ đồ đạc một cách đáng ngờ.",
+    "",
+    "Người dân trên đường bắt đầu cắn xé và tấn công nhau một cách bất thường, tiếng la hét thất thanh. Cả thành phố thất thủ.",
+    "",
+    "Ngày tận thế đã thực sự đến!",
+    "",
+    "Thật tình cờ, Trang Khâm, người có rất nhiều vật dụng, đã đồng hành cùng với một cô gái Taekwondo, một cựu chiến binh bị gãy tay, và một thiên tài mọt sách.",
+    "",
+    "Trong những ngày cuối cùng của chiến tranh và loạn lạc, họ làm cách nào báo tin để tìm cách sống sót?",
+    "",
+    "Ai đã gửi tin nhắn cảnh báo? Tại sao người đó biết ngày tàn sắp đến?",
+    "",
+    "Tại sao chủ nhân của siêu thị mất tích lại để lại nhiều tài nguyên như vậy cho Trang Khâm, cô ấy đã đi đâu?",
+    "",
+    "...",
+    "",
+    "Mọi thứ sẽ được giải thích rõ:"
+   ],
+   "list_chapter": [
+    {
+     "id": 1,
+     "item": " Chương 1: 1: Tin Nhắn Cảnh Báo 1"
+    },
+    {
+     "id": 2,
+     "item": " Chương 2: 2: Tin Nhắn Cảnh Báo 2"
+    },
+    {
+     "id": 3,
+     "item": " Chương 3: 3: Tin Nhắn Cảnh Báo 3"
+    },
+    {
+     "id": 4,
+     "item": " Chương 4: 4: Tin Nhắn Cảnh Báo 4"
+    },
+    {
+     "id": 5,
+     "item": " Chương 5: 5: Tin Nhắn Cảnh Báo 5"
+    },
+    {
+     "id": 6,
+     "item": " Chương 6: 6: Tin Nhắn Cảnh Báo 6"
+    },
+    {
+     "id": 7,
+     "item": " Chương 7: 7: Căn Phòng Bí Mật Trên Tầng 3 - 1"
+    },
+    {
+     "id": 8,
+     "item": " Chương 8: 8: Căn Phòng Bí Mật Trên Tầng 3 - 2"
+    },
+    {
+     "id": 9,
+     "item": " Chương 9: 9: Căn Phòng Bí Mật Trên Tầng 3 - 3"
+    },
+    {
+     "id": 10,
+     "item": " Chương 10: 10: Căn Phòng Bí Mật Trên Tầng 3 - 4"
+    },
+    {
+     "id": 11,
+     "item": " Chương 11: 11: Căn Phòng Bí Mật Trên Tầng 3 - 5"
+    },
+    {
+     "id": 12,
+     "item": " Chương 12: 12: Căn Phòng Bí Mật Trên Tầng 3 - 6"
+    },
+    {
+     "id": 13,
+     "item": " Chương 13: 13: Đến Nơi Trú Ẩn 1"
+    },
+    {
+     "id": 14,
+     "item": " Chương 14: 14: Đến Nơi Trú Ẩn 2"
+    },
+    {
+     "id": 15,
+     "item": " Chương 15: 15: Đến Nơi Trú Ẩn 3"
+    },
+    {
+     "id": 16,
+     "item": " Chương 16: 16: Đến Nơi Trú Ẩn 4"
+    },
+    {
+     "id": 17,
+     "item": " Chương 17: 17: Đến Nơi Trú Ẩn 5"
+    },
+    {
+     "id": 18,
+     "item": " Chương 18: 18: Đến Nơi Trú Ẩn 6"
+    },
+    {
+     "id": 19,
+     "item": " Chương 19: 19: Tìm Kiếm Vật Phẩm 1"
+    },
+    {
+     "id": 20,
+     "item": " Chương 20: 20: Tìm Kiếm Vật Phẩm 2"
+    },
+    {
+     "id": 21,
+     "item": " Chương 21: 21: Tìm Kiếm Vật Phẩm 3"
+    },
+    {
+     "id": 22,
+     "item": " Chương 22: 22: Tìm Kiếm Vật Phẩm 4"
+    },
+    {
+     "id": 23,
+     "item": " Chương 23: 23: Tìm Kiếm Vật Phẩm 5"
+    },
+    {
+     "id": 24,
+     "item": " Chương 24: 24: Tìm Kiếm Vật Phẩm 6"
+    },
+    {
+     "id": 25,
+     "item": " Chương 25: 25: Con Giun Xéo Lắm Cũng Quằn 1"
+    },
+    {
+     "id": 26,
+     "item": " Chương 26: 26: Con Giun Xéo Lắm Cũng Quằn 2"
+    },
+    {
+     "id": 27,
+     "item": " Chương 27: 27: Con Giun Xéo Lắm Cũng Quằn 3"
+    },
+    {
+     "id": 28,
+     "item": " Chương 28: 28: Con Giun Xéo Lắm Cũng Quằn 4"
+    },
+    {
+     "id": 29,
+     "item": " Chương 29: 29: Con Giun Xéo Lắm Cũng Quằn 5"
+    },
+    {
+     "id": 30,
+     "item": " Chương 30: 30: Con Giun Xéo Lắm Cũng Quằn 6"
+    },
+    {
+     "id": 31,
+     "item": " Chương 31: 31: Trận Tử Chiến 1"
+    },
+    {
+     "id": 32,
+     "item": " Chương 32: 32: Trận Tử Chiến 2"
+    },
+    {
+     "id": 33,
+     "item": " Chương 33: 33: Trận Tử Chiến 3"
+    },
+    {
+     "id": 34,
+     "item": " Chương 34: 34: Trận Tử Chiến 4"
+    },
+    {
+     "id": 35,
+     "item": " Chương 35: 35: Trận Tử Chiến 5"
+    },
+    {
+     "id": 36,
+     "item": " Chương 36: 36: Trận Tử Chiến 6"
+    },
+    {
+     "id": 37,
+     "item": " Chương 37: 37: Hành Trình Mới 1"
+    },
+    {
+     "id": 38,
+     "item": " Chương 38: 38: Hành Trình Mới 2"
+    },
+    {
+     "id": 39,
+     "item": " Chương 39: 39: Hành Trình Mới 3"
+    },
+    {
+     "id": 40,
+     "item": " Chương 40: 40: Hành Trình Mới 4"
+    },
+    {
+     "id": 41,
+     "item": " Chương 41: 41: Hành Trình Mới 5"
+    },
+    {
+     "id": 42,
+     "item": " Chương 42: 42: Hành Trình Mới 6"
+    },
+    {
+     "id": 43,
+     "item": " Chương 43: 43: Người Máy 1"
+    },
+    {
+     "id": 44,
+     "item": " Chương 44: 44: Người Máy 2"
+    },
+    {
+     "id": 45,
+     "item": " Chương 45: 45: Người Máy 3"
+    },
+    {
+     "id": 46,
+     "item": " Chương 46: 46: Người Máy 4"
+    },
+    {
+     "id": 47,
+     "item": " Chương 47: 47: Người Máy 5"
+    },
+    {
+     "id": 48,
+     "item": " Chương 48: 48: Người Máy 6"
+    },
+    {
+     "id": 49,
+     "item": " Chương 49: 49: Cô Chủ Xuất Hiện 1"
+    },
+    {
+     "id": 50,
+     "item": " Chương 50: 50: Cô Chủ Xuất Hiện 2"
+    }
+   ]
+  },
+  {
+   "key": "29",
+   "story_name": "CRUSH KÝ SỰ",
+   "source_img": "https://static.8cache.com/cover/o/eJzLyTDW183SrUyLTPGrMLdM1w8rLI30Tgsvy4z01HeEAi8jE_2UpEjvXMtE49DwSP1yI0NT3QxjIyNdz2QTIwDJrRPp/crush-ky-su.jpg",
+   "author": "MiLu",
+   "tag": [
+    {
+     "id": 3,
+     "item": "Ngôn Tình"
+    },
+    {
+     "id": 31,
+     "item": "Truyện Teen"
+    },
+    {
+     "id": 37,
+     "item": "Khác"
+    }
+   ],
+   "source_by": "sưu tầm",
+   "status": {
+    "id": 2,
+    "item": "Đang ra"
+   },
+   "summary": [
+    "Tác giả: MiLu",
+    "",
+    "Thể loại: Truyện Khác",
+    "",
+    "Bộ truyện này mình viết ra để tường thuật lại công cuộc theo đuổi crush của mình. Trải qua bao nhiêu sóng gió nhưng vẫn chưa đến hồi kết.",
+    "Crush mình là một cậu bạn cùng lớp. Cậu ấy lạnh lùng và nhút nhát còn mình thì ngược lại. Người ta bảo rằng \"con gái theo đuổi con trai cách tấm màn\". Mình cũng tưởng vậy, nhưng mà với mình tấm màn này chắc được dệt bằng sắt thép nguyên chất. Hãy cùng đón xem tình tiết của cuộc đời mình rồi sẽ đến đâu nhé các bạn.",
+    "_______",
+    "- Trích-",
+    "Thế rồi, không hiểu mấy đứa dãy trong nghe được bọn mình nói chuyện kiểu gì. Nhoài người lên gọi C, rồi nói như này rõ to:",
+    "",
+    "\"C ơi, người yêu m gọi kìa\"",
+    "",
+    "!!?",
+    "",
+    "Mình trợn tròn mắt lên nhìn đứa vừa nói. Ôi đồ điêu dânnn. Mình còn chưa nói gì mà.",
+    "",
+    "Và một điều bất ngờ xảy ra, C quay xuống nhìn thẳng sang chỗ mình, giống như đang hỏi \"Gọi gì?\""
+   ],
+   "list_chapter": [
+    {
+     "id": 1,
+     "item": " Chương 1: Chương 1 ( Kể Lại )"
+    },
+    {
+     "id": 2,
+     "item": " Chương 2: Cấm Dục Boy"
+    },
+    {
+     "id": 3,
+     "item": " Chương 3: Hơi Bị Bức Xúc"
+    },
+    {
+     "id": 4,
+     "item": " Chương 4: Gọt Bút Chì"
+    },
+    {
+     "id": 5,
+     "item": " Chương 5: Thích Là Nhích"
+    },
+    {
+     "id": 6,
+     "item": " Chương 6: C Bị Đau Chân"
+    },
+    {
+     "id": 7,
+     "item": " Chương 7: Xót Chứ Còn Gì Nữa"
+    },
+    {
+     "id": 8,
+     "item": " Chương 8: Tấn Công Lần Một"
+    },
+    {
+     "id": 9,
+     "item": " Chương 9: C Còn Có Nghĩa Là Cún"
+    },
+    {
+     "id": 10,
+     "item": " Chương 10: Buồn C Lắmm"
+    },
+    {
+     "id": 11,
+     "item": " Chương 11: Kẹo Tình Yêu"
+    },
+    {
+     "id": 12,
+     "item": " Chương 12: Tôi Yêu Tiếng Anh"
+    },
+    {
+     "id": 13,
+     "item": " Chương 13: Văn Nghệ"
+    },
+    {
+     "id": 14,
+     "item": " Chương 14: Vô Tình"
+    },
+    {
+     "id": 15,
+     "item": " Chương 15: Sức Mạnh Của C"
+    },
+    {
+     "id": 16,
+     "item": " Chương 16: Trêu Chọc"
+    },
+    {
+     "id": 17,
+     "item": " Chương 17: Hi Vọng Nho Nhỏ"
+    },
+    {
+     "id": 18,
+     "item": " Chương 18: Ngầu Lòi Thất Bại"
+    },
+    {
+     "id": 19,
+     "item": " Chương 19: Shy Boy!"
+    },
+    {
+     "id": 20,
+     "item": " Chương 20: Mình Thích Lắm."
+    },
+    {
+     "id": 21,
+     "item": " Chương 21: Sững Sờ One Moment"
+    },
+    {
+     "id": 22,
+     "item": " Chương 22: Ghen Tím Người"
+    },
+    {
+     "id": 23,
+     "item": " Chương 23: Lừa Đảo Thui"
+    },
+    {
+     "id": 24,
+     "item": " Chương 24: Thần Giao Cách Cảm"
+    },
+    {
+     "id": 25,
+     "item": " Chương 25: C Ơi Là C"
+    },
+    {
+     "id": 26,
+     "item": " Chương 26: Của Anh Là Của Em"
+    },
+    {
+     "id": 27,
+     "item": " Chương 27: Nghỉ Hè"
+    },
+    {
+     "id": 28,
+     "item": " Chương 28: Trùng Hợp"
+    },
+    {
+     "id": 29,
+     "item": " Chương 29: Đàn Ông Vãi"
+    },
+    {
+     "id": 30,
+     "item": " Chương 30: Kẹo Tình Yêu 2"
+    },
+    {
+     "id": 31,
+     "item": " Chương 31: Ngồi Cùng Bàn"
+    },
+    {
+     "id": 32,
+     "item": " Chương 32: Tưởng Gần Mà Xa"
+    },
+    {
+     "id": 33,
+     "item": " Chương 33: Thà Đổi Chỗ Còn Hơn"
+    },
+    {
+     "id": 34,
+     "item": " Chương 34: Hơi Xấu Tính"
+    },
+    {
+     "id": 35,
+     "item": " Chương 35: Chán Không Thèm Viết Tiêu Đề"
+    },
+    {
+     "id": 36,
+     "item": " Chương 36: [email protected] @"
+    },
+    {
+     "id": 37,
+     "item": " Chương 37: Vẫn Giữ"
+    },
+    {
+     "id": 38,
+     "item": " Chương 38: C Hơi Khác Mọi Ngày"
+    },
+    {
+     "id": 39,
+     "item": " Chương 39: Chính Thức Ngồi Cạnh"
+    },
+    {
+     "id": 40,
+     "item": " Chương 40: Kiểu Bị Hợp Cạ Ấy"
+    },
+    {
+     "id": 41,
+     "item": " Chương 41"
+    },
+    {
+     "id": 42,
+     "item": " Chương 42: Thầy Vt"
+    },
+    {
+     "id": 43,
+     "item": " Chương 43: Mình Bị Ốm"
+    },
+    {
+     "id": 44,
+     "item": " Chương 44: Something Sweet!"
+    },
+    {
+     "id": 45,
+     "item": " Chương 45: Chuyển Chỗ"
+    },
+    {
+     "id": 46,
+     "item": " Chương 46: ..."
+    },
+    {
+     "id": 47,
+     "item": " Chương 47: Lần Đầu Làm Chuyện Ấy"
+    },
+    {
+     "id": 48,
+     "item": " Chương 48: Nắm Nắm Ôm Ôm"
+    },
+    {
+     "id": 49,
+     "item": " Chương 49"
+    },
+    {
+     "id": 50,
+     "item": " Chương 50: Chạy Trốn"
+    }
+   ]
+  },
+  {
+   "key": "30",
+   "story_name": "TRỞ THÀNH KẺ VÔ LẠI NHÀ BÁ TƯỚC",
+   "source_img": "https://static.8cache.com/cover/eJzLyTDWzwjJcwwrqczMz3fJz_SsMjEvc_bODjbzz_BL8TIyLMszdC_wtYzM9HDMCPb3CM5NzC9OSU_Jckv3SnH1C6pI9jf0NSmJTEos8og3D80rMqoITrctNzI01c0wNjICAD2yIBw=/tro-thanh-ke-vo-lai-nha-ba-tuoc.jpg",
+   "author": "Yoo Ryeo Han",
+   "tag": [
+    {
+     "id": 5,
+     "item": "Dị Giới"
+    },
+    {
+     "id": 14,
+     "item": "Xuyên Không"
+    },
+    {
+     "id": null,
+     "item": "Thám Hiểm"
+    },
+    {
+     "id": 37,
+     "item": "Khác"
+    },
+    {
+     "id": 32,
+     "item": "Phương Tây"
+    }
+   ],
+   "source_by": "sưu tầm",
+   "status": {
+    "id": 2,
+    "item": "Đang ra"
+   },
+   "summary": [
+    "Tên khác: Trash of the Counts Family",
+    "Tác giả: Yoo Ryeo Han",
+    "",
+    "Tóm tắt:",
+    "Khi mở mắt ra, là thế giới trong 1 cuốn tiểu thuyết",
+    "",
+    "Sự ra đời của anh hùng",
+    "",
+    "Và lại còn trong cơ thể của tên vô lại nổi tiếng của gia đình Bá Tước.",
+    "",
+    "Cơ mà, cứ thế trở thành một tên vô lại thì đâu có được?"
+   ],
+   "list_chapter": [
+    {
+     "id": 1,
+     "item": " Chương 1: C1: Theo Bản Năng (1)"
+    },
+    {
+     "id": 2,
+     "item": " Chương 2: C2: Theo Bản Năng (2)"
+    },
+    {
+     "id": 3,
+     "item": " Chương 3: C3: Theo Bản Năng (3)"
+    },
+    {
+     "id": 4,
+     "item": " Chương 4: C4: Theo Bản Năng (4)"
+    },
+    {
+     "id": 5,
+     "item": " Chương 5: C5: Từ Dưới Đáy (1)"
+    },
+    {
+     "id": 6,
+     "item": " Chương 6: C6: Từ Dưới Đáy (2)"
+    },
+    {
+     "id": 7,
+     "item": " Chương 7: C7: Từ Dưới Đáy (3)"
+    },
+    {
+     "id": 8,
+     "item": " Chương 8: C8: Từ Dưới Đáy (4)"
+    },
+    {
+     "id": 9,
+     "item": " Chương 9: C9: Từ Dưới Đáy (5)"
+    },
+    {
+     "id": 10,
+     "item": " Chương 10: C10: Từ Dưới Đáy (6)"
+    },
+    {
+     "id": 11,
+     "item": " Chương 11: C11: Đêm (1)"
+    },
+    {
+     "id": 12,
+     "item": " Chương 12: C12: Đêm (2)"
+    },
+    {
+     "id": 13,
+     "item": " Chương 13: C13: Đêm (3)"
+    },
+    {
+     "id": 14,
+     "item": " Chương 14: C14: Đêm (4)"
+    },
+    {
+     "id": 15,
+     "item": " Chương 15: C15: Ta Đau (1)"
+    },
+    {
+     "id": 16,
+     "item": " Chương 16: C16: Ta Đau (2)"
+    },
+    {
+     "id": 17,
+     "item": " Chương 17: C17: Ta Đau (3)"
+    },
+    {
+     "id": 18,
+     "item": " Chương 18: C18: Này, Ngươi Đang Trốn Ở Đâu Đấy? (1)"
+    },
+    {
+     "id": 19,
+     "item": " Chương 19: C19: Này, Ngươi Đang Trốn Ở Đâu Đấy? (2)"
+    },
+    {
+     "id": 20,
+     "item": " Chương 20: C20: Này, Ngươi Đang Trốn Ở Đâu Đấy? (3)"
+    },
+    {
+     "id": 21,
+     "item": " Chương 21: C21: Này, Ngươi Đang Trốn Ở Đâu Đấy? (4)"
+    },
+    {
+     "id": 22,
+     "item": " Chương 22: C22: Sụp Đổ (1)"
+    },
+    {
+     "id": 23,
+     "item": " Chương 23: C23: Sụp Đổ (2)"
+    },
+    {
+     "id": 24,
+     "item": " Chương 24: C24: Sụp Đổ (3)"
+    },
+    {
+     "id": 25,
+     "item": " Chương 25: C25: Sụp Đổ (4)"
+    },
+    {
+     "id": 26,
+     "item": " Chương 26: C26: Chiếu Sáng (1)"
+    },
+    {
+     "id": 27,
+     "item": " Chương 27: C27: Chiếu Sáng (2)"
+    },
+    {
+     "id": 28,
+     "item": " Chương 28: C28: Chiếu Sáng (3)"
+    },
+    {
+     "id": 29,
+     "item": " Chương 29: C29: Chiếu Sáng (4)"
+    },
+    {
+     "id": 30,
+     "item": " Chương 30: C30: Chiếu Sáng (5)"
+    },
+    {
+     "id": 31,
+     "item": " Chương 31: C31: Ngươi Là Ai? (1)"
+    },
+    {
+     "id": 32,
+     "item": " Chương 32: C32: Ngươi Là Ai? (2)"
+    },
+    {
+     "id": 33,
+     "item": " Chương 33: C33: Ngươi Là Ai? (3)"
+    },
+    {
+     "id": 34,
+     "item": " Chương 34: C34: Ngươi Là Ai? (4)"
+    },
+    {
+     "id": 35,
+     "item": " Chương 35: C35: Bị Phá Huỷ (1)"
+    },
+    {
+     "id": 36,
+     "item": " Chương 36: C36: Bị Phá Huỷ (2)"
+    },
+    {
+     "id": 37,
+     "item": " Chương 37: C37: Bị Phá Huỷ (3)"
+    },
+    {
+     "id": 38,
+     "item": " Chương 38: C38: Bị Phá Huỷ (4)"
+    },
+    {
+     "id": 39,
+     "item": " Chương 39: C39: Bị Phá Huỷ (5)"
+    },
+    {
+     "id": 40,
+     "item": " Chương 40: C40: Hả? (1)"
+    },
+    {
+     "id": 41,
+     "item": " Chương 41: C41: Hả? (2)"
+    },
+    {
+     "id": 42,
+     "item": " Chương 42: C42: Hả? (3)"
+    },
+    {
+     "id": 43,
+     "item": " Chương 43: C43: Hai Tên Rác Rưởi (1)"
+    },
+    {
+     "id": 44,
+     "item": " Chương 44: C44: Hai Tên Rác Rưởi (2)"
+    },
+    {
+     "id": 45,
+     "item": " Chương 45: C45: Hai Tên Rác Rưởi (3)"
+    },
+    {
+     "id": 46,
+     "item": " Chương 46: C46: Hai Tên Rác Rưởi (4)"
+    },
+    {
+     "id": 47,
+     "item": " Chương 47: C47: Chia Ly (1)"
+    },
+    {
+     "id": 48,
+     "item": " Chương 48: C48: Chia Ly (2)"
+    },
+    {
+     "id": 49,
+     "item": " Chương 49: C49: Chia Ly (3)"
+    },
+    {
+     "id": 50,
+     "item": " Chương 50: C50: Chia Ly (4)"
+    },
+    {
+     "id": 51,
+     "item": " Chương 51: C51: Chia Ly (5)"
+    },
+    {
+     "id": 52,
+     "item": " Chương 52: C52: Nước Mắt (1)"
+    },
+    {
+     "id": 53,
+     "item": " Chương 53: C53: Nước Mắt (2)"
+    },
+    {
+     "id": 54,
+     "item": " Chương 54: C54: Nước Mắt (3)"
+    },
+    {
+     "id": 55,
+     "item": " Chương 55: C55: Nước Mắt (4)"
+    },
+    {
+     "id": 56,
+     "item": " Chương 56: C56: Ghi Chép (1)"
+    },
+    {
+     "id": 57,
+     "item": " Chương 57: C57: Ghi Chép (2)"
+    },
+    {
+     "id": 58,
+     "item": " Chương 58: C58: Ghi Chép (3)"
+    },
+    {
+     "id": 59,
+     "item": " Chương 59: C59: Nếu Không, Thì Muốn Làm Gì Thì Làm (1)"
+    },
+    {
+     "id": 60,
+     "item": " Chương 60: C60: Nếu Không, Thì Muốn Làm Gì Thì Làm (2)"
+    },
+    {
+     "id": 61,
+     "item": " Chương 61: C61: Nếu Không, Thì Muốn Làm Gì Thì Làm (3)"
+    },
+    {
+     "id": 62,
+     "item": " Chương 62: C62: Nếu Không, Thì Muốn Làm Gì Thì Làm (4)"
+    },
+    {
+     "id": 63,
+     "item": " Chương 63: C63: Khi Đêm Đến (1)"
+    },
+    {
+     "id": 64,
+     "item": " Chương 64: C64: Khi Đêm Đến (2)"
+    },
+    {
+     "id": 65,
+     "item": " Chương 65: C65: Khi Đêm Đến (3)"
+    },
+    {
+     "id": 66,
+     "item": " Chương 66: C66: Khi Đêm Đến (4)"
+    },
+    {
+     "id": 67,
+     "item": " Chương 67: C67: Khi Đêm Đến (5)"
+    },
+    {
+     "id": 68,
+     "item": " Chương 68: C68: Đêm Đã Đến (1)"
+    },
+    {
+     "id": 69,
+     "item": " Chương 69: C69: Đêm Đã Đến (2)"
+    },
+    {
+     "id": 70,
+     "item": " Chương 70: C70: Đêm Đã Đến (3)"
+    },
+    {
+     "id": 71,
+     "item": " Chương 71: C71: Đêm Đã Đến (4)"
+    },
+    {
+     "id": 72,
+     "item": " Chương 72: C72: Đêm Đã Đến (5)"
+    },
+    {
+     "id": 73,
+     "item": " Chương 73: C73: Đêm Đã Đến (6)"
+    },
+    {
+     "id": 74,
+     "item": " Chương 74: C74: Như Đề Nghị Của Ngươi (1)"
+    },
+    {
+     "id": 75,
+     "item": " Chương 75: C75: Như Đề Nghị Của Ngươi (2)"
+    },
+    {
+     "id": 76,
+     "item": " Chương 76: C76: Như Đề Nghị Của Ngươi (3)"
+    },
+    {
+     "id": 77,
+     "item": " Chương 77: C77: Như Đề Nghị Của Ngươi (4)"
+    },
+    {
+     "id": 78,
+     "item": " Chương 78: C78: Như Đề Nghị Của Ngươi (5)"
+    },
+    {
+     "id": 79,
+     "item": " Chương 79: C79: Dễ Như Ăn Bánh (1)"
+    },
+    {
+     "id": 80,
+     "item": " Chương 80: C80: Dễ Như Ăn Bánh (2)"
+    },
+    {
+     "id": 81,
+     "item": " Chương 81: C81: Dễ Như Ăn Bánh (3)"
+    },
+    {
+     "id": 82,
+     "item": " Chương 82: C82: Dễ Như Ăn Bánh (4)"
+    },
+    {
+     "id": 83,
+     "item": " Chương 83: C83: Dễ Như Ăn Bánh (5)"
+    },
+    {
+     "id": 84,
+     "item": " Chương 84: C84: Quyết Định (1)"
+    },
+    {
+     "id": 85,
+     "item": " Chương 85: C85: Quyết Định (2)"
+    },
+    {
+     "id": 86,
+     "item": " Chương 86: C86: Quyết Định (3)"
+    },
+    {
+     "id": 87,
+     "item": " Chương 87: C87: Quyết Định (4)"
+    },
+    {
+     "id": 88,
+     "item": " Chương 88: C88: Trong Một Lần Nhắm (1)"
+    },
+    {
+     "id": 89,
+     "item": " Chương 89: C89: Trong Một Lần Nhắm (2)"
+    },
+    {
+     "id": 90,
+     "item": " Chương 90: C90: Trong Một Lần Nhắm (3)"
+    },
+    {
+     "id": 91,
+     "item": " Chương 91: C91: Kẻ Mất Trí, Kẻ Vô Tội Và Kẻ Đang Cười (1)"
+    },
+    {
+     "id": 92,
+     "item": " Chương 92: C92: Kẻ Mất Trí, Kẻ Vô Tội Và Kẻ Đang Cười (2)"
+    },
+    {
+     "id": 93,
+     "item": " Chương 93: C93: Kẻ Mất Trí, Kẻ Vô Tội Và Kẻ Đang Cười (3)"
+    },
+    {
+     "id": 94,
+     "item": " Chương 94: C94: Kẻ Mất Trí, Kẻ Vô Tội Và Kẻ Đang Cười (4)"
+    },
+    {
+     "id": 95,
+     "item": " Chương 95: C95: Kẻ Mất Trí, Kẻ Vô Tội Và Kẻ Đang Cười (5)"
+    },
+    {
+     "id": 96,
+     "item": " Chương 96: C96: Kẻ Mất Trí, Kẻ Vô Tội Và Kẻ Đang Cười (6)"
+    },
+    {
+     "id": 97,
+     "item": " Chương 97: C97: Kẻ Mất Trí, Kẻ Vô Tội Và Kẻ Đang Cười (7)"
+    },
+    {
+     "id": 98,
+     "item": " Chương 98: C98: Kẻ Mất Trí, Kẻ Vô Tội Và Kẻ Đang Cười (8)"
+    },
+    {
+     "id": 99,
+     "item": " Chương 99: C99: Được Rồi, Đây Là Mở Đầu (1)"
+    },
+    {
+     "id": 100,
+     "item": " Chương 100: C100: Được Rồi, Đây Là Mở Đầu (2)"
+    },
+    {
+     "id": 101,
+     "item": " Chương 101: C101: Được Rồi, Đây Là Mở Đầu (3)"
+    },
+    {
+     "id": 102,
+     "item": " Chương 102: C102: Được Rồi, Đây Là Mở Đầu (4)"
+    },
+    {
+     "id": 103,
+     "item": " Chương 103: C103: Được Rồi, Đây Là Mở Đầu (5)"
+    },
+    {
+     "id": 104,
+     "item": " Chương 104: C104: Chỉ Có Ta (1)"
+    },
+    {
+     "id": 105,
+     "item": " Chương 105: C105: Chỉ Có Ta (2)"
+    },
+    {
+     "id": 106,
+     "item": " Chương 106: C106: Chỉ Có Ta (3)"
+    },
+    {
+     "id": 107,
+     "item": " Chương 107: C107: Chỉ Có Ta (4)"
+    },
+    {
+     "id": 108,
+     "item": " Chương 108: C108: Chỉ Có Ta (5)"
+    },
+    {
+     "id": 109,
+     "item": " Chương 109: C109: Chỉ Có Ta (6)"
+    },
+    {
+     "id": 110,
+     "item": " Chương 110: C110: Cầm Nước Mắt (1)"
+    },
+    {
+     "id": 111,
+     "item": " Chương 111: C111: Cầm Nước Mắt (2)"
+    },
+    {
+     "id": 112,
+     "item": " Chương 112: C112: Cầm Nước Mắt (3)"
+    },
+    {
+     "id": 113,
+     "item": " Chương 113: C113: Cầm Nước Mắt (4)"
+    },
+    {
+     "id": 114,
+     "item": " Chương 114: C114: Cầm Nước Mắt (5)"
+    },
+    {
+     "id": 115,
+     "item": " Chương 115: C115: Cầm Nước Mắt (6)"
+    },
+    {
+     "id": 116,
+     "item": " Chương 116: C116: Cứu Tôi (1)"
+    },
+    {
+     "id": 117,
+     "item": " Chương 117: C117: Cứu Tôi (2)"
+    },
+    {
+     "id": 118,
+     "item": " Chương 118: C118: Cứu Tôi (3)"
+    },
+    {
+     "id": 119,
+     "item": " Chương 119: C119: Cứu Tôi (4)"
+    },
+    {
+     "id": 120,
+     "item": " Chương 120: C120: Đi Cho Đến Khi Kết Thúc (1)"
+    },
+    {
+     "id": 121,
+     "item": " Chương 121: C121: Đi Cho Đến Khi Kết Thúc (2)"
+    },
+    {
+     "id": 122,
+     "item": " Chương 122: C122: Đi Cho Đến Khi Kết Thúc (3)"
+    },
+    {
+     "id": 123,
+     "item": " Chương 123: C123: Thật Đáng Kính (1)"
+    },
+    {
+     "id": 124,
+     "item": " Chương 124: C124: Thật Đáng Kính (2)"
+    },
+    {
+     "id": 125,
+     "item": " Chương 125: C125: Thật Đáng Kính (3)"
+    },
+    {
+     "id": 126,
+     "item": " Chương 126: C126: Thật Đáng Kính (4)"
+    },
+    {
+     "id": 127,
+     "item": " Chương 127: C127: Bẫy (1)"
+    },
+    {
+     "id": 128,
+     "item": " Chương 128: C128: Bẫy (2)"
+    },
+    {
+     "id": 129,
+     "item": " Chương 129: C129: Bẫy (3)"
+    },
+    {
+     "id": 130,
+     "item": " Chương 130: C130: Bẫy (4)"
+    },
+    {
+     "id": 131,
+     "item": " Chương 131: C131: Bẫy (5)"
+    },
+    {
+     "id": 132,
+     "item": " Chương 132: C132: Tôi? Tại Sao? (1)"
+    },
+    {
+     "id": 133,
+     "item": " Chương 133: C133: Tôi? Tại Sao? (2)"
+    },
+    {
+     "id": 134,
+     "item": " Chương 134: C134: Tôi? Tại Sao? (3)"
+    },
+    {
+     "id": 135,
+     "item": " Chương 135: C135: Tôi? Tại Sao? (4)"
+    },
+    {
+     "id": 136,
+     "item": " Chương 136: C136: Cảm Động (1)"
+    },
+    {
+     "id": 137,
+     "item": " Chương 137: C137: Cảm Động (2)"
+    },
+    {
+     "id": 138,
+     "item": " Chương 138: C138: Cảm Động (3)"
+    },
+    {
+     "id": 139,
+     "item": " Chương 139: C139: Ngươi Lừa Ta? (1)"
+    },
+    {
+     "id": 140,
+     "item": " Chương 140: C140: Ngươi Lừa Ta? (2)"
+    },
+    {
+     "id": 141,
+     "item": " Chương 141: C141: Ngươi Lừa Ta? (3)"
+    },
+    {
+     "id": 142,
+     "item": " Chương 142: C142: Ngay Cả Khi Hít Thở Chậm Và Sâu (1)"
+    },
+    {
+     "id": 143,
+     "item": " Chương 143: C143: Ngay Cả Khi Hít Thở Chậm Và Sâu (2)"
+    },
+    {
+     "id": 144,
+     "item": " Chương 144: C144: Ngay Cả Khi Hít Thở Chậm Và Sâu (3)"
+    },
+    {
+     "id": 145,
+     "item": " Chương 145: C145: Ngay Cả Khi Hít Thở Chậm Và Sâu (4)"
+    },
+    {
+     "id": 146,
+     "item": " Chương 146: C146: Ngay Cả Khi Hít Thở Chậm Và Sâu (5)"
+    },
+    {
+     "id": 147,
+     "item": " Chương 147: C147: Cậu Ấy Là Người (1)"
+    },
+    {
+     "id": 148,
+     "item": " Chương 148: C148: Cậu Ấy Là Người (2)"
+    },
+    {
+     "id": 149,
+     "item": " Chương 149: C149: Cậu Ấy Là Người (3)"
+    },
+    {
+     "id": 150,
+     "item": " Chương 150: C150: Cậu Ấy Là Người (4)"
+    }
+   ]
+  },
+  {
+   "key": "31",
+   "story_name": "SAU KHI CƯỜNG ĐOẠT NAM PHỤ, KHÍ VẬN TA SIÊU TỐT",
+   "source_img": "https://static.8cache.com/cover/eJzLyTDWLy0zcC7x8jT1qYiqLPQpy6oIDjUyLjXyCglI9nLPdQ7M181IC0otcww3d7Gs9A3LN3Az8Hf3K_EKNsvwD6l0NoioTDFwCjFODqz0d0yrqjB0c7QtNzI01c0wNjICAAUyHr0=/sau-khi-cuong-doat-nam-phu-khi-van-ta-sieu-tot.jpg",
+   "author": "Lộc Kiến Ninh",
+   "tag": [
+    {
+     "id": 3,
+     "item": "Ngôn Tình"
+    },
+    {
+     "id": 14,
+     "item": "Xuyên Không"
+    },
+    {
+     "id": 9,
+     "item": "Cổ Đại"
+    },
+    {
+     "id": 33,
+     "item": "Nữ Phụ"
+    }
+   ],
+   "source_by": "Sưu tầm",
+   "status": {
+    "id": 3,
+    "item": "Full"
+   },
+   "summary": [
+    "Truyện Sau Khi Cường Đoạt Nam Phụ, Khí Vận Ta Siêu Tốt của tác giả Lộc Kiến Ninh kể về Khương Tuế Ngọc, một \"xã súc\"(1) điển hình, sáng đi làm, tối tan làm, thời gian cố định, công việc không có hàm lượng nhiều, sau đó lại vô tình xuyên vào tiểu thuyết ngọt văn cổ đại, vinh quanh trở thành một vai nữ phụ độc ác trong đó.",
+    "",
+    "(1): Động vật xã hội - Ý chỉ những nhân viên văn phòng ngoan ngoãn làm việc trong công ty và bị chèn ép như động vật",
+    "",
+    "Nữ phụ một lòng một dạ điên cuồng yêu Cảnh Vương, cũng chính là nam chính của tiểu thuyết nhưng không được đáp lại nên trút giận lên nữ chính.",
+    "",
+    "Không dám ra tay minh bạch, rõ ràng vì kiêng kị thân phận, thế nên ngầm đoạt đi Thôi Mạch Chu, người mà nữ chính thầm yêu, còn dốc sức nhục mạ người ta, coi như thỏa mãn bản tính, xoa dịu phẫn nộ trong lòng",
+    "",
+    "Vốn dĩ Thôi Mạch Chu là một vị công tử ôn nhuận như ngọc, nhưng sau khi chịu đựng những dằn vặt về thể xác và tinh thần do nữ phụ phản diện gây ra, hắn đã biến thành một người có thủ đoạn vô cùng độc ác, trở nên rất gian xảo, thành \"Ngọc diện la sát\" mà ai ai cũng sợ hãi. Cuối cùng, nam phụ Thôi Mạch Chu trở thành Tể tướng, địa vị cực kỳ cao. Vậy nên kết cục của \"Khương Tuế Ngọc\" chỉ có thể là chết không yên thân.",
+    "",
+    "Vừa mới xuyên thư đến, Khương Tuế Ngọc đã cầm roi da quất vào người nam phụ:..."
+   ],
+   "list_chapter": []
+  },
+  {
+   "key": "32",
+   "story_name": "HỌC VIỆN NĂNG LỰC GIA",
+   "source_img": "https://static.8cache.com/cover/eJzLyTDWNyrITyotcgpLySoN8_BNDghMtizyyy2JNygwKvEPsXR1Kk8PLQ7LykrP9Is3jgj2KK4sC4jK884IN49wys6Kz0jND_a2MHb1KzHMzC8wiQzPLLctNzI01c0wNjICAFr9IJ0=/hoc-vien-nang-luc-gia.jpg",
+   "author": "magamisora1",
+   "tag": [
+    {
+     "id": 11,
+     "item": "Khoa Huyễn"
+    },
+    {
+     "id": 20,
+     "item": "Linh Dị"
+    },
+    {
+     "id": 8,
+     "item": "Trinh Thám"
+    },
+    {
+     "id": 28,
+     "item": "Hài Hước"
+    },
+    {
+     "id": 37,
+     "item": "Khác"
+    },
+    {
+     "id": 34,
+     "item": "Light Novel"
+    }
+   ],
+   "source_by": "sưu tầm",
+   "status": {
+    "id": 3,
+    "item": "Full"
+   },
+   "summary": [
+    "Tác giả: magamisora1",
+    "",
+    "Thể loại: trinh thám, kinh dị, bí ẩn, khoa hoc viễn tưởng, học đường, hài hước, phép thuật, siêu nhiên, light novel...[Nội Dung]",
+    "",
+    "Tại một thành phố lớn mà là nơi tập trung những người có sức mạnh siêu nhiên và câu truyện kể về cuộc sống của Konoma Tsukasai là một thanh niên mươi bảy tuổi có tính cách lười biếng,nhây,ngủ bất chấp. Học ở học viện Hagume, nơi đào tạo những người có năng lực trở thành Breaker để chống lại những kẻ Unknown sử dụng sức mạnh của mình vào mục đích xấu."
+   ],
+   "list_chapter": []
+  },
+  {
+   "key": "33",
+   "story_name": "SINH HOẠT BÌNH THƯỜNG CỦA TIẾP DẪN GIẢ",
+   "source_img": "https://static.8cache.com/cover/eJzLyTDWt_AP9M1PdM02qXC1KCkqDC4vdvfzrEwvN3fRzXByKTJITatKKojwsIxwcTczL8611I2IqHQzDiu2NAgNzg_MMfAJd3NKLUk39DfzCcszyQ6w9DGxLTcyNNXNMDYyAgAeRB61/sinh-hoat-binh-thuong-cua-tiep-dan-gia.jpg",
+   "author": "Hà Xử Khả Đào",
+   "tag": [
+    {
+     "id": 6,
+     "item": "Đô Thị"
+    },
+    {
+     "id": 36,
+     "item": "Huyền Huyễn"
+    },
+    {
+     "id": 29,
+     "item": "Điền Văn"
+    },
+    {
+     "id": 37,
+     "item": "Khác"
+    }
+   ],
+   "source_by": "sưu tầm",
+   "status": {
+    "id": 2,
+    "item": "Đang ra"
+   },
+   "summary": [
+    "Tác giả: Hà Xử Khả Đào",
+    "",
+    "Thể loại: Điền Văn, Đô Thị, Huyền Huyễn",
+    "",
+    "Giới thiệu:",
+    "",
+    "Hà Tứ Hải, hay còn gọi là Hà Đại Lực, am hiểu làm ruộng, bê gạch, bốc phét, bày sạp, tích góp tiền, nuôi Đào Tử.",
+    "",
+    "Đây chỉ là một câu chuyện về cuộc sống “Bình thường” của một \"Con người bình thường\".",
+    "",
+    "Đây là một câu chuyện về việc trợ giúp người hoàn thành tâm nguyện, dẫn độ linh hồn.",
+    "",
+    "Giúp chúng ta cùng đi tìm sự cảm động trong những thứ bình thường.",
+    "",
+    "========",
+    "",
+    "P/s: Từng chương truyện đều vô cùng ấm áp cảm động, hay nhất là khi đọc truyện lại bất giác mỉm cười. Không thấy áp lực, chỉ thấy vô cùng thoải mái... Một bộ truyện có thể làm cho ngay cả đàn ông sắt đá cũng có thể rơi lệ!!!!"
+   ],
+   "list_chapter": []
+  }
+ ]
+}

@@ -171,13 +171,16 @@ function TabControl(){
             },
             tabBarInactiveTintColor: 'grey',
             tabBarActiveTintColor: '#656BA4',
-            headerShown: false
+            headerShown: true
           })}
       >
-          <Tab.Screen name="Kho Truyện" component={MainStorage}/>
-          <Tab.Screen name="Tìm Kiếm" component={Filter}/>
+          <Tab.Screen name="Kho Truyện" component={MainStorage} />
+          <Tab.Screen 
+                name="Tìm Kiếm" 
+                component={Filter}
+          />
           <Tab.Screen name="Trang Chủ" component={HomePage}/>
-          <Tab.Screen name="Hồ Sơ" component={Profile}/>
+          <Tab.Screen name="Hồ Sơ" component={Profile} />
         
       </Tab.Navigator>
     )
