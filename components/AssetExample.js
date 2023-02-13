@@ -30,6 +30,7 @@ import StoryList2   from './StoryList/StoryList2';
 import StoryRead from './StoryRead/Story';
 import  StoryChapters from './StoryRead/StoryChapters';
 
+import Display_Result from './Filter/result_filter';
 
 
 StatusBar.setHidden(true)
@@ -59,6 +60,7 @@ function getHeaderTitle(route) {
 
 function HomePage() {
   return(
+    
     <HomeStack.Navigator initialRouteName='Home'>
             <HomeStack.Screen 
                 name="Home"
@@ -134,7 +136,7 @@ function TabControl(){
           initialRouteName={'Trang Chủ'}
           screenOptions={({ route }) => ({
             tabBarIcon: ({ color, size }) => {
-              if (route.name === 'Storage') {
+              if (route.name === 'Kho Truyện') {
                 return (
                   <Ionicons
                     name="book-outline"
@@ -142,28 +144,26 @@ function TabControl(){
                   />
                 );
               }
-              else if (route.name === 'Home') {
+              else if (route.name === 'Trang Chủ') {
                 return (
                   <Ionicons
                     name="home-outline"
                     style={styles.icon}
                   />
                 );
-              } else if (route.name === 'Account') {
+              } else if (route.name === 'Hồ Sơ') {
                 return (
                   <Ionicons 
                     name="people-outline"
-                    size={size}
-                    color={color}
+                    style={styles.icon}
                   />
                 );
               }
-              else if (route.name === 'Search') {
+              else if (route.name === 'Tìm Kiếm') {
                 return (
                   <Ionicons
                     name="search"
-                    size={size}
-                    color={color}
+                    style={styles.icon}
                   />
                   
                 );
@@ -171,7 +171,7 @@ function TabControl(){
             },
             tabBarInactiveTintColor: 'grey',
             tabBarActiveTintColor: '#656BA4',
-            headerShown: true
+            headerShown: true,
           })}
       >
           <Tab.Screen name="Kho Truyện" component={MainStorage} />
@@ -193,8 +193,8 @@ const hideTabBar = () => {
 export default class AssetExample extends Component {
   render() {
     return (
+      
       <View style ={{flex:1}}>
-
       <NavigationContainer>
         { <HomeStack.Navigator screenOptions={{headerShown: false}}>
           <HomeStack.Screen 
@@ -213,7 +213,7 @@ export default class AssetExample extends Component {
 
             {/*Search Navigate*/}
             {/*The Loai*/}
-            {/* <HomeStack.Screen name="TheLoai" component={TheLoai}/> */}
+            <HomeStack.Screen name="Display_Result" component={Display_Result}/>
             
             {/*Storage*/}
             <HomeStack.Screen name="Storage" component={Storage}/>
@@ -319,7 +319,7 @@ const styles = StyleSheet.create({
       alignItems: 'center',
   },
   icon: {
-    fontSize: 15,
-    paddingLeft: 10,
+    fontSize: 20,
+    justifyContent: 'center'
   }
 })

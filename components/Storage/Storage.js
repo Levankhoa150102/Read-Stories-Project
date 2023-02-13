@@ -9,7 +9,11 @@ import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { createMaterialTopTabNavigator } from '@react-navigation/material-top-tabs';
 import { Ionicons } from '@expo/vector-icons';
 
-import story from 'E:/Javascript/Read-Stories-Project/story_1.json'
+
+
+import story from '../../story_1.json'
+
+
 //console.log(story.list_story[0].story_name)
 import img1 from '../../assets/Image_Story/7.jpg' 
 import img2 from '../../assets/Image_Story/6.jpg'
@@ -227,6 +231,7 @@ const styles = StyleSheet.create({
     width: width*0.8,
     height: height*0.2,
     flexDirection: 'row',
+    //flex: 0,
     marginBottom: '-5%',
     padding: 5,
   },

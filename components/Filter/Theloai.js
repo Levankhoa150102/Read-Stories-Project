@@ -1,108 +1,38 @@
 import React, {Component,  useState, useEffect} from 'react'
-import { View, Text, StyleSheet, TouchableOpacity,
+import { View, Text, StyleSheet, TouchableOpacity,ScrollView,
         StatusBar, TextInput, Dimensions, Image, Button, SafeAreaView } from 'react-native'
 //import SelectMultiple from 'react-native-select-multiple'
 import { Ionicons } from '@expo/vector-icons';
-//import MultiSelect from 'react-native-multiple-select';
+import MultiSelect from 'react-native-multiple-select';
+import { useNavigation } from '@react-navigation/native';
 
-// ['Huyền huyễn', 'Kiếm hiệp', 'Lịch sử', 
-//                 'Ngôn tình', 'Tiên hiệp', 'Dị giới', 
-//                 'Đô thị', 'Huyền ảo', 'Trinh thám',
-//                 ' Cổ đại', 'Hệ thống', 'Khoa huyễn', 
-//                 'Quân sự', 'Võng du', 'Xuyên không',
-//                 'Đam mỹ', 'Quan trường', 'Dị năng',
-//                 'Xuyên nhanh', 'Trọng sinh', 'Linh dị',
-//                 'Ngược', 'Sủng', 'Cung đấu', 'Nữ cường',
-//                 'Gia đấu', 'Đông Phương', 'Bách hợp', 
-//                 'Hài hước', 'Điền văn', 'Mạt thế', 'Truyện teen',
-//                 'Phương Tây', 'Nữ phụ', 'Light Novel',
-//                 'Đoản Văn', 'Khác']
 StatusBar.setHidden(true)
 const {width, height } = Dimensions.get('window');
-const Tags =  [
-    { id: 1, name: 'Kiếm hiệp' },
-    { id: 2, name: 'Lịch sử' },
-    { id: 3, name: 'Ngôn tình' },
-    { id: 4, name: 'Tiên hiệp' },
-    { id: 5, name: 'Dị giới' },
-    { id: 6, name: 'Đô thị' },
-    { id: 7, name: 'Huyền ảo' },
-    { id: 8, name: 'Trinh thám' },
-    { id: 9, name: 'Cổ đại' },
-    { id: 11, name: 'Hệ thống' },
-    { id: 12, name: 'Khoa huyễn' },
-    { id: 13, name: 'Quân sự' },
-    { id: 14, name: 'Võng du' },
-    { id: 15, name: 'Xuyên không' },
-    { id: 16, name: 'Đam mỹ' },
-    { id: 17, name: 'Quan trường' },
-    { id: 18, name: 'Dị năng' },
-    { id: 19, name: 'Xuyên nhanh' },
-    { id: 20, name: 'Trọng sinh' },
-    { id: 21, name: 'Linh dị' },
-    { id: 22, name: 'Ngược' },
-    { id: 23, name: 'Sủng' },
-    { id: 24, name: 'Cung đấu' },
-    { id: 25, name: 'Nữ cường' },
-    { id: 26, name: 'Gia đấu' },
-    { id: 27, name: 'Đông Phương' },
-    { id: 28, name: 'Bách hợp' },
-    { id: 29, name: 'Hài hước' },
-    { id: 30, name: 'Điền văn' },
-    { id: 31, name: 'Mạt thế' },
-    { id: 32, name: 'Truyện teen' },
-    { id: 33, name: 'Phương Tây' },
-    { id: 34, name: 'Nữ phụ' },
-    { id: 35, name: 'Light Novel' },
-    { id: 36, name: 'Đoản Văn' },
-  ];
-//
+
 export default function TheLoai (){
-    const [selectedItems, setSelectedItems] = useState([]);
-    const onSelectedItemsChange = (selectedItems) => {
- 
-        setSelectedItems(selectedItems);
- 
-        for (let i = 0; i < selectedItems.length; i++) {
-            var tempItem = Tags.find(item => item.id === selectedItems[i]);
-            console.log(tempItem);
-        }
- 
-  };
-        const {container, title, wrapper, 
-            row, textInput, checkbox, box, textStyle,
-            status, heading, sortButton, button, intoChapter} = styles
-        return(
-            //<SafeAreaView style={{ flex: 1 }}>
- 
-      <View style={container}>
- 
-        {/* <Text style={styles.text}> React Native Multiple Select </Text> */}
- 
-        <MultiSelect
-          //hideTags
-          items={Tags}
-          uniqueKey="id"
-          onSelectedItemsChange={onSelectedItemsChange}
-          selectedItems={selectedItems}
-          selectText="Select Items"
-          searchInputPlaceholderText="Search Items Here..."
-          onChangeInput={(text) => console.log(text)}
-          tagRemoveIconColor="#CCC"
-          tagBorderColor="#CCC"
-          tagTextColor="#CCC"
-          selectedItemTextColor="#CCC"
-          selectedItemIconColor="#CCC"
-          itemTextColor="#000"
-          displayKey="name"
-          searchInputStyle={{ color: '#CCC' }}
-          submitButtonColor="#00BFA5"
-          submitButtonText="Submit"
-        />
- 
-      </View>
-    //</SafeAreaView>
-        )
+    const navigation = useNavigation();
+    useEffect(()=>{
+        navigation.setOptions({
+            headerLargeTitle: false
+        })
+    },[navigation])
+    return(
+        <ScrollView>
+            <View style={styles.container}>
+            <Text style={title}>Tìm kiếm</Text>
+                    <View style={wrapper}>
+                        <View style={row}>
+                        <TextInput 
+                            style={textInput} 
+                            placeholder="Tìm kiếm truyện..." 
+                            placeholderTextColor={'#494F86'}  
+                            inlineImageLeft='search_icon'
+                        />
+                        </View>
+                    </View>
+            </View>
+        </ScrollView>
+    )
     
 }
 

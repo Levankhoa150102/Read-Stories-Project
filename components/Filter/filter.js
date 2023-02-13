@@ -1,14 +1,15 @@
 import React, {Component, useState, useEffect} from 'react'
-import { View, Text, StyleSheet, TouchableOpacity, SafeAreaView,
+import { View, Text, StyleSheet, TouchableOpacity, SafeAreaView, FlatList,
         StatusBar, TextInput, Dimensions, Image, Button, ScrollView } from 'react-native'
 //import SelectMultiple from 'react-native-select-multiple'
 import { Ionicons } from '@expo/vector-icons';
-import { xorBy } from 'lodash'
+
 import MultiSelect from 'react-native-multiple-select';
 import { useNavigation } from '@react-navigation/native';
 
-import story from 'E:/Javascript/Read-Stories-Project/story.json'
-const list = story.list_story
+import Display_Result from './result_filter';
+
+import story from '../../story_1.json'
 
 StatusBar.setHidden(true)
 const {width, height } = Dimensions.get('window');
@@ -51,10 +52,18 @@ const Tags =  [
     { 'id': 36, 'item': 'Huyền Huyễn' },
   ];
 const Status = [
-    { 'id': 1, item: 'Tất cả' },
-    { 'id': 2, item: 'Đang ra' },
-    { 'id': 3, item: 'Đã hoàn thành' },
+    { 'id': 1, 'item': 'Tất cả' },
+    { 'id': 2, 'item': 'Đang ra' },
+    { 'id': 3, 'item': 'Đã hoàn thành' },
 ]
+
+const Chapter = [
+    { 'id': 1, 'item': '1 - 200' },
+    { 'id': 2, 'item': '201 - 500' },
+    { 'id': 3, 'item': '500 - 1000' },
+    { 'id': 4, 'item': 'Hơn 1000' },
+]
+
 const renderLabel = (label, style) => {
     return (
       <View style={{flexDirection: 'row', alignItems: 'center'}}>
@@ -65,163 +74,107 @@ const renderLabel = (label, style) => {
     )
 }
 
-// state = {
-//     selectedStatus : [],
-//     selectedTags: [],
-// };
+const story_list = story.list_story
 
-  
-//   onSelectedStatusChange = selectedStatus => {
-//     this.setState({ selectedStatus });
-//   };
-//   onSelectedTagsChange = selectedTags => {
-//     this.setState({ selectedTags });
-//   };
-//   const { selectedStatus, selectedTags } = state;
-function Filter ({navigation}) {
-        const [selectedStatus, onSelectedStatusChange] = useState([]);
-        const [selectedTags, onSelectedTagsChange] = useState([]);
-        const [data, setData] = useState([]);
-        const [filterData, setFilterData] = useState([]);
-        useEffect(()=> {
-            fetchData("E:/Javascript/Read-Stories-Project/story_1.json");
-        }, []);
-        const fetchData = async (link) => {
-            try{
-                const response = await fetch(link);
-                const json = await response.json();
-                setData(json.results);
-                setFilterData(json.results);
-            } catch (error) {
-                console.error(error);
-            }
-        };
-        const {container, title, wrapper, 
-                row, textInput, checkbox, box, textStyle,
-                status, heading, sortButton, button} = styles
-        return(  
-            <ScrollView>
-                <View style={container}>
-                    <Text style={title}>Tìm kiếm</Text>
-                    <View style={wrapper}>
-                        <View style={row}>
+//console.log(story_list.filter(filter_title))
+
+
+
+
+ 
+const Filter = () => {
+    const [search, setSearch] = useState('')
+    const [filterData, setFilterData] = useState([]);
+    const navigation = useNavigation();
+    const searchFilter = (text) => {
+        if(text) {
+            const newData = story_list.filter(item => {
+                const itemData = item.story_name ? item.story_name.toUpperCase()
+                                : ''.toUpperCase();
+                const textData = text.toUpperCase();
+                return itemData.indexOf(textData) > -1;
+            })
+            setFilterData(newData);
+            setSearch(text);
+        }
+        else {
+            setFilterData(story_list);
+            setSearch(text);
+        }
+    }
+    const ItemSeparatorView = () => {
+
+    }
+    const ItemView = ({item}) => {
+        return(
+            <View style={styles.container1}>
+                <TouchableOpacity 
+                    style={styles.image} 
+                    activeOpacity={1} 
+                    >
+                <View style={{flexDirection: 'row'}}>
+                    <Image source={{uri: item.source_img}} style={styles.imageStyle} />
+                    <View>
+                    <Text style={styles.storyName}>{item.story_name}</Text>
+                    <Text style={styles.storyNameside}>{item.author}</Text>
+                    </View>
+                </View>  
+                    </TouchableOpacity> 
+            </View>
+        )
+    }
+    return(
+        <ScrollView style={{backgroundColor:'#222348'}}>
+            <View style={styles.container}>
+            <Text style={styles.title}>Tìm kiếm</Text>
+                    <View style={styles.wrapper}>
+                        <View style={styles.row}>
                         <TextInput 
-                            style={textInput} 
+                            style={styles.textInput} 
                             placeholder="Tìm kiếm truyện..." 
-                            placeholderTextColor={'#494F86'}  
+                            placeholderTextColor={'#494F86'} 
+                            onChangeText={(text) => searchFilter(text)}
                             inlineImageLeft='search_icon'
+                            value={search}
                         />
                         </View>
                     </View>
-                    <View style={box}>
-                        <Text style={heading}>Trạng thái: </Text>
-                    </View>
-                    
-                    <MultiSelect
-                        //hideTags
-                        items={Status}
-                        uniqueKey="id"
-                        //ref={(component) => { multiSelect = component }}
-                        onSelectedItemsChange={onSelectedTagsChange}
-                        styleListContainer={{backgroundColor: '#222348'}}
-                        styleDropdownMenuSubsection={styles.box}
-                        styleTextDropdown={{color:'white', fontSize: 15}}
-                        selectedItems={selectedTags}
-                        selectText="Chọn trạng thái:"
-                        searchInputPlaceholderText="Search Items..."
-                        onChangeInput={ (text)=> console.log(text)}
-                        //altFontFamily="ProximaNova-Light"
-                        tagRemoveIconColor="#CCC"
-                        tagBorderColor="#CCC"
-                        //tagTextColor="white"
-                        selectedItemTextColor="white"
-                        selectedItemIconColor="white"
-                        itemTextColor="#71E4F6"
-                        displayKey="item"
-                        searchInputStyle={{ color: '#CCC' }}
-                        submitButtonColor="#1A1C6A"
-                        submitButtonText="Submit"
-                        styleTextTag={{color:'white', fontSize: 15}}
-                        styleSelectorContainer={{borderBottomLeftRadius: 1}}
-                    />
-
-                </View>
-                
-                <View style={container}>
-                    <Text style={heading}>Thể Loại: </Text>
-                    <SafeAreaView>
-                   
-                    <MultiSelect
-                        //hideTags
-                        items={Tags}
-                        uniqueKey="id"
-                        //ref={(component) => { this.multiSelect = component }}
-                        onSelectedItemsChange={onSelectedStatusChange}
-                        styleListContainer={{backgroundColor: '#222348'}}
-                        styleDropdownMenuSubsection={styles.box}
-                        styleTextDropdown={{color:'white', fontSize: 15}}
-                        selectedItems={selectedStatus}
-                        selectText="Chọn thể loại:"
-                        searchInputPlaceholderText="Search Items..."
-                        onChangeInput={ (text)=> console.log(text)}
-                        //altFontFamily="ProximaNova-Light"
-                        tagRemoveIconColor="#CCC"
-                        tagBorderColor="#CCC"
-                        tagTextColor="white"
-                        selectedItemTextColor="white"
-                        selectedItemIconColor="white"
-                        itemTextColor="#71E4F6"
-                        displayKey="item"
-                        searchInputStyle={{ color: '#CCC' }}
-                        submitButtonColor="#1A1C6A"
-                        submitButtonText="Submit"
-                    />
-                    
-                    </SafeAreaView>
-                </View>
-                <View style={container}>    
-                    <Text style={heading}>
-                        Số chương:
+                    {console.log(search)}
+            </View>
+            <View>
+                <TouchableOpacity styles={styles.ApplyDirection} onPress={()=>navigation.navigate('Display_Result')}>
+                    <Text style={styles.button}>
+                    <Ionicons 
+                        name='funnel-outline'
+                        style={{justifyContent: 'center'}}
+                        size={22}/> Tìm kiếm nâng cao 
                     </Text>
-                    <View style={sortButton}>
-                        <TouchableOpacity style={button}>
-                            <Text style={{color: '#FFFFFF'}}>1 - 500</Text>
-                        </TouchableOpacity>
-                        <TouchableOpacity style={button}>
-                            <Text style={{color: '#FFFFFF'}}>501 - 1000</Text>
-                        </TouchableOpacity>
-                        <TouchableOpacity style={button}>
-                            <Text style={{color: '#FFFFFF'}}>1001 - 2000</Text>
-                        </TouchableOpacity>
-                        <TouchableOpacity style={button}>
-                            <Text style={{color: '#FFFFFF'}}>Hơn 2000</Text>
-                        </TouchableOpacity>
-                    </View>
-                    <View style={styles.ApplyDirection}>
-                        <Button title='Áp dụng'/>
-                    </View>
-                </View>
-                
-            </ScrollView>
-        )
+                </TouchableOpacity>
+                <FlatList
+                    data={filterData}
+                    keyExtractor={(item, index) => index.toString()}
+                    renderItem={ItemView}
+                />
+            </View>
+        </ScrollView>
+    )
     
 }
-// function onMultiChange() {
-//     return (item) => setSelectedTeams(xorBy(selectedTeams, [item], 'id'))
-//   }
-
-// function onChange() {
-//     return (val) => setSelectedTeam(val)
-// }
-
 export default Filter
 const styles = StyleSheet.create({
     container: {
         flex: 0,
         flexDirection: 'column', 
-        padding: 15,
+        padding: 10,
         paddingTop: 5, 
         backgroundColor: "#222348",
+        borderBottomColor: '#1A1C6A',
+        borderBottomWidth: 1,
+    },
+    container1: { 
+        padding: 4, 
+        backgroundColor: "#222348",
+        //flexDirection: 'row',
         borderBottomColor: '#FFFFFF',
         borderBottomWidth: 1,
     },
@@ -280,10 +233,21 @@ const styles = StyleSheet.create({
         color: "#FFF",
         fontFamily: "normal",
     },
+    text_button: {
+        backgroundColor: 'blue',
+        color: '#FFFFF',
+        fontFamily: 'serif',
+        justifyContent:'center',
+        fontSize: 15,
+        padding: 10,
+        width: 200,
+        borderRadius:20,
+      },
     heading: {
-        color: "#BBC6CD",
+        color: "yellow",
         fontFamily: "normal",
-        fontSize: 17,
+        fontSize: 20,
+        fontWeight: "bold",
         paddingBottom: 15,
     },
     sortButton:{
@@ -298,18 +262,59 @@ const styles = StyleSheet.create({
         paddingBottom: '30%',
     },
     ApplyDirection: {
-        backgroundColor: "#222348",
-        paddingTop: '1%',
-        paddingBottom: '73%',
+       backgroundColor:'blue',
+       alignItems: 'center',
+       justifyContent: 'center',
+       padding: 15,
+       marginTop: 20,
+       textAlign:'center',
+        
     },
     button:{
-        backgroundColor: '#1A1C6A',
-        width: 100,
-        height: 40,
-        marginLeft: '3%',
-        marginBottom: '3%',
-        borderRadius: 30,
-        justifyContent: 'center',
-        alignItems: 'center',
-    }
+        //backgroundColor: 'blue',
+        color: "#FFF",
+        justifyContent:'center',
+        fontWeight: "500",
+        fontSize: 17,
+        width: 200,
+        textAlign:'center',
+        //borderRadius: 20,
+        marginLeft: '22%'
+    },
+    storyNameside:{
+        paddingLeft: 10,
+        fontSize: 15 ,
+        color: 'grey',
+        fontWeight: '500',
+        //backgroundColor: '#222348',
+      },
+      storyName:{
+        paddingLeft: 10,
+        fontSize: 15 ,
+        //fontFamily: 'Avenir',
+        color: '#FFFFFF'
+      },
+      intoChapter: {
+        alignItems: "center",
+        backgroundColor: "#2196F3",
+        padding: 13,
+        height: height*5.5/100,
+        width: width*35/100,
+        borderRadius: 5, 
+        marginRight: '40%',
+      },
+      image:{
+        width: width*0.8,
+        height: height*0.2,
+        //flex: 1,
+        //flexDirection: 'row',
+        marginBottom: '-5%',
+        padding: 5,
+      },
+      imageStyle: {
+        width:  90,
+        height: 130,
+        borderRadius: 10,
+    },
 })
+
