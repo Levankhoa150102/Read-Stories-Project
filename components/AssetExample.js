@@ -217,6 +217,9 @@ export default class AssetExample extends Component {
             
             {/*Storage*/}
             <HomeStack.Screen name="Storage" component={Storage}/>
+
+            {/*Filter*/}
+            <HomeStack.Screen name="Filter" component={Filter}/>
         </HomeStack.Navigator>}
       </NavigationContainer>
       </View>

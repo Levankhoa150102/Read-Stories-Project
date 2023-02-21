@@ -141,7 +141,7 @@ function TuSach({navigation}){
       <FlatList
         data={list}
         renderItem={renderItem}
-        keyExtractor={item => item.id}
+        keyExtractor={item => item.key}
         Press_to_Detail={Press_to_Detail}
         Press_to_read={Press_to_read}
       />
@@ -173,7 +173,7 @@ function Offline({navigation}){
       <FlatList
         data={list}
         renderItem={renderItem}
-        keyExtractor={item => item.id}
+        keyExtractor={item => item.key}
       />
     </SafeAreaView>
     </View>

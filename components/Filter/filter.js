@@ -82,10 +82,19 @@ const story_list = story.list_story
 
 
  
-const Filter = () => {
+const Filter = ({navigation}) => {
     const [search, setSearch] = useState('')
     const [filterData, setFilterData] = useState([]);
-    const navigation = useNavigation();
+    const [SaveHis, setSaveHis] = useState([]);
+    //const navigation = useNavigation();
+    const Press_to_Detail = () => {
+        SaveHis(search);
+        console.log(search);
+        navigation.navigate('StoryDetail')
+      };
+      const Press_to_read = () => {
+        navigation.navigate('StoryRead')
+      };
     const searchFilter = (text) => {
         if(text) {
             const newData = story_list.filter(item => {
@@ -102,15 +111,29 @@ const Filter = () => {
             setSearch(text);
         }
     }
-    const ItemSeparatorView = () => {
-
-    }
+    
     const ItemView = ({item}) => {
         return(
             <View style={styles.container1}>
                 <TouchableOpacity 
                     style={styles.image} 
-                    activeOpacity={1} 
+                    activeOpacity={0}
+                    onPress={() => {
+                        try{
+                            var a = SaveHis
+                            if(a[a.length-1]!=item.story_name ||
+                                a.filter(s => s.id) != item.key)
+                                a.push({
+                                    id: item.key,
+                                    search_name: item.story_name
+                                })
+                            setSaveHis(a)
+                            console.log(SaveHis)
+                            navigation.navigate('StoryDetail')
+                        }catch(e){
+                            setSaveHis(item.story_name)
+                        }
+                    }} 
                     >
                 <View style={{flexDirection: 'row'}}>
                     <Image source={{uri: item.source_img}} style={styles.imageStyle} />
@@ -123,8 +146,22 @@ const Filter = () => {
             </View>
         )
     }
+    const View_Search_His = ({item}) => {
+        return(
+            <View style={{flex: 2}}>
+                <Text styles={{color: "red"}}>{item.search_name}</Text>
+            </View>
+        )
+    }
+    const Save_Search_History = () => {
+        return(
+            <View>
+
+            </View>
+        )
+    }
     return(
-        <ScrollView style={{backgroundColor:'#222348'}}>
+        <View style={{flex: 1, backgroundColor:'#222348'}}>
             <View style={styles.container}>
             <Text style={styles.title}>Tìm kiếm</Text>
                     <View style={styles.wrapper}>
@@ -136,10 +173,11 @@ const Filter = () => {
                             onChangeText={(text) => searchFilter(text)}
                             inlineImageLeft='search_icon'
                             value={search}
+                    
                         />
                         </View>
                     </View>
-                    {console.log(search)}
+                    {/*console.log(search)*/}
             </View>
             <View>
                 <TouchableOpacity styles={styles.ApplyDirection} onPress={()=>navigation.navigate('Display_Result')}>
@@ -150,13 +188,23 @@ const Filter = () => {
                         size={22}/> Tìm kiếm nâng cao 
                     </Text>
                 </TouchableOpacity>
-                <FlatList
+                {search?<FlatList
                     data={filterData}
                     keyExtractor={(item, index) => index.toString()}
-                    renderItem={ItemView}
-                />
+                    renderItem={(item) => ItemView(item)}
+                />:
+                    
+                    <FlatList
+                        data={SaveHis}
+                        keyExtractor={(item, index) => index.toString()}
+                        renderItem={(item) => {
+                            <View style={{flex: 2}}>
+                                    <Text styles={{color: "red"}}>{item.search_name}</Text>
+                            </View>
+                        }}
+                    />}
             </View>
-        </ScrollView>
+        </View>
     )
     
 }
