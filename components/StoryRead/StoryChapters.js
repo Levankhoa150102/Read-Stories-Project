@@ -11,6 +11,37 @@ export default class StoryChapters extends Component {
     otherSort() {
                     // đổi icon nút sort
     }
+    constructor(props) {
+    super(props);
+    this.state = {
+      chapters: [
+        {id: 1, title: "Chương 1: Ván cờ",  backgroundcolor: 'gray'},
+        {id: 2, title: "Chương 2: Tinh thần bị tàn phá",  backgroundcolor: 'gray'},
+        {id: 3, title: "Chương 3: Vạn vật nở rộ",  backgroundcolor: 'gray'},
+        {id: 4, title: "Chương 4: Chẳng lẽ, mình xuyên việt rồi?",  backgroundcolor: 'gray'},
+        {id: 5, title: "Chương 5: Dị thường",  backgroundcolor: 'gray'}
+      ],
+      change: false,
+    };
+    }
+    changeColor = item => {
+      let chapters = JSON.parse(JSON.stringify(this.state.chapters))
+      for (let x = 0; x < this.state.chapters.length;x++)
+      { 
+        if (this.chapters[x].id == item.id)
+        {
+          chapters.backgroundcolor = 'black'
+          this.setState({
+          chapters: chapters
+        });
+      } else {
+          chapters.backgroundcolor = 'gray'
+          this.setState({
+            chapters: chapters
+          });
+        }
+      }
+    };
     render() {
         const {container, row, listText, scrollView, buttonContainer, sortButtonContainer} = styles
         return (
@@ -48,21 +79,17 @@ export default class StoryChapters extends Component {
                 </View>
                 <View style = {row}>
                     <ScrollView style = {scrollView}>
-                        <TouchableOpacity>
-                          <Text style = {listText}>A</Text>
+                        {this.state.chapters.map((item, key) =>
+                        <TouchableOpacity style = {{
+                        flexDirection: 'row',
+                        backgroundColor: item.backgroundcolor,
+                        fontSize: 25}}
+                        onPress={() => this.changeBackground(item)}>
+                        <Text style={{ color: '#FFFFFF' }}>
+                        {item.title}
+                        </Text>>
                         </TouchableOpacity>
-                        <TouchableOpacity>
-                          <Text style = {listText}>A</Text>
-                        </TouchableOpacity>
-                        <TouchableOpacity>
-                          <Text style = {listText}>A</Text>
-                        </TouchableOpacity>
-                        <TouchableOpacity>
-                          <Text style = {listText}>A</Text>
-                        </TouchableOpacity>
-                        <TouchableOpacity>
-                          <Text style = {listText}>A</Text>
-                        </TouchableOpacity>
+                      )}
                     </ScrollView>
                 </View>
                 </View>
