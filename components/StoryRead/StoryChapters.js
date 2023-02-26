@@ -8,6 +8,11 @@ export default class StoryChapters extends Component {
       const {navigation} = this.props;
       navigation.goBack();
   }
+    readStory()
+    {
+      const {navigation} = this.props;
+      navigation.navigate('StoryRead');
+    }
     otherSort() {
                     // đổi icon nút sort
     }
@@ -84,10 +89,10 @@ export default class StoryChapters extends Component {
                         flexDirection: 'row',
                         backgroundColor: item.backgroundcolor,
                         fontSize: 25}}
-                        onPress={() => this.changeBackground(item)}>
+                        onPress={this.readStory.bind(this)}>
                         <Text style={{ color: '#FFFFFF' }}>
                         {item.title}
-                        </Text>>
+                        </Text>
                         </TouchableOpacity>
                       )}
                     </ScrollView>
@@ -118,7 +123,7 @@ const styles = StyleSheet.create({
     },
     buttonContainer: {
         backgroundColor: '#4D4040',
-        width : 110,
+        width : 135,
         height: 36,
         alignItems: 'center', 
         justifyContent: 'center',
